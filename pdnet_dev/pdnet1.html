@@ -1,0 +1,744 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>RANDR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html"> RANDR</a> Reference Atlas of Neurodegenerative Diseases Research</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down">RESOURCES</a>
+								<ul>
+									<li><a href="pmap.html" target="_blank">PMAPNet</a></li>
+									<li><a href="pdnet.html">PDNet</a></li>
+									<li><a href="Proteostasis.html" target="_blank">ProteostasisNet</a></li>
+									<li><a href="datalens.html">DataLENS</a></li>
+
+								</ul>
+							</li>
+							<li> <a href="#"class="icon solid fa-angle-down">ABOUT</a>
+								<ul>
+									<li><a href="about.html">Overview</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="FAQ.html">FAQs</a></li>
+								</ul>
+							</li>
+							
+							<li><a href="#" class="button">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h3>PMAPNet</h3>
+						<p>Dummy page with dummy data</p>
+					</header>
+					<div class="box">
+					<!--<div class="col-5">-->
+					<button class="btn btn-info network_tabs" type="button" data-toggle="collapse"
+						data-target="#custom_upload" aria-expanded="false" aria-controls="multiCollapseExample2">Query List
+						<span class="down_arrow">&#x2304;</span>
+					</button>
+					<div class="padding-wrapper marginTop collapse" id="text_query">
+						<table id="CustnetworkTab">
+						<tr>
+							<div class="form-group">
+								<label for="genelistarea"> Enter/Copy-Paste list of gene symbols or Entrez Gene IDs</label>
+								<textarea class="form-control" rows="5" id="genelistarea"></textarea>
+							</div>
+							<button class="w3-button w3-round-large" id="submit1" style="background-color: #eaecef;
+															color: #82b2c8;
+															width: 200px;
+															color: white;
+															border-radius: 4px;
+															background:#325264;">Submit</button>
+						<tr>
+						</table>
+					
+					
+					
+					</div>
+
+					<button class="btn btn-info network_tabs" type="button" data-toggle="collapse"
+						data-target="#custom_upload" aria-expanded="false" aria-controls="multiCollapseExample2">Custom
+						Network
+						<span class="down_arrow">&#x2304;</span>
+					</button>
+					<div class="padding-wrapper marginTop collapse" id="custom_upload">
+
+						<div class="card">
+							<div class="card-body">
+								<div class="cardHeader">
+									<b>PD Co-interaction Network</b>
+								</div>
+								<div class="cardItems">
+									<table id="CustnetworkTab">
+
+										<tr>
+											<!--td align="center"-->
+												<div class="select">
+													<select name="selectFile" id="selectFile">
+														<option value="">Select File name</option>
+													</select>
+												</div>
+												<button class="w3-button w3-round-large" id="submit1" style="background-color: #eaecef;
+															color: #82b2c8;
+															width: 200px;
+															color: white;
+															border-radius: 4px;
+															background:#325264;">Submit</button>
+											<!--/td-->
+										</tr>
+
+									</table>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				<!--</div>-->
+				</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+
+					</ul>
+					<ul class="copyright">
+						<li>&copy; AbbVie. All rights reserved.</li><li>2020 <a href="http://html5up.net"></a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script>
+		// var slideIndex = 1;
+		// showDivs(slideIndex);
+
+		// function plusDivs(n) {
+		//   showDivs(slideIndex += n);
+		// }
+
+		// function showDivs(n) {
+		//   var i;
+		//   var x = document.getElementsByClassName("mySlides");
+		//   if (n > x.length) {slideIndex = 1}
+		//   if (n < 1) {slideIndex = x.length}
+		//   for (i = 0; i < x.length; i++) {
+		// 	 x[i].style.display = "none";
+		//   }
+		//   x[slideIndex-1].style.display = "block";
+		// }
+
+		$(".network_tabs").click(function () {
+			$('.collapse').collapse("hide")
+		})
+
+	</script>
+	<script>
+		//document.getElementById("teamDiv").style.display = "none";
+		//document.getElementById("Team").style.display = "none";
+		// Script to open and close sidebar
+		function w3_open() {
+			document.getElementById("main").style.marginLeft = "200px";
+			document.getElementById("mySidebar").style.width = "200px";
+			document.getElementById("mySidebar").style.display = "block";
+			document.getElementById("openNav").style.display = 'none';
+		}
+		function w3_close() {
+			document.getElementById("main").style.marginLeft = "0%";
+			document.getElementById("mySidebar").style.display = "none";
+			document.getElementById("openNav").style.display = "inline-block";
+			//document.getElementById("teamDiv").style.display = "none";
+			// document.getElementById("Team").style.display = "none";
+
+
+		}
+		function w3_close2() {
+			document.getElementById("main").style.marginLeft = "0%";
+			document.getElementById("mySidebar").style.display = "none";
+			document.getElementById("openNav").style.display = "inline-block";
+			document.getElementById("teamDiv").style.display = "inline-block";
+			document.getElementById("Team").style.display = "inline-block";
+
+		}
+		// Modal Image Gallery
+		function onClick(element) {
+			document.getElementById("img01").src = element.src;
+			document.getElementById("modal01").style.display = "block";
+			var captionText = document.getElementById("caption");
+			captionText.innerHTML = element.alt;
+		}
+
+		$("body").mouseup(function (e) {
+			var container1 = $("div#Team");
+			var container2 = $("div#teamDiv");
+
+			// if the target of the click isn't the container nor a descendant of the container
+			if ((!container1.is(e.target) && container1.has(e.target).length === 0) && (!container2.is(e.target) && container2.has(e.target).length === 0)) {
+				container1.hide();
+				container2.hide();
+			}
+		});
+
+		/*function myFunction(fileName) {
+			window.open("network.html?fileName="+fileName);
+		}*/
+
+	</script>
+
+	<script>
+		//var sample = {"UC Inflamed":"UC_inflame", "UC-Non Inflamed":"UC_non-inflame"};
+		//var pathwayList=["TCX","CBE","DLPFC","FP","IFG","PHG","STG"];
+
+		var pathwayList = {
+			"Proteasome": ["CBE", "TCX"],
+			//"heat shock proteins":[],
+			"Lysosome": ["CBE", "TCX"],
+			"Chaperones": ["CBE", "TCX"],
+			//"translation":["CBE", "TCX"],
+			//"ubiquitin related":["CBE", "TCX"],
+			//"unfolded protein response":["CBE", "TCX"],
+			"Macroautophagy": ["CBE", "TCX"],
+			//"mitophagy":["CBE", "TCX"],
+			//"macroautophagy (DB)":["CBE", "TCX"],
+			"Endocytosis": ["CBE", "TCX"],
+			//"vesicle trafficking":["CBE", "TCX"],
+			"DUBs": ["CBE", "TCX"],
+			"E3_ligases_and_adaptor_proteins": ["CBE", "TCX"]
+		};
+		var brainRegion = [
+			{ regionId: "TCX", Name: "Temporal Cortex (TCX)" },
+			{ regionId: "CBE", Name: "Cerebellum (CBE)" },
+			{ regionId: "DLPFC", Name: "Dorsolateral Prefrontal Cortex (DLPFC)" },
+			{ regionId: "FP", Name: "Frontal Pole (FP)" },
+			{ regionId: "IFG", Name: "Inferior Frontal Gyrus (IFG)" },
+			{ regionId: "PHG", Name: "Parahippocampal Gyrus (PHG)" },
+			{ regionId: "STG", Name: "Superior Temporal Gyrus (STG)" }
+		];
+		var regionProviders = {
+
+			"TCX": ["MAYO"],
+			"CBE": ["MAYO"],
+			"DLPFC": ["ROSMAP"],
+			"FP": ["MSSM"],
+			"IFG": ["MSSM"],
+			"PHG": ["MSSM"],
+			"STG": ["MSSM"]
+
+		}
+		function jsUcFirst(string) {
+			return string.charAt(0).toUpperCase() + string.slice(1);
+		} function jsUcFirst(string) {
+			return string.charAt(0).toUpperCase() + string.slice(1);
+		}
+
+		//Populate drop-down for pathwayList in pathway wise search
+		$(Object.keys(pathwayList)).each(function (i, d) {
+			//console.log(d);
+			//var val = sample[0]+"_"+pathwayList[key];
+			$('<option/>').val(jsUcFirst(d)).text(jsUcFirst(d)).appendTo('#selectPathway')
+		});
+
+		//populate drowpdown for brainRegion in pathway wise search
+		$("#selectPathway").change(function () {
+			var selectedPathway = $("#selectPathway").val();
+			//console.log($("#selectPathway").val());
+			//console.log(pathwayList[selectedPathway]);
+			$('select#selectPathwayRegion').children('option:not(:first)').remove();
+			$('select#selectPathwayProvider').children('option:not(:first)').remove();
+
+			$(pathwayList[selectedPathway]).each(function (i, d) {
+				//var val = sample[0]+"_"+pathwayList[key];
+				//console.log(d,i);
+				$('<option/>').val(d).text(jsUcFirst(d)).appendTo('#selectPathwayRegion')
+			});
+		});
+
+
+
+		//populate drowpdown for cohort in pathway wise search
+		$("#selectPathwayRegion").change(function () {
+			var selectedRegion = $("#selectPathwayRegion").val();
+			//console.log($("#selectPathwayRegion").val());
+			//console.log(regionProviders[selectedRegion]);
+			$('select#selectPathwayProvider').children('option').remove();
+
+			$(regionProviders[selectedRegion]).each(function (i, d) {
+				//var val = sample[0]+"_"+pathwayList[key];
+				//console.log(d,i);
+				$('<option/>').val(d).text(jsUcFirst(d)).appendTo('#selectPathwayProvider')
+			});
+		});
+
+		//Submit pathway wise search
+		$("#submitPathway").click(function () {
+			//alert("The paragraph was clicked.");
+			fileName = $("#selectPathway").val() + "_" + $("#selectPathwayRegion").val() + "_" + $("#selectPathwayProvider").val();
+			if ($("#selectPathway").val() == "") {
+				alert("Select pathway, brain region and cohort before submit!!!");
+				return false;
+			}
+			else if ($("#selectPathwayRegion").val() == "") {
+				alert("Select brain region and cohort before submit!!!");
+				return false;
+			}
+			else if ($("#selectPathwayProvider").val() == "") {
+				alert("Select cohort before submit!!!");
+				return false;
+			}
+			window.open("network.html?fileName=coexpression/" + fileName);
+		});
+
+
+		//Populate Dropdown for brainRegion
+		$(brainRegion).each(function () {
+			//var val = sample[0]+"_"+pathwayList[key];
+			$('<option/>').val(this.regionId).text(jsUcFirst(this.Name)).appendTo('#selectRegion')
+		});
+
+
+		//populate drowpdown for cohort
+		$("#selectRegion").change(function () {
+			var selectedRegion = $("#selectRegion").val();
+			//console.log($("#selectRegion").val());
+			//console.log(regionProviders[selectedRegion]);
+			$('select#selectProvider').children('option').remove();
+
+			$(regionProviders[selectedRegion]).each(function (i, d) {
+				//var val = sample[0]+"_"+pathwayList[key];
+				//console.log(d,i);
+				$('<option/>').val(d + "_" + selectedRegion).text(jsUcFirst(d)).appendTo('#selectProvider')
+			});
+		});
+
+		$("#submit").click(function () {
+			//alert("The paragraph was clicked.");
+			fileName = $("#selectProvider").val();
+			if ($("#selectRegion").val() == "") {
+				alert("select brain region and cohort before submit!!!");
+				return false;
+			}
+			else if ($("#selectProvider").val() == "") {
+				alert("select cohort before submit!!!");
+				return false;
+			}
+			window.open("network.html?fileName=coexpression/" + fileName);
+		});
+
+
+
+		//######################### SAGE MODULE JS  ###########################
+
+		var sage_brainRegion = [
+
+			{ regionId: "CBE_blue", Name: "CBE_blue" },
+			{ regionId: "CBE_brown", Name: "CBE_brown" },
+			{ regionId: "CBE_turquoise", Name: "CBE_turquoise" },
+			{ regionId: "CBE_yellow", Name: "CBE_yellow" },
+
+			{ regionId: "DLPFC_blue", Name: "DLPFC_blue" },
+			{ regionId: "DLPFC_brown", Name: "DLPFC_brown" },
+			{ regionId: "DLPFC_turquoise", Name: "DLPFC_turquoise" },
+			{ regionId: "DLPFC_yellow", Name: "DLPFC_yellow" },
+
+			{ regionId: "FP_blue", Name: "FP_blue" },
+			{ regionId: "FP_brown", Name: "FP_brown" },
+			{ regionId: "FP_turquoise", Name: "FP_turquoise" },
+			{ regionId: "FP_yellow", Name: "FP_yellow" },
+
+			{ regionId: "IFG_blue", Name: "IFG_blue" },
+			{ regionId: "IFG_brown", Name: "IFG_brown" },
+			{ regionId: "IFG_turquoise", Name: "IFG_turquoise" },
+			{ regionId: "IFG_yellow", Name: "IFG_yellow" },
+
+			{ regionId: "PHG_blue", Name: "PHG_blue" },
+			{ regionId: "PHG_brown", Name: "PHG_brown" },
+			{ regionId: "PHG_green", Name: "PHG_green" },
+			{ regionId: "PHG_turquoise", Name: "PHG_turquoise" },
+			{ regionId: "PHG_yellow", Name: "PHG_yellow" },
+
+			{ regionId: "STG_blue", Name: "STG_blue" },
+			{ regionId: "STG_brown", Name: "STG_brown" },
+			{ regionId: "STG_turquoise", Name: "STG_turquoise" },
+			{ regionId: "STG_yellow", Name: "STG_yellow" },
+
+			{ regionId: "TCX_blue", Name: "TCX_blue" },
+			{ regionId: "TCX_brown", Name: "TCX_brown" },
+			{ regionId: "TCX_green", Name: "TCX_green" },
+			{ regionId: "TCX_turquoise", Name: "TCX_turquoise" },
+			{ regionId: "TCX_yellow", Name: "TCX_yellow" }
+		];
+		var sage_regionProviders = {
+
+			"CBE_blue": ["MAYO"],
+			"CBE_brown": ["MAYO"],
+			"CBE_turquoise": ["MAYO"],
+			"CBE_yellow": ["MAYO"],
+
+			"DLPFC_blue": ["ROSMAP"],
+			"DLPFC_brown": ["ROSMAP"],
+			"DLPFC_turquoise": ["ROSMAP"],
+			"DLPFC_yellow": ["ROSMAP"],
+
+			"FP_blue": ["MSSM"],
+			"FP_brown": ["MSSM"],
+			"FP_turquoise": ["MSSM"],
+			"FP_yellow": ["MSSM"],
+
+			"IFG_blue": ["MSSM"],
+			"IFG_brown": ["MSSM"],
+			"IFG_turquoise": ["MSSM"],
+			"IFG_yellow": ["MSSM"],
+
+			"PHG_blue": ["MSSM"],
+			"PHG_brown": ["MSSM"],
+			"PHG_green": ["MSSM"],
+			"PHG_turquoise": ["MSSM"],
+			"PHG_yellow": ["MSSM"],
+
+			"STG_blue": ["MSSM"],
+			"STG_brown": ["MSSM"],
+			"STG_turquoise": ["MSSM"],
+			"STG_yellow": ["MSSM"],
+
+			"TCX_blue": ["MAYO"],
+			"TCX_brown": ["MAYO"],
+			"TCX_green": ["MAYO"],
+			"TCX_turquoise": ["MAYO"],
+			"TCX_yellow": ["MAYO"]
+
+		}
+		/*function jsUcFirst(string) {
+				return string.charAt(0).toUpperCase() + string.slice(1);
+			} */
+
+
+		//Populate Dropdown for sage_brainRegion
+		$(sage_brainRegion).each(function () {
+			//var val = sample[0]+"_"+pathwayList[key];
+			$('<option/>').val(this.regionId).text(jsUcFirst(this.Name)).appendTo('#sage_selectRegion')
+		});
+
+
+		//populate drowpdown for cohort
+		$("#sage_selectRegion").change(function () {
+			var selectedRegion = $("#sage_selectRegion").val();
+			//console.log($("#sage_selectRegion").val());
+			//console.log(sage_regionProviders[selectedRegion]);
+			$('select#sage_selectProvider').children('option').remove();
+
+			$(sage_regionProviders[selectedRegion]).each(function (i, d) {
+				//var val = sample[0]+"_"+pathwayList[key];
+				//console.log(d,i);
+				$('<option/>').val(d + "_" + selectedRegion).text(jsUcFirst(d)).appendTo('#sage_selectProvider')
+			});
+		});
+
+		$("#sage_submit").click(function () {
+			//alert("The paragraph was clicked.");
+			fileName = $("#sage_selectProvider").val();
+			if ($("#sage_selectRegion").val() == "") {
+				alert("select brain region and cohort before submit!!!");
+				return false;
+			}
+			else if ($("#sage_selectProvider").val() == "") {
+				alert("select cohort before submit!!!");
+				return false;
+			}
+			window.open("network.html?fileName=coexpression/" + fileName);
+		});
+
+
+		//Custom Network
+
+
+		//An ajax call to read file which contain names of different uploaded files.
+		var UP_File = ''
+		function jsUcFirst(string) {
+			return string.charAt(0).toUpperCase() + string.slice(1);
+		}
+
+
+		$.ajax({
+			url: 'data/json/uploads/FileName.txt',
+			//dataType: 'json',
+			success: function (data) {
+				FileNames = data.split("\n");
+				//console.log(FileNames)
+				var arrayLength = FileNames.length;
+				for (var i = 0; i < arrayLength; i++) {
+					// console.log(FileNames[i]);
+					if (FileNames[i].indexOf(' ') == -1) $('<option/>').val(FileNames[i]).text(jsUcFirst(FileNames[i])).appendTo('#selectFile')
+				}
+			},
+			statusCode: {
+				404: function () {
+					alert('There was a problem with the server.  Try again soon!');
+				}
+			}
+		});
+		//End of ajax call.
+
+		//2nd ajax call to read files in a directory
+		/* var UP_File=''
+		function jsUcFirst(string) {
+				return string.charAt(0).toUpperCase() + string.slice(1);
+			}
+
+		$.ajax({
+				url: "data/uploads",
+				success: function(data){
+									//console.log(data)
+									$(data).find("a:contains(.json)").each(function(){
+									// will loop through
+									//var images = $(this).attr("href"); //$('<p></p>').html(images).appendTo('a div of your choice')
+									//console.log($(this).attr("href"))
+									//if( !$(this).attr("href").contains('%'))
+									//$('<option/>').val($(this).attr("href")).text(jsUcFirst($(this).attr("href"))).appendTo('#selectFile')
+
+									});
+							}
+				});
+
+		// */
+		// <!-- FILE LOAD -->
+		$("#submit1").click(function () {
+			//alert("The paragraph was clicked.");
+			//fileName = $("#selectFile").val() + '.json';
+			//fileName = '/uploades/'+ $("#selectFile").val();
+			fileName = $("#selectFile").val();
+			if ($("#selectFile").val() == "") {
+				alert("select fileName before submit!!!");
+				return false;
+			}
+			window.open("PD_network.html?fileName=uploads/" + fileName);
+		});
+		// <!--END: POPULATE DROPDOWN FOR UPLOADED-->
+
+		//  co interaction module
+
+		//  full PPI network
+		var selectPPIBrain = [
+			{ regionId: "MAYO_TCX", Name: "Temporal Cortex (TCX)" },
+			{ regionId: "MAYO_CBE", Name: "Cerebellum (CBE)" },
+			{ regionId: "ROSMAP_DLPFC", Name: "Dorsolateral Prefrontal Cortex (DLPFC)" },
+			{ regionId: "MSSM_FP", Name: "Frontal Pole (FP)" },
+			{ regionId: "MSSM_IFG", Name: "Inferior Frontal Gyrus (IFG)" },
+			{ regionId: "MSSM_PHG", Name: "Parahippocampal Gyrus (PHG)" },
+			{ regionId: "MSSM_STG", Name: "Superior Temporal Gyrus (STG)" }
+		];
+
+
+		var regionPPIProviders = {
+			"provider": ["StringDB", "InBio", "Inweb3"]
+		}
+
+
+		var ppiBrainRegion = document.getElementById("selectPPIRegion");
+		var selectPPIProvider = document.getElementById("selectPPIProvider");
+
+		for (var i = 0; i < selectPPIBrain.length; i++) {
+			var opt = selectPPIBrain[i];
+			var el = document.createElement("option");
+			el.textContent = opt["Name"];
+			el.value = opt["regionId"];
+			ppiBrainRegion.appendChild(el);
+		}
+
+
+
+		ppiBrainRegion.addEventListener("change", brainOptions);
+
+
+		function brainOptions() {
+			selectPPIProvider.innerHTML =""
+			var cohortOption = document.createElement("option");
+			cohortOption.textContent = "Select Cohort";
+			cohortOption.value = "";
+			selectPPIProvider.appendChild(cohortOption)
+			regionPPIProviders["provider"].forEach(val => {
+				cohortOption = document.createElement("option");
+				cohortOption.textContent = val;
+				cohortOption.value = val;
+				selectPPIProvider.appendChild(cohortOption)
+			})
+
+		}
+
+		var ppi_brain_submit = document.getElementById("PPI_brain_submit")
+		ppi_brain_submit.addEventListener("click", function () {
+			console.log(ppiBrainRegion.value, selectPPIProvider.value)
+			if (ppiBrainRegion.value == "" || selectPPIProvider.value == "") {
+				alert("Select pathway, brain region and cohort before submit!!!");
+				return false;
+			}
+			window.open("network.html?fileName=cointeraction/" + ppiBrainRegion.value + "_" + selectPPIProvider.value);
+		});
+
+		//  cointeraction  sage  modules
+
+		var PPI_sage_selectRegion = document.getElementById("PPI_sage_selectRegion");
+		var PPI_sage_selectProvider = document.getElementById("PPI_sage_selectProvider");
+		var sage_PPI_brainRegion = [
+
+			{ regionId: "MAYO_CBE_blue", Name: "CBE_blue" },
+			{ regionId: "MAYO_CBE_brown", Name: "CBE_brown" },
+			{ regionId: "MAYO_CBE_turquoise", Name: "CBE_turquoise" },
+			{ regionId: "MAYO_CBE_yellow", Name: "CBE_yellow" },
+
+			{ regionId: "ROSMAP_DLPFC_blue", Name: "DLPFC_blue" },
+			{ regionId: "ROSMAP_DLPFC_brown", Name: "DLPFC_brown" },
+			{ regionId: "ROSMAP_DLPFC_turquoise", Name: "DLPFC_turquoise" },
+			{ regionId: "ROSMAP_DLPFC_yellow", Name: "DLPFC_yellow" },
+
+			{ regionId: "MSSM_FP_blue", Name: "FP_blue" },
+			{ regionId: "MSSM_FP_brown", Name: "FP_brown" },
+			{ regionId: "MSSM_FP_turquoise", Name: "FP_turquoise" },
+			{ regionId: "MSSM_FP_yellow", Name: "FP_yellow" },
+
+			{ regionId: "MSSM_IFG_blue", Name: "IFG_blue" },
+			{ regionId: "MSSM_IFG_brown", Name: "IFG_brown" },
+			{ regionId: "MSSM_IFG_turquoise", Name: "IFG_turquoise" },
+			{ regionId: "MSSM_IFG_yellow", Name: "IFG_yellow" },
+
+			{ regionId: "MSSM_PHG_blue", Name: "PHG_blue" },
+			{ regionId: "MSSM_PHG_brown", Name: "PHG_brown" },
+			{ regionId: "MSSM_PHG_green", Name: "PHG_green" },
+			{ regionId: "MSSM_PHG_turquoise", Name: "PHG_turquoise" },
+			{ regionId: "MSSM_PHG_yellow", Name: "PHG_yellow" },
+
+			{ regionId: "MSSM_STG_blue", Name: "STG_blue" },
+			{ regionId: "MSSM_STG_brown", Name: "STG_brown" },
+			{ regionId: "MSSM_STG_turquoise", Name: "STG_turquoise" },
+			{ regionId: "MSSM_STG_yellow", Name: "STG_yellow" },
+
+			{ regionId: "MAYO_TCX_blue", Name: "TCX_blue" },
+			{ regionId: "MAYO_TCX_brown", Name: "TCX_brown" },
+			{ regionId: "MAYO_TCX_green", Name: "TCX_green" },
+			{ regionId: "MAYO_TCX_turquoise", Name: "TCX_turquoise" },
+			{ regionId: "MAYO_TCX_yellow", Name: "TCX_yellow" }
+		];
+		for (var i = 0; i < sage_PPI_brainRegion.length; i++) {
+			var opt = sage_PPI_brainRegion[i];
+			var el = document.createElement("option");
+			el.textContent = opt["Name"];
+			el.value = opt["regionId"];
+			PPI_sage_selectRegion.appendChild(el);
+		}
+		PPI_sage_selectRegion.addEventListener("change",sage_ppi);
+
+
+		function sage_ppi(){
+			PPI_sage_selectProvider.innerHTML =""
+			var cohortOption = document.createElement("option");
+			cohortOption.textContent = "Select cohort";
+			cohortOption.value = "";
+			PPI_sage_selectProvider.appendChild(cohortOption)
+			regionPPIProviders["provider"].forEach(val => {
+				cohortOption = document.createElement("option");
+				cohortOption.textContent = val;
+				cohortOption.value = val;
+				PPI_sage_selectProvider.appendChild(cohortOption)
+			})
+
+		}
+		var PPI_sage_submit = document.getElementById("PPI_sage_submit")
+		PPI_sage_submit.addEventListener("click", function () {
+			if (PPI_sage_selectRegion.value == "" || PPI_sage_selectProvider.value == "") {
+				alert("Select pathway, brain region and cohort before submit!!!");
+				return false;
+			}
+			window.open("network.html?fileName=cointeraction/" + PPI_sage_selectRegion.value + "_" + PPI_sage_selectProvider.value);
+		});
+
+
+		// ppi pathways
+		var selectPPIPathway = document.getElementById("selectPPIPathway");
+		var selectPPIPathwayRegion = document.getElementById("selectPPIPathwayRegion");
+		var submitPPIPathway = document.getElementById("submitPPIPathway");
+
+
+		var ppi_pathwayList = [
+			"Proteasome","Lysosome","Chaperones","Macroautophagy","Endocytosis","DUBs","E3_ligases_and_adaptor_proteins"
+		]
+
+		var ppi_brain_regions = [
+		  { regionId: "TCX_MAYO_StringDB", Name: "Temporal Cortex StringDB" },
+		  { regionId: "TCX_MAYO_InBio", Name: "Temporal Cortex InBio" },
+		  { regionId: "TCX_MAYO_InWeb3", Name: "Temporal Cortex InWeb3" },
+		  { regionId: "CBE_MAYO_StringDB", Name: "Cerebellum StringDB" },
+		  { regionId: "CBE_MAYO_InBio", Name: "Cerebellum InBio" },
+		  { regionId: "CBE_MAYO_InWeb3", Name: "Cerebellum InWeb3" }
+		
+		]
+	
+		for(var i =0; i<ppi_pathwayList.length;i++){
+			var option = ppi_pathwayList[i];
+			var element = document.createElement("option");
+			element.textContent = option;
+			element.value = option;
+			selectPPIPathway.appendChild(element)
+		}
+		selectPPIPathway.addEventListener("change",ppiPathways)
+
+		function ppiPathways(){
+			selectPPIPathwayRegion.innerHTML =""
+			var cohortOption = document.createElement("option");
+			cohortOption.textContent = "Select Brain Region";
+			cohortOption.value = "";
+			selectPPIPathwayRegion.appendChild(cohortOption)
+			ppi_brain_regions.forEach(val => {
+				cohortOption = document.createElement("option");
+				cohortOption.textContent = val["Name"];
+				cohortOption.value = val["regionId"];
+				selectPPIPathwayRegion.appendChild(cohortOption)
+			})
+
+		}
+
+
+
+		var submitPPIPathway = document.getElementById("submitPPIPathway");
+		submitPPIPathway.addEventListener("click",function(){
+			if (selectPPIPathway.value == "" || selectPPIPathwayRegion.value == "") {
+				alert("Select pathway, brain region before submit!!!");
+				return false;
+			}
+			window.open("network.html?fileName=cointeraction/" + selectPPIPathway.value + "_" + selectPPIPathwayRegion.value)
+		})
+	</script>
+		
+		
+		
+		
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

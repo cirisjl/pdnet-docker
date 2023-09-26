@@ -1,0 +1,444 @@
+{
+    "directed": false,
+    "graph": [],
+    "links": [
+        {
+            "source": 0,
+            "target": 13,
+            "weight": 0.472
+        },
+        {
+            "source": 1,
+            "target": 13,
+            "weight": 0.472
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 0.393
+        },
+        {
+            "source": 3,
+            "target": 13,
+            "weight": 0.379
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 0.379
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "weight": 0.379
+        },
+        {
+            "source": 0,
+            "target": 23,
+            "weight": 0.379
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "weight": 0.379
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 0.379
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 0.379
+        },
+        {
+            "source": 6,
+            "target": 13,
+            "weight": 0.351
+        },
+        {
+            "source": 7,
+            "target": 14,
+            "weight": 0.328
+        },
+        {
+            "source": 8,
+            "target": 13,
+            "weight": 0.319
+        },
+        {
+            "source": 2,
+            "target": 24,
+            "weight": 0.319
+        },
+        {
+            "source": 9,
+            "target": 6,
+            "weight": 0.268
+        },
+        {
+            "source": 10,
+            "target": 25,
+            "weight": 0.264
+        },
+        {
+            "source": 10,
+            "target": 26,
+            "weight": 0.264
+        },
+        {
+            "source": 11,
+            "target": 27,
+            "weight": 0.262
+        },
+        {
+            "source": 12,
+            "target": 15,
+            "weight": 0.261
+        },
+        {
+            "source": 13,
+            "target": 28,
+            "weight": 0.261
+        },
+        {
+            "source": 14,
+            "target": 28,
+            "weight": 0.261
+        },
+        {
+            "source": 13,
+            "target": 27,
+            "weight": 0.261
+        },
+        {
+            "source": 15,
+            "target": 29,
+            "weight": 0.194
+        },
+        {
+            "source": 16,
+            "target": 30,
+            "weight": 0.19
+        },
+        {
+            "source": 7,
+            "target": 13,
+            "weight": 0.186
+        },
+        {
+            "source": 7,
+            "target": 28,
+            "weight": 0.185
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "weight": 0.185
+        },
+        {
+            "source": 17,
+            "target": 31,
+            "weight": 0.185
+        },
+        {
+            "source": 18,
+            "target": 6,
+            "weight": 0.185
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "weight": 0.185
+        },
+        {
+            "source": 11,
+            "target": 28,
+            "weight": 0.185
+        },
+        {
+            "source": 19,
+            "target": 32,
+            "weight": 0.185
+        },
+        {
+            "source": 8,
+            "target": 28,
+            "weight": 0.173
+        },
+        {
+            "source": 20,
+            "target": 31,
+            "weight": 0.171
+        },
+        {
+            "source": 0,
+            "target": 33,
+            "weight": 0.171
+        },
+        {
+            "source": 3,
+            "target": 34,
+            "weight": 0.169
+        },
+        {
+            "source": 19,
+            "target": 7,
+            "weight": 0.167
+        },
+        {
+            "source": 3,
+            "target": 28,
+            "weight": 0.163
+        },
+        {
+            "source": 2,
+            "target": 6,
+            "weight": 0.159
+        },
+        {
+            "source": 6,
+            "target": 33,
+            "weight": 0.156
+        },
+        {
+            "source": 19,
+            "target": 16,
+            "weight": 0.156
+        },
+        {
+            "source": 14,
+            "target": 13,
+            "weight": 0.156
+        },
+        {
+            "source": 17,
+            "target": 21,
+            "weight": 0.156
+        },
+        {
+            "source": 17,
+            "target": 35,
+            "weight": 0.156
+        },
+        {
+            "source": 21,
+            "target": 22,
+            "weight": 0.156
+        },
+        {
+            "source": 19,
+            "target": 13,
+            "weight": 0.156
+        },
+        {
+            "source": 15,
+            "target": 13,
+            "weight": 0.156
+        },
+        {
+            "source": 22,
+            "target": 35,
+            "weight": 0.156
+        },
+        {
+            "source": 17,
+            "target": 13,
+            "weight": 0.152
+        },
+        {
+            "source": 13,
+            "target": 22,
+            "weight": 0.152
+        },
+        {
+            "source": 15,
+            "target": 18,
+            "weight": 0.15
+        }
+    ],
+    "multigraph": false,
+    "nodes": [
+        {
+            "Description": "synuclein alpha ",
+            "id": "ENSG00000145335",
+            "label": "SNCA"
+        },
+        {
+            "Description": "SH3 domain containing GRB2 like 2, endophilin A1 ",
+            "id": "ENSG00000107295",
+            "label": "SH3GL2"
+        },
+        {
+            "Description": "FYN proto-oncogene, Src family tyrosine kinase ",
+            "id": "ENSG00000010810",
+            "label": "FYN"
+        },
+        {
+            "Description": "microtubule associated protein tau ",
+            "id": "ENSG00000186868",
+            "label": "MAPT"
+        },
+        {
+            "Description": "CD19 molecule ",
+            "id": "ENSG00000177455",
+            "label": "CD19"
+        },
+        {
+            "Description": "dual specificity tyrosine phosphorylation regulated kinase 1A ",
+            "id": "ENSG00000157540",
+            "label": "DYRK1A"
+        },
+        {
+            "Description": "Ras like without CAAX 2 ",
+            "id": "ENSG00000152214",
+            "label": "RIT2"
+        },
+        {
+            "Description": "discs large MAGUK scaffold protein 2 ",
+            "id": "ENSG00000150672",
+            "label": "DLG2"
+        },
+        {
+            "Description": "cyclin G associated kinase ",
+            "id": "ENSG00000178950",
+            "label": "GAK"
+        },
+        {
+            "Description": "signal induced proliferation associated 1 like 2 ",
+            "id": "ENSG00000116991",
+            "label": "SIPA1L2"
+        },
+        {
+            "Description": "glycoprotein nmb ",
+            "id": "ENSG00000136235",
+            "label": "GPNMB"
+        },
+        {
+            "Description": "potassium voltage-gated channel modifier subfamily S member 3 ",
+            "id": "ENSG00000170745",
+            "label": "KCNS3"
+        },
+        {
+            "Description": "calcium binding protein 39 like ",
+            "id": "ENSG00000102547",
+            "label": "CAB39L"
+        },
+        {
+            "Description": "leucine rich repeat kinase 2 ",
+            "id": "ENSG00000188906",
+            "label": "LRRK2"
+        },
+        {
+            "Description": "calcium/calmodulin dependent protein kinase II delta ",
+            "id": "ENSG00000145349",
+            "label": "CAMK2D"
+        },
+        {
+            "Description": "dynein axonemal heavy chain 17 ",
+            "id": "ENSG00000187775",
+            "label": "DNAH17"
+        },
+        {
+            "Description": "karyopherin subunit alpha 1 ",
+            "id": "ENSG00000114030",
+            "label": "KPNA1"
+        },
+        {
+            "Description": "ASH1 like histone lysine methyltransferase ",
+            "id": "ENSG00000116539",
+            "label": "ASH1L"
+        },
+        {
+            "Description": "golgi brefeldin A resistant guanine nucleotide exchange factor 1 ",
+            "id": "ENSG00000107862",
+            "label": "GBF1"
+        },
+        {
+            "Description": "immunoglobulin superfamily member 9B ",
+            "id": "ENSG00000080854",
+            "label": "IGSF9B"
+        },
+        {
+            "Description": "regulating synaptic membrane exocytosis 1 ",
+            "id": "ENSG00000079841",
+            "label": "RIMS1"
+        },
+        {
+            "Description": "ASXL transcriptional regulator 3 ",
+            "id": "ENSG00000141431",
+            "label": "ASXL3"
+        },
+        {
+            "Description": "SET domain containing 1A ",
+            "id": "ENSG00000099381",
+            "label": "SETD1A"
+        },
+        {
+            "Description": "glucosylceramidase beta ",
+            "id": "ENSG00000177628",
+            "label": "GBA"
+        },
+        {
+            "Description": "Fc fragment of IgG receptor IIa ",
+            "id": "ENSG00000143226",
+            "label": "FCGR2A"
+        },
+        {
+            "Description": "major histocompatibility complex, class II, DR beta 5 ",
+            "id": "ENSG00000198502",
+            "label": "HLA-DRB5"
+        },
+        {
+            "Description": "major histocompatibility complex, class II, DQ beta 1 ",
+            "id": "ENSG00000179344",
+            "label": "HLA-DQB1"
+        },
+        {
+            "Description": "ribosomal protein S12 ",
+            "id": "ENSG00000112306",
+            "label": "RPS12"
+        },
+        {
+            "Description": "potassium voltage-gated channel interacting protein 3 ",
+            "id": "ENSG00000115041",
+            "label": "KCNIP3"
+        },
+        {
+            "Description": "U-box domain containing 5 ",
+            "id": "ENSG00000185019",
+            "label": "UBOX5"
+        },
+        {
+            "Description": "BRCA1 interacting protein C-terminal helicase 1 ",
+            "id": "ENSG00000136492",
+            "label": "BRIP1"
+        },
+        {
+            "Description": "cholinergic receptor nicotinic beta 1 subunit ",
+            "id": "ENSG00000170175",
+            "label": "CHRNB1"
+        },
+        {
+            "Description": "muscleblind like splicing regulator 2 ",
+            "id": "ENSG00000139793",
+            "label": "MBNL2"
+        },
+        {
+            "Description": "vesicle associated membrane protein 4 ",
+            "id": "ENSG00000117533",
+            "label": "VAMP4"
+        },
+        {
+            "Description": "bridging integrator 3 ",
+            "id": "ENSG00000147439",
+            "label": "BIN3"
+        },
+        {
+            "Description": "Wnt family member 3 ",
+            "id": "ENSG00000108379",
+            "label": "WNT3"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+version: '1'
+
+services:
+    web:
+        container_name: web # set name to the container
+        build: 
+            context: ./pdnet_dev/
+            dockerfile: Dockerfile
+        restart: always
+        ports:
+            - '9002:80'
+        privileged: true
+        depends_on:
+            - api
+        networks:
+            - pdnet-network
+    
+    api:
+        container_name: api # set name to the container
+        build: 
+            context: ./pmap_backend/
+            dockerfile: Dockerfile
+        restart: always
+        working_dir: /app
+        command: sails lift
+        ports:
+            - '1337:1337'
+            - '9229:9229'
+        depends_on:
+            - db
+        networks:
+            - pdnet-network
+
+    db:
+        container_name: mongodb # set name to the container
+        image: mongo:4.4 # as of this writing, the latest version is 4.4.3
+        restart: always
+        command: mongod --port 65529
+        ports:
+            # - 27017:27017
+            - 65529:65529
+        volumes:
+            - ./pdnet_db/:/data/db
+        networks:
+            - pdnet-network
+
+    nginx-gateway:
+        container_name: nginx-gateway # set name to the container
+        image: nginx:stable-alpine
+        volumes:
+        - ./nginx:/etc/nginx/conf.d
+        # - /etc/ssl:/etc/ssl
+        ports:
+            - 80:80
+            # - 443:443
+        restart: always
+        networks:
+        - pdnet-network
+
+networks:
+  pdnet-network:
+    driver: bridge

@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="../authentication/js/environment.js"></script>
+    <script src="./script/descriptions.js"></script>
+    <!-- description -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/BrowserFS/2.0.0/browserfs.js"></script>
+    <!--File saver-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PD_Net@PMAP</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+    <script>
+        // if (window.location.pathname.split('/').includes('pdnet')) {
+        //     loginCheck('login_pdnet');
+        // } else {
+        //     loginCheck('login_pdnet_dev');
+        // }
+    </script>
+    <nav class="navbar navbar-expand-lg navbar-light  amp-navbar" style="padding: 0;top: 0;">
+        <div class="container nav-background" style="max-width: 100%;">
+            <a style="margin-left: 10%; font-size: 20px;" class="navbar-brand" href="/pdnet">PD_Net</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div style="margin-right: 10%;" class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                </ul>
+
+                <ul class="navbar-nav">
+                    <!-- 
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pmap">PMAP <span class="sr-only">(current)</span></a>
+                    </li>
+                    -->
+                    <!-- HAMBURGER MENU -->
+                    <li class="nav-item">
+                        <div class="ham_div" onclick="hamAnimation(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                        <div id="drop_ham" style="display: none;">
+                            <div style="cursor: pointer; margin-bottom: 5px;"><a href="./publication.html"
+                                    style="color: black;">Publications</a></div>
+                            <div style="cursor: pointer; margin-bottom: 5px;"><a href="./about.html"
+                                    style="color: black;">About</a></div>
+                            <div style="cursor: pointer; margin-bottom: 5px;"><a href="./faqs.html"
+                                    style="color: black;">Help</a></div>
+                            <div style="cursor: pointer; margin-bottom: 5px;"><a href="./contact.html"
+                                    style="color: black;">Contact</a></div>
+                        </div>
+                        <!-- 
+                        <script>
+                            function logout_user() {
+                                if (window.location.pathname.split('/').includes('pdnet')) {
+                                    $('#drop_ham').append(`<div style="cursor: pointer; margin-bottom: 5px;"><a style="color: black;"onclick="logout('login_pdnet')">Logout</a></div>`);
+                                } else {
+                                    $('#drop_ham').append(`<div style="cursor: pointer; margin-bottom: 5px;"><a style="color: black;"onclick="logout('login_pdnet_dev')">Logout</a></div>`);
+                                }
+                            }
+                            logout_user();
+
+                            function hamAnimation(x) {
+                                x.classList.toggle("change");
+                                if ($('#drop_ham').css('display') == 'none') {
+                                    $('#drop_ham').css('display', 'block');
+                                } else {
+                                    $('#drop_ham').css('display', 'none');
+                                }
+                            }
+                        </script>
+                        -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="pamp-wrapper">
+        <div class="overlay">
+            <div class="container overlay-wrapper">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pamp-overview">
+        <div class="container">
+            <div class="row middle-item">
+                <div class="col-3 nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                        aria-controls="v-pills-home" aria-selected="false">Search By protein name</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="false">Upload a file</a>
+                    <a class="nav-link active" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                        role="tab" aria-controls="v-pills-messages" aria-selected="true">Pre-uploaded datasets</a>
+                    <a class="nav-link" id="v-pills-videos-tab" data-toggle="pill" href="#v-pills-videos"
+                        role="tab" aria-controls="v-pills-messages" >Watch Tutorial Videos</a>
+                    <!-- <a class="nav-link"id="v-pills-messages-tab"data-toggle="pill"href="#v-pills-messages2"role="tab"aria-controls="v-pills-messages"aria-selected="false">Co-Expression</a> -->
+                    
+                </div>
+                <div class="col-9 tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="search-box box-blurr">
+                            <div class="main-search-header">
+                                Search by Multiple protiens
+                            </div>
+                            <div class="separator"></div>
+                            <div class="input-section">
+                                <div class="input-header">
+                                    List of Names / IDs
+                                </div>
+                                <textarea id="string_db_input" placeholder="Enter genes"></textarea>
+                                <div style="text-align: center;">OR</div>
+                                <div style="margin-bottom: 10px;">
+                                    <div class="input-header">
+                                        Upload a text file:
+                                    </div>
+                                    <span class="geneFileNames" id="geneFileName">Click here to upload</span>
+                                    <div class="input-file">
+                                        <input accept=".txt" onchange="uploadedGeneFile()" id="gene_file"
+                                            style="cursor: pointer;" class="hide-this" type="file">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-header">Order</div>
+                                        <div style="position: relative;">
+                                            <select name="order" id="order">
+                                                <option value="0">Zero</option>
+                                                <option value="1">first</option>
+                                            </select>
+                                            <i id="down_chev" class="fas fa-chevron-down"></i>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-header">Min interaction score:</div>
+                                        <div style="position: relative;">
+                                            <select name="order" id="confidence">
+                                                <option value="0.9">Highest (0.9)</option>
+                                                <option value="0.7">High (0.7)</option>
+                                                <option selected value="0.4">Medium (0.4)</option>
+                                                <option value="0.15">Low (0.15)</option>
+                                            </select>
+                                            <i id="down_chev" class="fas fa-chevron-down"></i>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="channel_selection">
+                                    <div class="input-header">Interaction channel:</div>
+                                    <input type="radio" id="neighborhood" name="channel" value="neighborhood">
+                                    <label for="neighborhood">Neighborhood</label>
+                                    <input type="radio" id="fusion" name="channel" value="fusion">
+                                    <label for="fusion">Fusion</label>
+                                    <input type="radio" id="cooccurence" name="channel" value="cooccurence">
+                                    <label for="cooccurence">Co-occurence</label>
+                                    <input type="radio" id="coexpression" name="channel" value="coexpression">
+                                    <label for="coexpression">Co-expression</label><br>
+                                    <input type="radio" id="experimental" name="channel" value="experimental">
+                                    <label for="experimental">Experimental</label>
+                                    <input type="radio" id="database" name="channel" value="database">
+                                    <label for="database">Database</label>
+                                    <input type="radio" id="textmining" name="channel" value="textmining">
+                                    <label for="textmining">Textmining</label><br>
+                                    <input type="radio" checked id="combined_score" name="channel"
+                                        value="combined_score">
+                                    <label for="combined_score">Combined Score</label>
+                                </div>
+
+                                <button onclick="getGeneNamesForStringDB()" class="list-submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <div class="search-box box-blurr">
+                            <div class="main-search-header">
+                                Custom Upload
+                            </div>
+                            <div class="separator"></div>
+                            <div class="input-section">
+                                <div class="input-header">
+                                    Select File Type
+                                </div>
+                                <div style="position: relative; width: 40%;">
+                                    <select onchange="uploadType()" name="order" id="uploadFileType">
+                                        <option value="csv">CSV</option>
+                                        <option value="json">JSON</option>
+                                    </select>
+                                    <i id="down_chev" class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="input-section check1">
+                                <div class="input-header">
+                                    Upload a csv
+                                </div>
+                                <span class="fileNames" id="fileName">Click here to upload</span>
+                                <div class="input-file">
+                                    <input accept=".csv" id="getFile" onchange="saveFiles('csv')"
+                                        style="cursor: pointer;" class="hide-this" type="file">
+                                </div>
+                            </div>
+                            <div style="display: none;" class="input-section check2">
+                                <!-- upload JSON option -->
+
+                                <div class="input-header">
+                                    Upload a JSON
+                                </div>
+                                <span class="fileNames" id="fileName2">Click here to upload</span>
+                                <div class="input-file">
+                                    <input accept=".json" id="getFile2" onchange="saveFiles('json')"
+                                        style="cursor: pointer;" class="hide-this" type="file">
+                                </div>
+                            </div>
+                            <!-- <div class="input-section">
+
+                                <div class="input-header">
+                                    <input id="import_into_db"type="checkbox"> import into PD_NET database
+                                </div>
+                            </div> -->
+                            <div class="input-section">
+                                <button onclick="getNetworkFromFileUpload()" class="list-submit">Submit</button>
+                            </div>
+                        </div>
+                        <div id="sample_show_div">
+                            <img style="padding: 10px 0px 10px 15px; width: 787px;" src="./images/img1.png">
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show active" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">
+                        <div style="margin: auto" class="make-box search-box box-blurr">
+                            <div class="main-search-header">
+                                Pre-uploaded Dataset
+                            </div>
+                            <div class="separator"></div>
+                            <div class="col-12">
+                                <div class="padding-wrapper marginTop collapse show" id="custom_upload">
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="cardHeader">
+                                                <b>Parkinson Disease Networks</b>
+                                            </div>
+                                            <!-- <div class="cardItems"> -->
+                                            <!-- <table id="CustnetworkTab">
+                                                <tr>
+                                                    <td align="center">
+                                                        <div class="select">
+                                                            <select name="selectFile"id="selectFile"onchange="addDescription()">
+                                                                <option value="">Select A File</option>
+                                                            </select>
+                                                        </div>
+                                                        <button style="width: 70%;"id="submit1"onclick="getNetworkFromFileUpload()"class="list-submit">Submit</button>
+                                        </div>
+                                        </td>
+                                        </tr>
+
+                                        </table> -->
+                                            <div>
+                                                <select onchange="addDescription()" id="network_name_dropdown">
+                                                    <option value="">Select Network Name</option>
+                                                    <option value="interactome_LRRK2_SNCA">Interactome LRRK2 SNCA</option>
+                                                    <option value="lipid_metabolism_341">Lipid Metabolism 341</option>
+                                                    <option value="mitochondrial_high_confidence">Mitochondrial high
+                                                        confidence</option>
+                                                    <option value="lipid_metabolism_1323">Lipid Metabolism 1323</option>
+                                                    <option value="laurens_list">Lauren's List</option>
+                                                    <option value="pd_gwas">PD GWAS</option>
+                                                    <option value="pd_genemania">PD Genemania</option>
+                                                    <option value="pd_gene_stringdb">PD Gene StringDB</option>
+                                                </select>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <select onchange="addDescription()" id="network_type_dropdown">
+                                                        <option value="">Select Network Order</option>
+                                                        <option selected value="zero_order">Zero Order</option>
+                                                        <option value="first_order">First Order</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-6">
+                                                    <select onchange="addDescription()" id="interaction_type_dropdown">
+                                                        <option value="">Select Interaction Type</option>
+                                                        <option value="PPI">PPI Interaction</option>
+                                                        <option selected value="FunPPI">FunPPI Interaction</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="center_items">
+                                                <button style="width: 70%;" id="submit1"
+                                                    onclick="getNetworkFromFileUpload()"
+                                                    class="list-submit">Submit</button>
+                                            </div>
+                                            <div style="margin: 15px 0; border-top: 1px solid #d8d8d8"></div>
+                                            <div id="networkDesc">
+                                            </div>
+                                            <!-- </div> -->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-videos" role="tabpanel"
+                        aria-labelledby="v-pills-videos-tab">
+                        <div style="margin: auto" class="make-box search-box box-blurr padding_imp">
+                            <div class="row video_row">
+                                <div class="col">
+                                    <video width="320" height="" controls>
+                                        <source src="./images/pdnet_part1.mov" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <div class="col">
+                                    <div class="video_heading">Basic Overview of PDNET</div>
+                                    <div class="video_desc">
+                                        <p>
+                                            Welcome to PDNET, an Interactive Network Visualization tool.<br/>
+                                            Watch the video. Here we have described how to use <b>PDNET</b> tool.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="video_heading">Upload custom file</div>
+                                    <div class="video_desc">
+                                        <p>
+                                            <b>PDNET</b> tool allows you to upload a custom file. It helps you to analyze networks according to your data.
+                                            Watch the video to understand how to upload a custom file and use it for your analysis,
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <video width="320" height="" controls>
+                                        <source src="./images/pdnet_part2.mov" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-messages2" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">
+                        <div style="margin: auto" class="make-box search-box box-blurr">
+                            <div class="main-search-header">
+                                Co-Expression network datasets
+                            </div>
+                            <div class="separator"></div>
+                            <div class="col-12">
+                                <!-- <button class="btn btn-info network_tabs"type="button"data-toggle="collapse"
+                                        data-target="#co_expression"aria-expanded="false"aria-controls="multiCollapseExample2">Co Expression
+                                        <span class="down_arrow">&#x2304;</span>
+                                    </button> -->
+
+                                <div class="padding-wrapper marginTop collapse show" id="co_expression">
+                                    <!-- <div class="card">
+                                            <div class="card-body">
+                                                <div class="cardHeader">
+                                                    <b>Diffrential Expression </b>
+                                                </div>
+                                                <div class="cardItems">
+                                                    <table id="networkTab">
+                                                        <tr>
+                                                            <td align="center">
+        
+                                                                <div class="select">
+                                                                    <select name="selectRegion"id="selectRegion">
+                                                                        <option value="">Select Study</option>
+                                                                    </select>
+        
+                                                                </div>
+        
+                                                                <button class="w3-button w3-round-large"id="submit"style="   background-color: #325264;
+                                                                        color: #82b2c8;
+                                                                        width: 200px;
+                                                                        color: white;
+                                                                        border-radius: 4px;
+                                                                        background: #325264">Submit</button>
+        
+                                                            </td>
+        
+                                                        </tr>
+        
+                                                    </table>
+        
+                                                </div>
+                                            </div>
+                                        </div> -->
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="cardHeader">
+                                                <b>PD Pathways</b>
+                                            </div>
+                                            <div class="cardItems">
+                                                <table id="networkTab">
+
+                                                    <tr>
+                                                        <td align="center">
+
+                                                            <div class="select">
+                                                                <select name="selectPathway" id="selectPathway">
+                                                                    <option value="">Select Pathway</option>
+                                                                </select>
+                                                                <select name="selectPathwayRegion"
+                                                                    id="selectPathwayRegion">
+                                                                    <option value="">Select brain Region</option>
+                                                                </select>
+                                                                <select name="selectPathwayProvider"
+                                                                    id="selectPathwayProvider">
+                                                                    <option value="">Select Cohort</option>
+                                                                </select>
+
+                                                            </div>
+
+                                                            <button class="w3-button w3-round-large" id="submitPathway"
+                                                                style="background-color: #eaecef;
+                                                                            color: #82b2c8;
+                                                                            width: 200px;
+                                                                            color: white;
+                                                                            border-radius: 4px;
+                                                                            background:#325264;">Submit</button>
+
+                                                        </td>
+
+                                                    </tr>
+
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- <button class="btn btn-info network_tabs"type="button"data-toggle="collapse"
+                                        data-target="#custom_upload"aria-expanded="false"aria-controls="multiCollapseExample2">Custom Upload
+                                        <span class="down_arrow">&#x2304;</span>
+                                    </button>
+                                    <div class="padding-wrapper marginTop collapse show"id="custom_upload">
+        
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="cardHeader">
+                                                    <b>AMP-AD Module Co-interaction Network</b>
+                                                </div>
+                                                <div class="cardItems">
+                                                    <table id="CustnetworkTab">
+                                                        <tr>
+                                                            <td align="center">
+                                                                <div class="select">
+                                                                    <select name="selectFile"id="selectFile">
+                                                                        <option value="">Select File name</option>
+                                                                    </select>
+                                                                </div>
+                                                                <button class="w3-button w3-round-large"id="submit1"style="background-color: #eaecef;
+                                                                            color: #82b2c8;
+                                                                            width: 200px;
+                                                                            color: white;
+                                                                            border-radius: 4px;
+                                                                            background:#325264;">Submit</button>
+                                                            </td>
+                                                        </tr>
+        
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup_card">
+                    <table id="ttt">
+                        <tbody>
+                            <tr class="shadow">
+                                <th>Input</th>
+                                <th>ENSG_ID</th>
+                                <th>SYMBOL</th>
+                                <th>Alias</th>
+                                <th>Description</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="cardss">
+                        <table id="gene_exists_table" style="width: 100%; background: white;">
+
+                        </table>
+                    </div>
+                    <div class="buttons">
+                        <button onclick="getNetworkFromGenes()">Confirm</button>
+                        <button onclick="pop_cancel()">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div>
+        <div id="wait" class="wait" style="display: none;">
+            <div class="waiting_loading">
+                <p style="font-size: 25px;">Please wait!</p>
+                <!-- <p style="font-size: 14px;">The Network is getting generated<br> -->
+                    We are gathering informations</p>
+                <span><i></i><i></i><i></i></span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function getItemFromStorage(key) {
+            if (window.location.pathname.split('/').includes("pdnet_dev")) { return localStorage.getItem(key + '_dev'); } else { return localStorage.getItem(key); }
+        } function setItemToStorage(key, item) {
+            if
+                (window.location.pathname.split('/').includes("pdnet_dev")) { localStorage.setItem(key + '_dev', item); }
+            else { localStorage.setItem(key, item); }
+        }
+
+        //====================================CONFIRMED GENES NETWORK ==================================
+        function getNetworkFromGenes() {
+            console.log(gene_dont_exists.length > 0 && gene_exists.length > 0)
+            console.log(gene_dont_exists.length, gene_exists.length)
+            if (gene_dont_exists.length > 0 && gene_exists.length > 0) {
+                var apicall = confirm('All genes are not available. Do you want to continue ?');
+                console.log(apicall)
+                if (apicall) {
+                    console.log('gene_exists', gene_exists);
+                    // localStorage.setItem('list_proteo', JSON.stringify(gene_exists));
+                    // window.open('/ProteostasisNET/unitest.html?filename='+""+'&folderName='+""+'&fromAGene=true');
+                    let d = {
+                        nodeNames: gene_exists,
+                        order: parseInt(order),
+                        analysedWeight: channel,
+                        score: parseFloat(score),
+                    }
+                    d = JSON.stringify(d)
+                    setItemToStorage('pd_net_stringDB', d);
+                    window.open("PD_stringDB.html");
+                    $('.popup_card').css('display', 'none');
+                } else {
+                    $('.popup_card').css('display', 'none');
+                }
+            } else if (gene_dont_exists.length > 0 && gene_exists == 0) {
+                alert('No genes exist in database!');
+            } else {
+                // localStorage.setItem('list_proteo', JSON.stringify(gene_exists));
+                // window.open('/ProteostasisNET/unitest.html?filename='+""+'&folderName='+""+'&fromAGene=true');
+                let d = {
+                    nodeNames: gene_exists,
+                    order: parseInt(order),
+                    analysedWeight: channel,
+                    score: parseFloat(score),
+                }
+                console.log(d)
+                d = JSON.stringify(d)
+                setItemToStorage('pd_net_stringDB', d);
+                window.open("PD_stringDB.html");
+                $('.popup_card').css('display', 'none');
+            }
+        }
+        // ======================================== CLOSE POPUP TABLE ===================================
+        function pop_cancel() {
+            $('.popup_card').css("display", "none")
+        }
+
+
+        // initially setting the dropdowns of csv / json to selected value
+        $(document).ready(function () {
+            let tx = $('#uploadFileType').val()
+            console.log(tx);
+            if (tx == 'json') {
+                $('.check2').css('display', 'block')
+                $('.check1').css('display', 'none')
+            }
+            else if (tx == 'csv') {
+                $('.check2').css('display', 'none')
+                $('.check1').css('display', 'block')
+            }
+        });
+
+        // setting the gene name space mistakes
+        function getGeneNamesForStringDB() {
+            let gTest = $('#string_db_input').val().trim()
+            if (gTest != "" && geneFileData != undefined) {
+                alert('either upload a file or type gene names')
+            } else {
+                let genes;
+                if (geneFileData == undefined) {
+                    genes = $('#string_db_input').val().split(',').join('\n');
+                } else {
+                    genes = geneFileData;
+                    genes = genes.split(',').join('\n');
+                }
+                genes = genes.split('\n');
+                console.log('GENS', genes)
+                order = $('#order').val()
+                score = $('#confidence').val()
+                channel = $("input[name='channel' ]:checked").val();
+                f = $('#gene_file').files;
+
+                let genes2 = []
+                genes.forEach(e => {
+                    if (e.trim() != "")
+                        genes2.push(e.trim().toUpperCase());
+                })
+                if (genes2.length == 1 && genes2[0] == "" && geneFileData == undefined) {
+                    $('#wait').css('display', 'block');
+                    alert('please enter atleast one gene');
+                } else {
+                    $('#wait').css('display', 'block');
+                    $.ajax({
+                        url: `${URLs()}/get/nodeExists`,
+                        method: 'POST',
+                        data: { nodeNames: JSON.stringify(genes2) },
+                        success: (response) => {
+                            $('#wait').css('display', 'none');
+                            gene_dont_exists = []
+                            gene_exists = []
+                            console.log('response', response);
+                            let td = document.getElementById('gene_exists_table');
+                            td.innerHTML = "";
+                            // OPEN TABLE =======================================>>>>
+                            for (let r of response) {
+                                // r = { mapt: [{ ... }, { ... }, { ... }] }
+                                for (let k in r) {
+                                        console.log('THIS is k,,,', k, 'and this is R,,,', r)
+                                    // k = mapt;
+                                    // r[k] = [{ ... },{ ... }, { ... }]
+                                    if (r[k].length > 0) {
+                                        console.log('GENE EXISTSSSSS', k)
+                                        for (let z of r[k]) {
+                                        gene_exists.push(z.ENSG_ID);
+                                            // z = { ... }
+                                            $('#gene_exists_table')
+                                                .append(
+                                                    `<tr class="exists">
+                                                        <td>${k}</td>
+                                                        <td>
+                                                            ${z.ENSG_ID}
+                                                        </td>
+                                                        <td>
+                                                            ${z.SYMBOL}
+                                                        </td>
+                                                        <td>
+                                                            ${z.Alias}
+                                                        </td>
+                                                        <td>
+                                                            ${z.Description}
+                                                        </td>
+                                                    </tr>`
+                                                );
+                                        }
+                                    } else {
+                                        gene_dont_exists.push(k);
+                                        $('#gene_exists_table')
+                                            .append(
+                                                `<tr class="dont_exists">
+                                                    <td>${k}</td>
+                                                    <td>---</td>
+                                                    <td>---</td>
+                                                    <td>---</td>
+                                                    <td>---</td>
+                                                </tr>`
+                                            );
+                                    }
+                                }
+                            }
+                            $('.popup_card').css('display', 'block');
+
+                        },
+                        error: (err) => {
+                        $('#wait').css('display', 'none');
+                            alert('please try after some time')
+                        }
+                    })
+
+
+                    // let d = {
+                    // nodeNames: genes2,
+                    // order: parseInt(order),
+                    // analysedWeight: channel,
+                    // score: parseFloat(score),
+                    // }
+                    // d = JSON.stringify(d)
+                    // localStorage.setItem('pd_net_stringDB', d);
+                    // window.open("PD_stringDB.html");
+                }
+            }
+        }
+        // Storing the file in the browser
+        function saveFiles(t) {
+            // let t = $('#uploadFileType').val()
+            // console.log(t)
+            var f = t == 'csv' ? document.getElementById('getFile').files : document.getElementById('getFile2').files;
+            // console.log(f[0].name)
+            var fn = t == 'csv' ? document.getElementById('fileName') : document.getElementById('fileName2')
+            fn.innerHTML = f[0].name;
+
+        }
+
+        // ===================== uplaod a gene list file ==============================
+        var geneFileData;
+        function uploadedGeneFile() {
+            var gFile = document.getElementById('gene_file').files;
+            var gFileName = document.getElementById('geneFileName');
+            gFileName.innerHTML = gFile[0].name;
+
+            function read(callback) {
+                var reader = new FileReader();
+
+                reader.onload = function () {
+                    callback(reader.result);
+                }
+
+                reader.readAsText(gFile[0]);
+            }
+            read((e) => {
+                geneFileData = e;
+            })
+        }
+        // ============================================================================
+
+        // ======================= Which type of file is getting uploaded ========================
+        function uploadType() {
+            console.log('called uploadType')
+            let t = $('#uploadFileType').val()
+            console.log('T-->', t)
+            if (t == 'json') {
+                $('.check2').css('display', 'block')
+                $('.check1').css('display', 'none')
+            }
+            else if (t == 'csv') {
+                $('.check2').css('display', 'none')
+                $('.check1').css('display', 'block')
+            }
+        }
+        // =============================================================================
+
+        // get the file name generated in the server side and redirect the page to network.json
+        function getNetworkFromFileUpload() {
+            console.log('CALLED');
+            let network_name = $('#network_name_dropdown').val();
+            let network_order = $('#network_type_dropdown').val();
+            let interaction_type = $('#interaction_type_dropdown').val();
+            let current_nav = $('.nav-link.active').text();
+            if ((network_name === "" || network_order == "" || interaction_type == "") && current_nav === "Pre-uploaded datasets") {
+                alert('Please select all the options!')
+            } else {
+                if (current_nav === "Pre-uploaded datasets") {
+                    // fileName = $("#selectFile").val();
+                    // if ($("#selectFile").val() =="") {
+                    // alert("select fileName before submit!!!");
+                    // return false;
+                    // }
+                    fileName = `${interaction_type}_${network_order}_${network_name}`;
+                    localStorage.removeItem('pd_net');
+                    window.open(`PD_network.html?fileName=uploads/${fileName}`);
+                } else {
+                    let t = $('#uploadFileType').val()
+                    formdata = new FormData();
+                    var f2 = t == 'csv' ? document.getElementById('getFile').files : document.getElementById('getFile2').files;
+                    // console.log(f2[0])
+                    if (f2.length == 0) {
+                        console.log("No file")
+                    } else {
+                        $('#wait').css('display', 'block');
+                        // let imp = $('#import_into_db').prop('checked');
+                        // console.log('asdasda', imp)
+                        // formdata.append("isImport", imp ? imp : false); // if we are willing to import the file into database
+                        formdata.append("isImport", false); // if we are willing to import the file into database
+                        formdata.append("avatar", f2[0]);
+                        console.log(formdata);
+
+                        $.ajax({
+                                url: `${URLs()}/import`,
+                                type:"POST",
+                                data: formdata,
+                                processData: false,
+                                contentType: false,
+                                success: function (result) {
+                                $('#wait').css('display', 'none');
+                                setItemToStorage('pd_net', JSON.stringify(result));
+                                window.open('PD_network.html');
+                            },
+                            error: function (err) {
+                                $('#wait').css('display', 'none');
+                                alert('There is some issue, please try after some time');
+                            }
+                        });
+                    }
+                }
+            }
+        }
+
+        $(".network_tabs").click(function () {
+            $('.collapse').collapse("hide")
+        })
+
+    </script>
+    <script>
+        // ================================ Network Description Add ================================
+        function checkPreUploadNetworkExists(n_name) {
+
+        }
+
+        function addDescription() {
+            $('#submit1').css('pointer-events', 'all');
+            let network_name = $('#network_name_dropdown').val();
+            let network_order = $('#network_type_dropdown').val();
+            let interaction_type = $('#interaction_type_dropdown').val();
+            let whole_network_name = `${interaction_type}_${network_order}_${network_name}`;
+
+            let x = document.getElementById('networkDesc');
+            let y = returnDesc(whole_network_name);
+            console.log('Y---', y)
+            if ((network_name !== "" && network_order !== "" && interaction_type !== "")) {
+                $.ajax({
+                    url: `data/json/uploads/${whole_network_name}.json`, // taking long time to load
+                    dataType: 'json',
+                    success: (data) => {
+                        if (y == undefined) {
+                            x.innerHTML = `<span style="font-size: 15px; color: #39b5ca">Network :</span>
+                            <div style="font-size: 15px; margin-bottom: 10px"><b>${whole_network_name.replace(/_/g, ' ')}</b></div>
+                            <span style="font-size: 15px; color: #39b5ca">Description :</span>
+                                            <div style="font-size: 13px;">No description found</div>`;
+                        } else {
+                            x.innerHTML = `<span style="font-size: 15px; color: #39b5ca">Network :</span>
+                            <div style="font-size: 15px; margin-bottom: 10px"><b>${whole_network_name.replace(/_/g, ' ')}</b></div>
+                            <span style="font-size: 15px; color: #39b5ca">Description :</span>
+                                            <div style="font-size: 13px;">${y}</div>`;
+                        }
+                    },
+                    error: () => {
+                        $('#submit1').css('pointer-events', 'none');
+                        console.log('Not found')
+                        x.innerHTML = `<span style="font-size: 15px; color: #39b5ca">Network :</span>
+                        <div style="font-size: 15px; margin-bottom: 10px"><b>${whole_network_name.replace(/_/g, ' ')}</b></div>
+                        <span style="font-size: 13px; color: #d85952">This network is not available.</span>`
+                    }
+                })
+                if ($('#selectFile').val() != "") {
+
+                }
+            } else {
+                x.innerHTML = "";
+            }
+        };
+        // ================================ Network Description Add ENDS ================================
+
+
+        //document.getElementById("teamDiv").style.display ="none";
+        //document.getElementById("Team").style.display ="none";
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("main").style.marginLeft = "200px";
+            document.getElementById("mySidebar").style.width = "200px";
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("openNav").style.display = 'none';
+        }
+        function w3_close() {
+            document.getElementById("main").style.marginLeft = "0%";
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("openNav").style.display = "inline-block";
+            //document.getElementById("teamDiv").style.display ="none";
+            // document.getElementById("Team").style.display ="none";
+
+
+        }
+        function w3_close2() {
+            document.getElementById("main").style.marginLeft = "0%";
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("openNav").style.display = "inline-block";
+            document.getElementById("teamDiv").style.display = "inline-block";
+            document.getElementById("Team").style.display = "inline-block";
+
+        }
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        $("body").mouseup(function (e) {
+            var container1 = $("div#Team");
+            var container2 = $("div#teamDiv");
+
+            // if the target of the click isn't the container nor a descendant of the container
+            if ((!container1.is(e.target) && container1.has(e.target).length === 0) && (!container2.is(e.target) && container2.has(e.target).length === 0)) {
+                container1.hide();
+                container2.hide();
+            }
+        });
+
+        /*function myFunction(fileName) {
+            window.open("PD_network.html?fileName="+fileName);
+        }*/
+
+    </script>
+
+    <script>
+        //var sample = {"UC Inflamed":"UC_inflame","UC-Non Inflamed":"UC_non-inflame"};
+        //var pathwayList=["TCX","CBE","DLPFC","FP","IFG","PHG","STG"];
+
+        var pathwayList = {
+            "Proteasome": ["CBE", "TCX"],
+            //"heat shock proteins":[],
+            "Lysosome": ["CBE", "TCX"],
+            "Chaperones": ["CBE", "TCX"],
+            //"translation":["CBE","TCX"],
+            //"ubiquitin related":["CBE","TCX"],
+            //"unfolded protein response":["CBE","TCX"],
+            "Macroautophagy": ["CBE", "TCX"],
+            //"mitophagy":["CBE","TCX"],
+            //"macroautophagy (DB)":["CBE","TCX"],
+            "Endocytosis": ["CBE", "TCX"],
+            //"vesicle trafficking":["CBE","TCX"],
+            "DUBs": ["CBE", "TCX"],
+            "E3_ligases_and_adaptor_proteins": ["CBE", "TCX"]
+        };
+        var brainRegion = [
+            { regionId: "TCX", Name: "Temporal Cortex (TCX)" },
+            { regionId: "CBE", Name: "Cerebellum (CBE)" },
+            { regionId: "DLPFC", Name: "Dorsolateral Prefrontal Cortex (DLPFC)" },
+            { regionId: "FP", Name: "Frontal Pole (FP)" },
+            { regionId: "IFG", Name: "Inferior Frontal Gyrus (IFG)" },
+            { regionId: "PHG", Name: "Parahippocampal Gyrus (PHG)" },
+            { regionId: "STG", Name: "Superior Temporal Gyrus (STG)" }
+        ];
+        var regionProviders = {
+
+            "TCX": ["MAYO"],
+            "CBE": ["MAYO"],
+            "DLPFC": ["ROSMAP"],
+            "FP": ["MSSM"],
+            "IFG": ["MSSM"],
+            "PHG": ["MSSM"],
+            "STG": ["MSSM"]
+
+        }
+        function jsUcFirst(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        } function jsUcFirst(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+
+        //Populate drop-down for pathwayList in pathway wise search
+        $(Object.keys(pathwayList)).each(function (i, d) {
+            //console.log(d);
+            //var val = sample[0]+"_"+pathwayList[key];
+            $('<option/>').val(jsUcFirst(d)).text(jsUcFirst(d)).appendTo('#selectPathway')
+        });
+
+        //populate drowpdown for brainRegion in pathway wise search
+        $("#selectPathway").change(function () {
+            var selectedPathway = $("#selectPathway").val();
+            //console.log($("#selectPathway").val());
+            //console.log(pathwayList[selectedPathway]);
+            $('select#selectPathwayRegion').children('option:not(:first)').remove();
+            $('select#selectPathwayProvider').children('option:not(:first)').remove();
+
+            $(pathwayList[selectedPathway]).each(function (i, d) {
+                //var val = sample[0]+"_"+pathwayList[key];
+                //console.log(d,i);
+                $('<option/>').val(d).text(jsUcFirst(d)).appendTo('#selectPathwayRegion')
+            });
+        });
+
+
+
+        //populate drowpdown for cohort in pathway wise search
+        $("#selectPathwayRegion").change(function () {
+            var selectedRegion = $("#selectPathwayRegion").val();
+            //console.log($("#selectPathwayRegion").val());
+            //console.log(regionProviders[selectedRegion]);
+            $('select#selectPathwayProvider').children('option').remove();
+
+            $(regionProviders[selectedRegion]).each(function (i, d) {
+                //var val = sample[0]+"_"+pathwayList[key];
+                //console.log(d,i);
+                $('<option/>').val(d).text(jsUcFirst(d)).appendTo('#selectPathwayProvider')
+            });
+        });
+
+        //Submit pathway wise search
+        $("#submitPathway").click(function () {
+            //alert("The paragraph was clicked.");
+            fileName = $("#selectPathway").val() + "_" + $("#selectPathwayRegion").val() + "_" + $("#selectPathwayProvider").val();
+            if ($("#selectPathway").val() == "") {
+                alert("Select pathway, brain region and cohort before submit!!!");
+                return false;
+            }
+            else if ($("#selectPathwayRegion").val() == "") {
+                alert("Select brain region and cohort before submit!!!");
+                return false;
+            }
+            else if ($("#selectPathwayProvider").val() == "") {
+                alert("Select cohort before submit!!!");
+                return false;
+            }
+            localStorage.removeItem('pd_net');
+            window.location.href = "PD_network.html?fileName=coexpression/" + fileName;
+        });
+
+
+        //Populate Dropdown for brainRegion
+        $(brainRegion).each(function () {
+            //var val = sample[0]+"_"+pathwayList[key];
+            $('<option/>').val(this.regionId).text(jsUcFirst(this.Name)).appendTo('#selectRegion')
+        });
+
+
+        //populate drowpdown for cohort
+        $("#selectRegion").change(function () {
+            var selectedRegion = $("#selectRegion").val();
+            //console.log($("#selectRegion").val());
+            //console.log(regionProviders[selectedRegion]);
+            $('select#selectProvider').children('option').remove();
+
+            $(regionProviders[selectedRegion]).each(function (i, d) {
+                //var val = sample[0]+"_"+pathwayList[key];
+                //console.log(d,i);
+                $('<option/>').val(d + "_" + selectedRegion).text(jsUcFirst(d)).appendTo('#selectProvider')
+            });
+        });
+
+        $("#submit").click(function () {
+            //alert("The paragraph was clicked.");
+            fileName = $("#selectProvider").val();
+            if ($("#selectRegion").val() == "") {
+                alert("select brain region and cohort before submit!!!");
+                return false;
+            }
+            else if ($("#selectProvider").val() == "") {
+                alert("select cohort before submit!!!");
+                return false;
+            }
+            localStorage.removeItem('pd_net');
+            window.location.href = "PD_network.html?fileName=coexpression/" + fileName;
+        });
+
+
+
+        //######################### SAGE MODULE JS  ###########################
+
+        var sage_brainRegion = [
+
+            { regionId: "CBE_blue", Name: "CBE_blue" },
+            { regionId: "CBE_brown", Name: "CBE_brown" },
+            { regionId: "CBE_turquoise", Name: "CBE_turquoise" },
+            { regionId: "CBE_yellow", Name: "CBE_yellow" },
+
+            { regionId: "DLPFC_blue", Name: "DLPFC_blue" },
+            { regionId: "DLPFC_brown", Name: "DLPFC_brown" },
+            { regionId: "DLPFC_turquoise", Name: "DLPFC_turquoise" },
+            { regionId: "DLPFC_yellow", Name: "DLPFC_yellow" },
+
+            { regionId: "FP_blue", Name: "FP_blue" },
+            { regionId: "FP_brown", Name: "FP_brown" },
+            { regionId: "FP_turquoise", Name: "FP_turquoise" },
+            { regionId: "FP_yellow", Name: "FP_yellow" },
+
+            { regionId: "IFG_blue", Name: "IFG_blue" },
+            { regionId: "IFG_brown", Name: "IFG_brown" },
+            { regionId: "IFG_turquoise", Name: "IFG_turquoise" },
+            { regionId: "IFG_yellow", Name: "IFG_yellow" },
+
+            { regionId: "PHG_blue", Name: "PHG_blue" },
+            { regionId: "PHG_brown", Name: "PHG_brown" },
+            { regionId: "PHG_green", Name: "PHG_green" },
+            { regionId: "PHG_turquoise", Name: "PHG_turquoise" },
+            { regionId: "PHG_yellow", Name: "PHG_yellow" },
+
+            { regionId: "STG_blue", Name: "STG_blue" },
+            { regionId: "STG_brown", Name: "STG_brown" },
+            { regionId: "STG_turquoise", Name: "STG_turquoise" },
+            { regionId: "STG_yellow", Name: "STG_yellow" },
+
+            { regionId: "TCX_blue", Name: "TCX_blue" },
+            { regionId: "TCX_brown", Name: "TCX_brown" },
+            { regionId: "TCX_green", Name: "TCX_green" },
+            { regionId: "TCX_turquoise", Name: "TCX_turquoise" },
+            { regionId: "TCX_yellow", Name: "TCX_yellow" }
+        ];
+        var sage_regionProviders = {
+
+            "CBE_blue": ["MAYO"],
+            "CBE_brown": ["MAYO"],
+            "CBE_turquoise": ["MAYO"],
+            "CBE_yellow": ["MAYO"],
+
+            "DLPFC_blue": ["ROSMAP"],
+            "DLPFC_brown": ["ROSMAP"],
+            "DLPFC_turquoise": ["ROSMAP"],
+            "DLPFC_yellow": ["ROSMAP"],
+
+            "FP_blue": ["MSSM"],
+            "FP_brown": ["MSSM"],
+            "FP_turquoise": ["MSSM"],
+            "FP_yellow": ["MSSM"],
+
+            "IFG_blue": ["MSSM"],
+            "IFG_brown": ["MSSM"],
+            "IFG_turquoise": ["MSSM"],
+            "IFG_yellow": ["MSSM"],
+
+            "PHG_blue": ["MSSM"],
+            "PHG_brown": ["MSSM"],
+            "PHG_green": ["MSSM"],
+            "PHG_turquoise": ["MSSM"],
+            "PHG_yellow": ["MSSM"],
+
+            "STG_blue": ["MSSM"],
+            "STG_brown": ["MSSM"],
+            "STG_turquoise": ["MSSM"],
+            "STG_yellow": ["MSSM"],
+
+            "TCX_blue": ["MAYO"],
+            "TCX_brown": ["MAYO"],
+            "TCX_green": ["MAYO"],
+            "TCX_turquoise": ["MAYO"],
+            "TCX_yellow": ["MAYO"]
+
+        }
+        /*function jsUcFirst(string) {
+                return string.charAt(0).toUpperCase() + string.slice(1);
+            } */
+
+
+        //Populate Dropdown for sage_brainRegion
+        $(sage_brainRegion).each(function () {
+            //var val = sample[0]+"_"+pathwayList[key];
+            $('<option/>').val(this.regionId).text(jsUcFirst(this.Name)).appendTo('#sage_selectRegion')
+        });
+
+
+        //populate drowpdown for cohort
+        $("#sage_selectRegion").change(function () {
+            var selectedRegion = $("#sage_selectRegion").val();
+            //console.log($("#sage_selectRegion").val());
+            //console.log(sage_regionProviders[selectedRegion]);
+            $('select#sage_selectProvider').children('option').remove();
+
+            $(sage_regionProviders[selectedRegion]).each(function (i, d) {
+                //var val = sample[0]+"_"+pathwayList[key];
+                //console.log(d,i);
+                $('<option/>').val(d + "_" + selectedRegion).text(jsUcFirst(d)).appendTo('#sage_selectProvider')
+            });
+        });
+
+        $("#sage_submit").click(function () {
+            //alert("The paragraph was clicked.");
+            fileName = $("#sage_selectProvider").val();
+            if ($("#sage_selectRegion").val() == "") {
+                alert("select brain region and cohort before submit!!!");
+                return false;
+            }
+            else if ($("#sage_selectProvider").val() == "") {
+                alert("select cohort before submit!!!");
+                return false;
+            }
+            localStorage.removeItem('pd_net');
+            window.location.href = "PD_network.html?fileName=coexpression/" + fileName;
+        });
+
+
+        //Custom Network
+
+
+        //An ajax call to read file which contain names of different uploaded files.
+        var UP_File = ''
+        function jsUcFirst(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+
+
+        $.ajax({
+            url: 'data/json/uploads/FileName.txt',
+            //dataType: 'json',
+            success: function (data) {
+                FileNames = data.split("\n");
+                //console.log(FileNames)
+                var arrayLength = FileNames.length;
+                for (var i = 0; i < arrayLength; i++) {
+                    console.log(returnDesc(FileNames[i]))
+                    if (FileNames[i].indexOf(' ') == -1) $('<option/>').val(FileNames[i]).text(jsUcFirst(FileNames[i])).appendTo('#selectFile')
+                }
+            },
+            statusCode: {
+                404: function () {
+                    alert('There was a problem with the server.  Try again soon!');
+                }
+            }
+        });
+        //End of ajax call.
+
+        //2nd ajax call to read files in a directory
+        // /* var UP_File=''
+        // function jsUcFirst(string) {
+        //      return string.charAt(0).toUpperCase() + string.slice(1);
+        //  }
+
+        // $.ajax({
+        //      url:"data/uploads",
+        //      success: function(data){
+        //                          //console.log(data)
+        //                          $(data).find("a:contains(.json)").each(function(){
+        //                          // will loop through
+        //                          //var images = $(this).attr("href"); //$('<p></p>').html(images).appendTo('a div of your choice')
+        //                          //console.log($(this).attr("href"))
+        //                          //if( !$(this).attr("href").contains('%'))
+        //                          //$('<option/>').val($(this).attr("href")).text(jsUcFirst($(this).attr("href"))).appendTo('#selectFile')
+
+        //                          });
+        //                  }
+        //      });
+
+        // // */
+
+
+        // <!-- FILE LOAD -->
+        $("#submit1").click(function () { // Pre-uploaded Dataset submit
+            // fileName = $("#selectFile").val();
+            // if ($("#selectFile").val() =="") {
+            //  alert("select fileName before submit!!!");
+            //  return false;
+            // }
+            // localStorage.removeItem('pd_net');
+            // window.open(`PD_network.html?fileName=uploads/${fileName}`);
+        });
+        // <!--END: POPULATE DROPDOWN FOR UPLOADED-->
+
+        //  co interaction module
+
+        //  full PPI network
+        var selectPPIBrain = [
+            { regionId: "MAYO_TCX", Name: "Temporal Cortex (TCX)" },
+            { regionId: "MAYO_CBE", Name: "Cerebellum (CBE)" },
+            { regionId: "ROSMAP_DLPFC", Name: "Dorsolateral Prefrontal Cortex (DLPFC)" },
+            { regionId: "MSSM_FP", Name: "Frontal Pole (FP)" },
+            { regionId: "MSSM_IFG", Name: "Inferior Frontal Gyrus (IFG)" },
+            { regionId: "MSSM_PHG", Name: "Parahippocampal Gyrus (PHG)" },
+            { regionId: "MSSM_STG", Name: "Superior Temporal Gyrus (STG)" }
+        ];
+
+
+        var regionPPIProviders = {
+            "provider": ["StringDB", "InBio", "Inweb3"]
+        }
+
+
+        var ppiBrainRegion = document.getElementById("selectPPIRegion");
+        var selectPPIProvider = document.getElementById("selectPPIProvider");
+
+        for (var i = 0; i < selectPPIBrain.length; i++) {
+            var opt = selectPPIBrain[i];
+            var el = document.createElement("option");
+            el.textContent = opt["Name"];
+            el.value = opt["regionId"];
+            ppiBrainRegion.appendChild(el);
+        }
+
+
+
+        ppiBrainRegion.addEventListener("change", brainOptions);
+
+
+        function brainOptions() {
+            selectPPIProvider.innerHTML = ""
+            var cohortOption = document.createElement("option");
+            cohortOption.textContent = "Select Cohort";
+            cohortOption.value = "";
+            selectPPIProvider.appendChild(cohortOption)
+            regionPPIProviders["provider"].forEach(val => {
+                cohortOption = document.createElement("option");
+                cohortOption.textContent = val;
+                cohortOption.value = val;
+                selectPPIProvider.appendChild(cohortOption)
+            })
+
+        }
+
+        var ppi_brain_submit = document.getElementById("PPI_brain_submit")
+        ppi_brain_submit.addEventListener("click", function () {
+            console.log(ppiBrainRegion.value, selectPPIProvider.value)
+            if (ppiBrainRegion.value == "" || selectPPIProvider.value == "") {
+                alert("Select pathway, brain region and cohort before submit!!!");
+                return false;
+            }
+            localStorage.removeItem('pd_net');
+            window.location.href = "PD_network.html?fileName=cointeraction/" + ppiBrainRegion.value + "_" + selectPPIProvider.value;
+        });
+
+        //  cointeraction  sage  modules
+
+        var PPI_sage_selectRegion = document.getElementById("PPI_sage_selectRegion");
+        var PPI_sage_selectProvider = document.getElementById("PPI_sage_selectProvider");
+        var sage_PPI_brainRegion = [
+
+            { regionId: "MAYO_CBE_blue", Name: "CBE_blue" },
+            { regionId: "MAYO_CBE_brown", Name: "CBE_brown" },
+            { regionId: "MAYO_CBE_turquoise", Name: "CBE_turquoise" },
+            { regionId: "MAYO_CBE_yellow", Name: "CBE_yellow" },
+
+            { regionId: "ROSMAP_DLPFC_blue", Name: "DLPFC_blue" },
+            { regionId: "ROSMAP_DLPFC_brown", Name: "DLPFC_brown" },
+            { regionId: "ROSMAP_DLPFC_turquoise", Name: "DLPFC_turquoise" },
+            { regionId: "ROSMAP_DLPFC_yellow", Name: "DLPFC_yellow" },
+
+            { regionId: "MSSM_FP_blue", Name: "FP_blue" },
+            { regionId: "MSSM_FP_brown", Name: "FP_brown" },
+            { regionId: "MSSM_FP_turquoise", Name: "FP_turquoise" },
+            { regionId: "MSSM_FP_yellow", Name: "FP_yellow" },
+
+            { regionId: "MSSM_IFG_blue", Name: "IFG_blue" },
+            { regionId: "MSSM_IFG_brown", Name: "IFG_brown" },
+            { regionId: "MSSM_IFG_turquoise", Name: "IFG_turquoise" },
+            { regionId: "MSSM_IFG_yellow", Name: "IFG_yellow" },
+
+            { regionId: "MSSM_PHG_blue", Name: "PHG_blue" },
+            { regionId: "MSSM_PHG_brown", Name: "PHG_brown" },
+            { regionId: "MSSM_PHG_green", Name: "PHG_green" },
+            { regionId: "MSSM_PHG_turquoise", Name: "PHG_turquoise" },
+            { regionId: "MSSM_PHG_yellow", Name: "PHG_yellow" },
+
+            { regionId: "MSSM_STG_blue", Name: "STG_blue" },
+            { regionId: "MSSM_STG_brown", Name: "STG_brown" },
+            { regionId: "MSSM_STG_turquoise", Name: "STG_turquoise" },
+            { regionId: "MSSM_STG_yellow", Name: "STG_yellow" },
+
+            { regionId: "MAYO_TCX_blue", Name: "TCX_blue" },
+            { regionId: "MAYO_TCX_brown", Name: "TCX_brown" },
+            { regionId: "MAYO_TCX_green", Name: "TCX_green" },
+            { regionId: "MAYO_TCX_turquoise", Name: "TCX_turquoise" },
+            { regionId: "MAYO_TCX_yellow", Name: "TCX_yellow" }
+        ];
+        for (var i = 0; i < sage_PPI_brainRegion.length; i++) {
+            var opt = sage_PPI_brainRegion[i];
+            var el = document.createElement("option");
+            el.textContent = opt["Name"];
+            el.value = opt["regionId"];
+            PPI_sage_selectRegion.appendChild(el);
+        }
+        PPI_sage_selectRegion.addEventListener("change", sage_ppi);
+
+
+        function sage_ppi() {
+            PPI_sage_selectProvider.innerHTML = ""
+            var cohortOption = document.createElement("option");
+            cohortOption.textContent = "Select cohort";
+            cohortOption.value = "";
+            PPI_sage_selectProvider.appendChild(cohortOption)
+            regionPPIProviders["provider"].forEach(val => {
+                cohortOption = document.createElement("option");
+                cohortOption.textContent = val;
+                cohortOption.value = val;
+                PPI_sage_selectProvider.appendChild(cohortOption)
+            })
+
+        }
+        var PPI_sage_submit = document.getElementById("PPI_sage_submit")
+        PPI_sage_submit.addEventListener("click", function () {
+            if (PPI_sage_selectRegion.value == "" || PPI_sage_selectProvider.value == "") {
+                alert("Select pathway, brain region and cohort before submit!!!");
+                return false;
+            }
+            localStorage.removeItem('pd_net');
+            window.location.href = "PD_network.html?fileName=cointeraction/" + PPI_sage_selectRegion.value + "_" + PPI_sage_selectProvider.value;
+        });
+
+
+        // ppi pathways
+        var selectPPIPathway = document.getElementById("selectPPIPathway");
+        var selectPPIPathwayRegion = document.getElementById("selectPPIPathwayRegion");
+        var submitPPIPathway = document.getElementById("submitPPIPathway");
+
+
+        var ppi_pathwayList = [
+            "Proteasome", "Lysosome", "Chaperones", "Macroautophagy", "Endocytosis", "DUBs", "E3_ligases_and_adaptor_proteins"
+        ]
+
+        var ppi_brain_regions = [
+            { regionId: "TCX_MAYO_StringDB", Name: "Temporal Cortex StringDB" },
+            { regionId: "TCX_MAYO_InBio", Name: "Temporal Cortex InBio" },
+            { regionId: "TCX_MAYO_InWeb3", Name: "Temporal Cortex InWeb3" },
+            { regionId: "CBE_MAYO_StringDB", Name: "Cerebellum StringDB" },
+            { regionId: "CBE_MAYO_InBio", Name: "Cerebellum InBio" },
+            { regionId: "CBE_MAYO_InWeb3", Name: "Cerebellum InWeb3" }
+
+        ]
+
+        for (var i = 0; i < ppi_pathwayList.length; i++) {
+            var option = ppi_pathwayList[i];
+            var element = document.createElement("option");
+            element.textContent = option;
+            element.value = option;
+            selectPPIPathway.appendChild(element)
+        }
+        selectPPIPathway.addEventListener("change", ppiPathways)
+
+        function ppiPathways() {
+            selectPPIPathwayRegion.innerHTML = ""
+            var cohortOption = document.createElement("option");
+            cohortOption.textContent = "Select Brain Region";
+            cohortOption.value = "";
+            selectPPIPathwayRegion.appendChild(cohortOption)
+            ppi_brain_regions.forEach(val => {
+                cohortOption = document.createElement("option");
+                cohortOption.textContent = val["Name"];
+                cohortOption.value = val["regionId"];
+                selectPPIPathwayRegion.appendChild(cohortOption)
+            })
+
+        }
+
+
+
+        var submitPPIPathway = document.getElementById("submitPPIPathway");
+        submitPPIPathway.addEventListener("click", function () {
+            if (selectPPIPathway.value == "" || selectPPIPathwayRegion.value == "") {
+                alert("Select pathway, brain region before submit!!!");
+                return false;
+            }
+            localStorage.removeItem('pd_net');
+            window.location.href = "PD_network.html?fileName=cointeraction/" + selectPPIPathway.value + "_" + selectPPIPathwayRegion.value
+        })
+    </script>
+
+</body>
+
+</html>

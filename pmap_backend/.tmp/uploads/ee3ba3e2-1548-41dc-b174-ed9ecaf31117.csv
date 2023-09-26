@@ -1,0 +1,5 @@
+gene,ID,description,logFC
+ATP6V1A,ENSG00000114573,ATPase H+ transporting V1 subunit A [Source:HGNC Symbol;Acc:HGNC:851],-2.394453672
+GAPDH,ENSG00000111640,glyceraldehyde-3-phosphate dehydrogenase [Source:HGNC Symbol;Acc:HGNC:4141],-0.907585636
+SLC25A5,ENSG00000005022,solute carrier family 25 member 5 [Source:HGNC Symbol;Acc:HGNC:10991],-3.458860537
+UBB,ENSG00000170315,ubiquitin B [Source:HGNC Symbol;Acc:HGNC:12463],-1.505407473

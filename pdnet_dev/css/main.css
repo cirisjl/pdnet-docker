@@ -1,0 +1,248 @@
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.colorNavy {background-color: #094c6b; color:white;}
+.colorTextNavy {color: #094c6b; }
+
+.dropbtn {
+    background-color: #f44336;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f44336;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #009688;
+}
+
+
+#networkTab {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#networkTab td, #networkTab th {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+}
+
+#networkTab tr:nth-child(even){background-color: #f2f2f2;}
+
+/*#networkTab tr:hover {background-color: #ddd;}*/
+
+#networkTab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #009686!important;
+    color: white;
+}
+
+
+
+.center-on-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/*Select attribute styling
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #094c6b;
+  background-image: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: block;
+  /* width: 20em; */
+  height: 2em;
+  line-height: 2;
+  background: #094c6b;
+  overflow: hidden;
+  border-radius: .25em;
+  margin: 6px ;
+}
+select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+select::-ms-expand {
+  display: none;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  color: #fff;
+  background: #0b445f;
+  pointer-events: none;
+}
+/* Transition */
+.select:hover::after {
+  color: #f39c12;
+}
+.select::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(44, 112, 144, 0.5);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+div.vertical-line{
+      width: 1px; /* Line width */
+      background-color: #094c6b; /* Line color */
+      height: 100%; /* Override in-line if you want specific height. */
+      float: left; /* Causes the line to float to left of content. 
+        You can instead use position:absolute or display:inline-block
+        if this fits better with your design */
+	margin-right:40px;
+	box-shadow: 0 0 10px 1px #094c6b;
+    }
+    .heading {
+      display: inline-flex;
+      background: #337ab7;
+      width: 100%;
+      color: white;
+      height: 59px;
+  }
+  .heading h5 {
+    padding-top: 12px;
+    padding-left: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+table#CustnetworkTab {
+  width: 100%;
+}
+
+.login_modal {
+    width: 500px;
+    height: 400px;
+    background: white;
+    margin: 100px auto;
+}
+.login_section {
+  height: 100%;
+  text-align: center;
+  margin: 15px;
+}
+.login_heading {
+  font-size: 30px;
+  height: 100px;
+}
+.input_box {
+    padding: 10px 20px;
+    outline: 0;
+    border-radius: 40px;
+    border: 1px solid #e4e0e0;
+}
+
+.button-login {
+  margin-top: 20px;
+  background: #8abed8;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  outline: 0;
+}
+button:active {
+  outline: none;
+  border: none;
+  }
+  
+  button:focus {outline:0;}
+
+  .text-denger {
+    color: red;
+    font-size: 14px;
+  }
+
+  /* =================== HAM MENU ===================== */
+  #drop_ham {
+    position: absolute;
+    background: #f5f5f5;
+    padding: 10px 20px;
+    /* right: 125px; */
+    top: 113px;
+  }
+
+  .ham_div {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-left: 20px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-7px, 6px);
+    transform: rotate(-45deg) translate(-7px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-3px, -3px);
+    transform: rotate(45deg) translate(-3px, -3px);
+  }

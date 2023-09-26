@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../authentication/js/environment.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PD_Net@PMAP</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light amp-navbar">
+      <div class="container nav-background">
+        <a class="navbar-brand">PD_Net</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"></ul>
+
+          <ul class="navbar-nav">
+            <li id="homebutton" class="nav-item">
+              <!-- <a class="nav-link" href="/pdnet">Home </a> -->
+            </li>
+            <!-- <li class="nav-item">
+						<a class="nav-link" href="./publication.html">Publications <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./faqs.html">Help</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./contact.html">Contact</a>
+                                        </li> -->
+            <li class="nav-item">
+              <div class="ham_div" onclick="hamAnimation(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <div id="drop_ham" style="display: none">
+                <div style="cursor: pointer; margin-bottom: 5px">
+                  <a href="./publication.html" style="color: black"
+                    >Publications</a
+                  >
+                </div>
+                <div style="cursor: pointer; margin-bottom: 5px">
+                  <a href="./about.html" style="color: black">About</a>
+                </div>
+                <div style="cursor: pointer; margin-bottom: 5px">
+                  <a href="./contact.html" style="color: black">Contact</a>
+                </div>
+                <!-- <div style="cursor: pointer; margin-bottom: 5px;"><a style="color: black;" onclick="logout('login_pdnet')">Logout</a></div> -->
+              </div>
+
+              <script>
+                function logout_user() {
+                  if (window.location.pathname.split("/").includes("pdnet")) {
+                    $("#drop_ham").append(
+                      `<div style="cursor: pointer; margin-bottom: 5px;"><a style="color: black;" onclick="logout('login_pdnet')">Logout</a></div>`
+                    );
+                    $("#homebutton").append(
+                      `<a class="nav-link" href="/pdnet">Home </a>`
+                    );
+                  } else {
+                    $("#homebutton").append(
+                      `<a class="nav-link" href="/pdnet_dev">Home </a>`
+                    );
+                    $("#drop_ham").append(
+                      `<div style="cursor: pointer; margin-bottom: 5px;"><a style="color: black;" onclick="logout('login_pdnet_dev')">Logout</a></div>`
+                    );
+                  }
+                }
+                logout_user();
+                function hamAnimation(x) {
+                  x.classList.toggle("change");
+                  if ($("#drop_ham").css("display") == "none") {
+                    $("#drop_ham").css("display", "block");
+                  } else {
+                    $("#drop_ham").css("display", "none");
+                  }
+                }
+              </script>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container pamp-wrapper">
+      <div class="overlay">
+        <div class="container overlay-wrapper"></div>
+      </div>
+    </div>
+
+    <div class="pamp-overview">
+      <div class="container">
+        <div class="row">
+          <div class="article">
+            <h4>Frequently Asked Questions</h4>
+            <ol>
+              <li>
+                <h5>
+                  Question: What is the workflow of using PMAP? How should we
+                  use PMAP?
+                </h5>
+                <p>
+                  Below is a typical work flow of analysis using PMAP. For
+                  further details, please contact Gyan Srivastava
+                  (gyan.srivastava@abbvie.com).
+                </p>
+
+                <div class="about_image">
+                  <img src="./images/ques1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h5>Question: which network I should use for analysis?</h5>
+                <p>
+                  For a given gene list, user can do enrichment test to select
+                  significantly enriched networks. Please contact Gyan
+                  Srivastava (gyan.srivastava@abbvie.com) for further details.
+                </p>
+                <p>
+                  As shown below, there are multiple type of networks already
+                  populated in the PMAP database. As the complexity of the
+                  network analysis is proportion to square of network size, it
+                  is recommended to avoid larger networks for analysis e.g. full
+                  proteostasis networks consisting of ~5000 genes or large size
+                  AMP-AD modules as shown in the information slide in the left
+                  panel.
+                </p>
+                <div class="about_image">
+                  <img src="./images/ques2.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h5>What kind of analysis can be performed in PMAP?</h5>
+                <p>
+                  Following figure explains various option of integrating
+                  information to a selected network from PMAP. These options are
+                  applicable and consistent to any selected network. Once user
+                  understands these options, he/she can apply these results to
+                  any network.
+                </p>
+                <div class="about_image">
+                  <img src="./images/ques3.png" alt="" />
+                </div>
+                <p>
+                  Here we provide an example of network analysis using PMAP. In
+                  particular, we are using an AMP-AD module “DLPFCBrown” to show
+                  various steps of analysis and derived scientific knowledge.
+                </p>
+              </li>
+              <li>
+                <h5>Example PMAP analysis using AMP-AD network module</h5>
+                <p>
+                  Here we provide an example analysis of an AMP-AD module to
+                  discover hot-spots in the network and deep divining the
+                  hub-genes. For illustration purpose, we chose “DLPFCBrown”
+                  AMP-AD module, which is highly associated with amyloid
+                  pathology. We created a functional protein-protein interaction
+                  network amongst those genes derived from string-DB database.
+                </p>
+                <p>
+                  A deep-dive into the network shows hot-spots of biological
+                  interest. For example, we identified clusters of E3 ligases
+                  and adapters as well as endocytosis but not lysosomes or
+                  autophagy-related genes (Figure 2a).
+                </p>
+                <div class="about_image">
+                  <img src="./images/fiq1.png" alt="" />
+                </div>
+                <div class="about_image">
+                  <img src="./images/fiq2.png" alt="" />
+                </div>
+                <p>
+                  <b
+                    >Figure 2: PPI network of 882 genes from DLPFCBrown
+                    module,</b
+                  >
+                  A) DLPFCBrown module PPI network labeled with other pathway
+                  genes in red color e.g. macroautophagy, lysosome etc. B) Genes
+                  involved in endocytosis pathways are shown in red color.
+                </p>
+                <p>
+                  We mapped differential expression summary on the network. As
+                  shown in Figure 3, many genes from this module are
+                  up-regulated in temporal cortex compared to cerebellum of AD
+                  patients. Given the fact that temporal cortex is highly
+                  affected in AD whereas Cerebellum is spared, these differences
+                  indicate region and disease-specific pathway activity of these
+                  genes. Moreover, genes that are down-regulated in cerebellum
+                  but not changed in temporal cortex of AD brain might be
+                  related to protective mechanism of this brain region against
+                  AD progression.
+                </p>
+                <div class="about_image">
+                  <img src="./images/fiq3.png" alt="" />
+                </div>
+                <p>
+                  <b
+                    >Figure 3. Differential expression of DLPFCBrown module in
+                    AD vs control.</b
+                  >
+                  A) temporal cortex B) Cerebellum. Color of a gene represents
+                  direction of differential expression i.e. Up-regulation in AD
+                  (red); Down-regulation in AD (green). Size of the circle is
+                  proportion to association (-log10 P-value) of genes to
+                  cognitive decline.
+                </p>
+                <p>
+                  Furthermore, we investigated endocytosis cluster and
+                  interacting partners of ADAM10 from this network. We mapped
+                  differential expression summary derived from 6 brain regions
+                  (Figure 4) and AD traits association P-value (Figure 5). The
+                  cluster shows brain region specific changes at transcriptional
+                  level. Interestingly, SPP1 is the only gene up-regulated in
+                  all 4 brain regions whereas other genes like NOTCH1 and DLL1
+                  are up-regulated in temporal cortex but not in other brain
+                  regions.
+                </p>
+
+                <div class="about_image">
+                  <img src="./images/fiq4.png" alt="" />
+                </div>
+
+                <p>
+                  <b
+                    >Figure 4. Transcriptional changes atlas of Hub-gene ADAM10
+                    and its direct interactors.
+                  </b>
+                  Size of the circle is proportion to association of genes to
+                  cognitive decline, whereas color of the genes shows
+                  differential expression in RNAseq
+                </p>
+                <p>
+                  Additionally, ADAM10 transcriptional changes are more
+                  associated with amyloid-plaques than neurofibrillary tangles.
+                  However, direct interactors of ADAM10 shows different level of
+                  association to AD traits. Specifically, SPP1, TMC6, RAP1A and
+                  NOTCH1 are strongly correlated to amyloid-plaque and cognitive
+                  decline but not with neurofibrillary tangles. In contrast,
+                  LAMB2 shows a similar level of association with both amyloid
+                  and tau pathology as well as cognitive decline.
+                </p>
+
+                <div class="about_image">
+                  <img src="./images/fiq5.png" alt="" />
+                </div>
+                <p>
+                  <b>Figure 5: Hub-gene ADAM10 and its direct interactors.</b>
+                  Size of the circle is proportion to association (-log10
+                  P-value) with AD-traits. Color represents Up (red) or Down
+                  (green) regulation of the genes expression in temporal cortex
+                  of AD brain.
+                </p>
+              </li>
+              <li>
+                <h5>
+                  What species are covered in The Proteostasis Network Reference
+                  Atlas (PNRA)?
+                </h5>
+                <p>
+                  Currently, the Proteostasis Network Reference Atlas is focused
+                  on Human genes and their Alzheimer’s association. Data from
+                  other animal model will be incorporated in future versions of
+                  the tool.
+                </p>
+              </li>
+              <li>
+                <h5>
+                  Can user see their own gene network in Proteostasis Network
+                  Reference Atlas (PNRA).
+                </h5>
+                <p>
+                  Ans: Yes, user can upload an input in given format and
+                  visualize the network and analyze the network’s gene assoction
+                  with other available data at Proteostasis Co-Expresssion
+                  Network.
+                </p>
+              </li>
+              <li>
+                <h5>How interconnection is established between two genes?</h5>
+                <p>
+                  The data from different modules were analyzed using
+                  correlation network analysis with the help of Multiscale
+                  Embedded Gene Co-expression Network Analysis package (Link:
+                  https://doi.org/10.1371/journal.pcbi.1004574 | References)
+                </p>
+              </li>
+            </ol>
+          </div>
+
+          <!-- <div class="coming-soon">
+                    
+                </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

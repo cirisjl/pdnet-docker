@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../authentication/js/environment.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PD_Net@PMAP</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light amp-navbar">
+      <div class="container nav-background">
+        <a class="navbar-brand">PD_Net</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"></ul>
+
+          <ul class="navbar-nav">
+            <li id="homebutton" class="nav-item">
+              <!-- <a class="nav-link" href="/pdnet">Home </a> -->
+            </li>
+            <!-- <li class="nav-item">
+                                                <a class="nav-link" href="./publication.html">Publications <span
+                                                                class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="./about.html">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="./faqs.html">Help</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="./contact.html">Contact</a>
+                                        </li> -->
+            <li class="nav-item">
+              <div class="ham_div" onclick="hamAnimation(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <div id="drop_ham" style="display: none">
+                <div style="cursor: pointer; margin-bottom: 5px">
+                  <a href="./publication.html" style="color: black"
+                    >Publications</a
+                  >
+                </div>
+                <div style="cursor: pointer; margin-bottom: 5px">
+                  <a href="./about.html" style="color: black">About</a>
+                </div>
+                <div style="cursor: pointer; margin-bottom: 5px">
+                  <a href="./faqs.html" style="color: black">Help</a>
+                </div>
+                <!-- <div style="cursor: pointer; margin-bottom: 5px;"><a style="color: black;" onclick="logout('login_pdnet')">Logout</a></div> -->
+              </div>
+              <!-- 
+              <script>
+                function logout_user() {
+                  if (window.location.pathname.split("/").includes("pdnet")) {
+                    $("#drop_ham").append(
+                      `<div style="cursor: pointer; margin-bottom: 5px;"><a style="color: black;" onclick="logout('login_pdnet')">Logout</a></div>`
+                    );
+                    $("#homebutton").append(
+                      `<a class="nav-link" href="/pdnet">Home </a>`
+                    );
+                  } else {
+                    $("#homebutton").append(
+                      `<a class="nav-link" href="/pdnet_dev">Home </a>`
+                    );
+                    $("#drop_ham").append(
+                      `<div style="cursor: pointer; margin-bottom: 5px;"><a style="color: black;" onclick="logout('login_pdnet_dev')">Logout</a></div>`
+                    );
+                  }
+                }
+                logout_user();
+                function hamAnimation(x) {
+                  x.classList.toggle("change");
+                  if ($("#drop_ham").css("display") == "none") {
+                    $("#drop_ham").css("display", "block");
+                  } else {
+                    $("#drop_ham").css("display", "none");
+                  }
+                }
+              </script>
+            -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container pamp-wrapper">
+      <div class="overlay">
+        <div class="container overlay-wrapper"></div>
+      </div>
+    </div>
+
+    <div class="pamp-overview">
+      <div class="container">
+        <div class="row">
+          <h5 class="team-header">Leadership team</h5>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top custom-img"
+                src="./images/gyan.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body c-body">
+                <b class="card-text"> Gyan P Srivastava</b>
+                <p class="des-text">
+                  Senior Manager <br />
+                  Data and Statistical Science <br />
+                  Abbvie Inc.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top custom-img"
+                src="./images/simon.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body c-body">
+                <b class="card-text">Simon Xi</b>
+                <p class="des-text">
+                  Head of Computational Biology and Genomics, FNC <br />
+                  Abbvie Inc. <br />
+                  Adjunct Faculty at Brandeis University
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top custom-img"
+                src="./images/matthew.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body c-body">
+                <b class="card-text">T Matthew Townsend</b>
+                <p class="des-text">
+                  Senior Manager <br />
+                  Data and Statistical Science <br />
+                  Abbvie Inc.
+                </p>
+              </div>
+            </div>
+          </div>
+          <h5 class="team-header">current team</h5>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top custom-img"
+                src="./images/PICA.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body c-body">
+                <b class="card-text">Rupam Basak</b>
+                <p class="des-text">
+                  Software Engineer <br />
+                  Full Stack Developer<br />
+                  mantra labs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-4">
+                                        <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top custom-img" src="./images/PICA.jpg"
+                                                        alt="Card image cap">
+                                                <div class="card-body c-body">
+                                                        <b class="card-text">Smriti Mishra</b>
+                                                        <p class="des-text">Scientific Manger <br>
+                                                                Computational Biology <br>
+                                                                Pharma Analytics <br>
+                                                                Excelra Knowledge Solutions Pvt. Ltd.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-4">
+                                        <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top custom-img" src="./images/PICA.jpg"
+                                                        alt="Card image cap">
+                                                <div class="card-body c-body">
+                                                        <b class="card-text"> Amit Das</b>
+                                                        <p class="des-text">Scientific Manger <br>
+                                                                Computational Biology <br>
+                                                                Pharma Analytics <br>
+                                                                Excelra Knowledge Solutions Pvt. Ltd.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <h5 class="team-header">Past team</h5>
+                                <div class="col-4">
+                                        <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top custom-img" src="./images/mis.jpg"
+                                                        alt="Card image cap">
+                                                <div class="card-body c-body">
+                                                        <b class="card-text">Mohd Imran Shah
+                                                        </b>
+                                                        <p class="des-text">Scientific Manger <br>
+                                                                Computational Biology <br>
+                                                                Pharma Analytics <br>
+                                                                Excelra Knowledge Solutions Pvt. Ltd.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-4">
+                                        <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top custom-img" src="./images/pr.jpg"
+                                                        alt="Card image cap">
+                                                <div class="card-body c-body">
+                                                        <b class="card-text"> Prabhasa Ravikirthi
+                                                        </b>
+                                                        <p class="des-text">Scientific Manger <br>
+                                                                Computational Biology <br>
+                                                                Pharma Analytics <br>
+                                                                Excelra Knowledge Solutions Pvt. Ltd.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-4">
+                                        <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top custom-img" src="./images/balu.jpg"
+                                                        alt="Card image cap">
+                                                <div class="card-body c-body">
+                                                        <b class="card-text">Balu Kamaraj
+                                                        </b>
+                                                        <p class="des-text">Scientific Manger <br>
+                                                                Computational Biology <br>
+                                                                Pharma Analytics <br>
+                                                                Excelra Knowledge Solutions Pvt. Ltd.</p>
+                                                </div>
+                                        </div>
+                                </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7164 @@
+{
+    "directed": false,
+    "graph": [],
+    "links": [
+        {
+            "source": 183,
+            "target": 218,
+            "weight": 0.81
+        },
+        {
+            "source": 183,
+            "target": 341,
+            "weight": 0.817
+        },
+        {
+            "source": 183,
+            "target": 114,
+            "weight": 0.809
+        },
+        {
+            "source": 183,
+            "target": 175,
+            "weight": 0.812
+        },
+        {
+            "source": 142,
+            "target": 161,
+            "weight": 0.96
+        },
+        {
+            "source": 142,
+            "target": 158,
+            "weight": 0.809
+        },
+        {
+            "source": 142,
+            "target": 39,
+            "weight": 0.734
+        },
+        {
+            "source": 142,
+            "target": 56,
+            "weight": 0.533
+        },
+        {
+            "source": 142,
+            "target": 103,
+            "weight": 0.731
+        },
+        {
+            "source": 142,
+            "target": 61,
+            "weight": 0.786
+        },
+        {
+            "source": 142,
+            "target": 209,
+            "weight": 0.566
+        },
+        {
+            "source": 142,
+            "target": 193,
+            "weight": 0.771
+        },
+        {
+            "source": 142,
+            "target": 162,
+            "weight": 0.805
+        },
+        {
+            "source": 142,
+            "target": 55,
+            "weight": 0.457
+        },
+        {
+            "source": 142,
+            "target": 101,
+            "weight": 0.957
+        },
+        {
+            "source": 142,
+            "target": 100,
+            "weight": 0.96
+        },
+        {
+            "source": 142,
+            "target": 251,
+            "weight": 0.958
+        },
+        {
+            "source": 142,
+            "target": 182,
+            "weight": 0.957
+        },
+        {
+            "source": 142,
+            "target": 88,
+            "weight": 0.96
+        },
+        {
+            "source": 142,
+            "target": 118,
+            "weight": 0.96
+        },
+        {
+            "source": 358,
+            "target": 400,
+            "weight": 0.821
+        },
+        {
+            "source": 358,
+            "target": 282,
+            "weight": 0.917
+        },
+        {
+            "source": 400,
+            "target": 386,
+            "weight": 0.42
+        },
+        {
+            "source": 400,
+            "target": 282,
+            "weight": 0.97
+        },
+        {
+            "source": 120,
+            "target": 249,
+            "weight": 0.522
+        },
+        {
+            "source": 36,
+            "target": 135,
+            "weight": 0.599
+        },
+        {
+            "source": 36,
+            "target": 32,
+            "weight": 0.524
+        },
+        {
+            "source": 36,
+            "target": 349,
+            "weight": 0.422
+        },
+        {
+            "source": 36,
+            "target": 143,
+            "weight": 0.462
+        },
+        {
+            "source": 36,
+            "target": 327,
+            "weight": 0.409
+        },
+        {
+            "source": 36,
+            "target": 342,
+            "weight": 0.563
+        },
+        {
+            "source": 36,
+            "target": 234,
+            "weight": 0.472
+        },
+        {
+            "source": 36,
+            "target": 277,
+            "weight": 0.794
+        },
+        {
+            "source": 36,
+            "target": 2,
+            "weight": 0.945
+        },
+        {
+            "source": 36,
+            "target": 69,
+            "weight": 0.737
+        },
+        {
+            "source": 36,
+            "target": 116,
+            "weight": 0.524
+        },
+        {
+            "source": 36,
+            "target": 300,
+            "weight": 0.457
+        },
+        {
+            "source": 36,
+            "target": 82,
+            "weight": 0.422
+        },
+        {
+            "source": 36,
+            "target": 3,
+            "weight": 0.644
+        },
+        {
+            "source": 36,
+            "target": 338,
+            "weight": 0.687
+        },
+        {
+            "source": 36,
+            "target": 13,
+            "weight": 0.737
+        },
+        {
+            "source": 36,
+            "target": 87,
+            "weight": 0.737
+        },
+        {
+            "source": 36,
+            "target": 181,
+            "weight": 0.737
+        },
+        {
+            "source": 36,
+            "target": 99,
+            "weight": 0.739
+        },
+        {
+            "source": 36,
+            "target": 144,
+            "weight": 0.472
+        },
+        {
+            "source": 36,
+            "target": 339,
+            "weight": 0.972
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 0.562
+        },
+        {
+            "source": 2,
+            "target": 29,
+            "weight": 0.498
+        },
+        {
+            "source": 2,
+            "target": 232,
+            "weight": 0.562
+        },
+        {
+            "source": 2,
+            "target": 53,
+            "weight": 0.412
+        },
+        {
+            "source": 2,
+            "target": 322,
+            "weight": 0.508
+        },
+        {
+            "source": 2,
+            "target": 32,
+            "weight": 0.484
+        },
+        {
+            "source": 2,
+            "target": 349,
+            "weight": 0.478
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 0.429
+        },
+        {
+            "source": 2,
+            "target": 143,
+            "weight": 0.478
+        },
+        {
+            "source": 2,
+            "target": 327,
+            "weight": 0.472
+        },
+        {
+            "source": 2,
+            "target": 342,
+            "weight": 0.562
+        },
+        {
+            "source": 2,
+            "target": 234,
+            "weight": 0.429
+        },
+        {
+            "source": 2,
+            "target": 18,
+            "weight": 0.512
+        },
+        {
+            "source": 2,
+            "target": 14,
+            "weight": 0.839
+        },
+        {
+            "source": 2,
+            "target": 225,
+            "weight": 0.408
+        },
+        {
+            "source": 2,
+            "target": 261,
+            "weight": 0.551
+        },
+        {
+            "source": 2,
+            "target": 250,
+            "weight": 0.407
+        },
+        {
+            "source": 2,
+            "target": 339,
+            "weight": 0.599
+        },
+        {
+            "source": 2,
+            "target": 173,
+            "weight": 0.486
+        },
+        {
+            "source": 2,
+            "target": 300,
+            "weight": 0.887
+        },
+        {
+            "source": 2,
+            "target": 338,
+            "weight": 0.945
+        },
+        {
+            "source": 2,
+            "target": 282,
+            "weight": 0.562
+        },
+        {
+            "source": 2,
+            "target": 82,
+            "weight": 0.478
+        },
+        {
+            "source": 2,
+            "target": 203,
+            "weight": 0.717
+        },
+        {
+            "source": 2,
+            "target": 371,
+            "weight": 0.981
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "weight": 0.81
+        },
+        {
+            "source": 64,
+            "target": 1,
+            "weight": 0.429
+        },
+        {
+            "source": 3,
+            "target": 135,
+            "weight": 0.414
+        },
+        {
+            "source": 3,
+            "target": 29,
+            "weight": 0.501
+        },
+        {
+            "source": 3,
+            "target": 53,
+            "weight": 0.416
+        },
+        {
+            "source": 3,
+            "target": 1,
+            "weight": 0.429
+        },
+        {
+            "source": 3,
+            "target": 39,
+            "weight": 0.524
+        },
+        {
+            "source": 3,
+            "target": 18,
+            "weight": 0.465
+        },
+        {
+            "source": 3,
+            "target": 277,
+            "weight": 0.49
+        },
+        {
+            "source": 3,
+            "target": 282,
+            "weight": 0.555
+        },
+        {
+            "source": 3,
+            "target": 203,
+            "weight": 0.564
+        },
+        {
+            "source": 3,
+            "target": 338,
+            "weight": 0.734
+        },
+        {
+            "source": 3,
+            "target": 192,
+            "weight": 0.41
+        },
+        {
+            "source": 203,
+            "target": 135,
+            "weight": 0.974
+        },
+        {
+            "source": 203,
+            "target": 49,
+            "weight": 0.997
+        },
+        {
+            "source": 203,
+            "target": 216,
+            "weight": 0.853
+        },
+        {
+            "source": 203,
+            "target": 69,
+            "weight": 0.564
+        },
+        {
+            "source": 203,
+            "target": 339,
+            "weight": 0.832
+        },
+        {
+            "source": 203,
+            "target": 13,
+            "weight": 0.564
+        },
+        {
+            "source": 203,
+            "target": 87,
+            "weight": 0.564
+        },
+        {
+            "source": 203,
+            "target": 181,
+            "weight": 0.564
+        },
+        {
+            "source": 49,
+            "target": 135,
+            "weight": 0.96
+        },
+        {
+            "source": 49,
+            "target": 38,
+            "weight": 0.425
+        },
+        {
+            "source": 49,
+            "target": 215,
+            "weight": 0.534
+        },
+        {
+            "source": 49,
+            "target": 71,
+            "weight": 0.432
+        },
+        {
+            "source": 49,
+            "target": 216,
+            "weight": 0.857
+        },
+        {
+            "source": 49,
+            "target": 339,
+            "weight": 0.851
+        },
+        {
+            "source": 281,
+            "target": 325,
+            "weight": 0.95
+        },
+        {
+            "source": 372,
+            "target": 235,
+            "weight": 0.418
+        },
+        {
+            "source": 372,
+            "target": 83,
+            "weight": 0.826
+        },
+        {
+            "source": 372,
+            "target": 344,
+            "weight": 0.519
+        },
+        {
+            "source": 38,
+            "target": 349,
+            "weight": 0.412
+        },
+        {
+            "source": 38,
+            "target": 327,
+            "weight": 0.41
+        },
+        {
+            "source": 38,
+            "target": 225,
+            "weight": 0.406
+        },
+        {
+            "source": 38,
+            "target": 371,
+            "weight": 0.98
+        },
+        {
+            "source": 38,
+            "target": 246,
+            "weight": 0.412
+        },
+        {
+            "source": 38,
+            "target": 115,
+            "weight": 0.41
+        },
+        {
+            "source": 38,
+            "target": 20,
+            "weight": 0.422
+        },
+        {
+            "source": 70,
+            "target": 192,
+            "weight": 0.41
+        },
+        {
+            "source": 112,
+            "target": 90,
+            "weight": 0.44
+        },
+        {
+            "source": 112,
+            "target": 216,
+            "weight": 0.425
+        },
+        {
+            "source": 356,
+            "target": 98,
+            "weight": 0.416
+        },
+        {
+            "source": 356,
+            "target": 371,
+            "weight": 0.98
+        },
+        {
+            "source": 340,
+            "target": 6,
+            "weight": 0.548
+        },
+        {
+            "source": 340,
+            "target": 346,
+            "weight": 0.949
+        },
+        {
+            "source": 340,
+            "target": 218,
+            "weight": 0.825
+        },
+        {
+            "source": 340,
+            "target": 20,
+            "weight": 0.406
+        },
+        {
+            "source": 340,
+            "target": 194,
+            "weight": 0.524
+        },
+        {
+            "source": 340,
+            "target": 371,
+            "weight": 0.98
+        },
+        {
+            "source": 346,
+            "target": 347,
+            "weight": 0.472
+        },
+        {
+            "source": 346,
+            "target": 268,
+            "weight": 0.459
+        },
+        {
+            "source": 346,
+            "target": 294,
+            "weight": 0.524
+        },
+        {
+            "source": 346,
+            "target": 194,
+            "weight": 0.416
+        },
+        {
+            "source": 346,
+            "target": 222,
+            "weight": 0.959
+        },
+        {
+            "source": 222,
+            "target": 194,
+            "weight": 0.468
+        },
+        {
+            "source": 325,
+            "target": 124,
+            "weight": 0.409
+        },
+        {
+            "source": 219,
+            "target": 113,
+            "weight": 0.461
+        },
+        {
+            "source": 219,
+            "target": 385,
+            "weight": 0.876
+        },
+        {
+            "source": 219,
+            "target": 89,
+            "weight": 0.45
+        },
+        {
+            "source": 219,
+            "target": 194,
+            "weight": 0.403
+        },
+        {
+            "source": 385,
+            "target": 245,
+            "weight": 0.422
+        },
+        {
+            "source": 343,
+            "target": 161,
+            "weight": 0.731
+        },
+        {
+            "source": 343,
+            "target": 374,
+            "weight": 0.416
+        },
+        {
+            "source": 374,
+            "target": 253,
+            "weight": 0.406
+        },
+        {
+            "source": 374,
+            "target": 102,
+            "weight": 0.416
+        },
+        {
+            "source": 374,
+            "target": 175,
+            "weight": 0.416
+        },
+        {
+            "source": 374,
+            "target": 7,
+            "weight": 0.4
+        },
+        {
+            "source": 138,
+            "target": 145,
+            "weight": 0.855
+        },
+        {
+            "source": 138,
+            "target": 133,
+            "weight": 0.496
+        },
+        {
+            "source": 138,
+            "target": 137,
+            "weight": 0.73
+        },
+        {
+            "source": 138,
+            "target": 200,
+            "weight": 0.836
+        },
+        {
+            "source": 138,
+            "target": 241,
+            "weight": 0.855
+        },
+        {
+            "source": 138,
+            "target": 66,
+            "weight": 0.835
+        },
+        {
+            "source": 138,
+            "target": 214,
+            "weight": 0.492
+        },
+        {
+            "source": 348,
+            "target": 206,
+            "weight": 0.416
+        },
+        {
+            "source": 348,
+            "target": 20,
+            "weight": 0.406
+        },
+        {
+            "source": 323,
+            "target": 307,
+            "weight": 0.808
+        },
+        {
+            "source": 323,
+            "target": 362,
+            "weight": 0.823
+        },
+        {
+            "source": 362,
+            "target": 307,
+            "weight": 0.843
+        },
+        {
+            "source": 228,
+            "target": 215,
+            "weight": 0.688
+        },
+        {
+            "source": 228,
+            "target": 310,
+            "weight": 0.435
+        },
+        {
+            "source": 53,
+            "target": 11,
+            "weight": 0.816
+        },
+        {
+            "source": 53,
+            "target": 210,
+            "weight": 0.42
+        },
+        {
+            "source": 53,
+            "target": 342,
+            "weight": 0.404
+        },
+        {
+            "source": 53,
+            "target": 46,
+            "weight": 0.424
+        },
+        {
+            "source": 53,
+            "target": 31,
+            "weight": 0.448
+        },
+        {
+            "source": 53,
+            "target": 55,
+            "weight": 0.404
+        },
+        {
+            "source": 53,
+            "target": 82,
+            "weight": 0.556
+        },
+        {
+            "source": 53,
+            "target": 23,
+            "weight": 0.811
+        },
+        {
+            "source": 53,
+            "target": 21,
+            "weight": 0.815
+        },
+        {
+            "source": 207,
+            "target": 113,
+            "weight": 0.477
+        },
+        {
+            "source": 290,
+            "target": 354,
+            "weight": 0.544
+        },
+        {
+            "source": 290,
+            "target": 161,
+            "weight": 0.735
+        },
+        {
+            "source": 143,
+            "target": 80,
+            "weight": 0.966
+        },
+        {
+            "source": 143,
+            "target": 164,
+            "weight": 0.962
+        },
+        {
+            "source": 143,
+            "target": 349,
+            "weight": 0.965
+        },
+        {
+            "source": 143,
+            "target": 108,
+            "weight": 0.967
+        },
+        {
+            "source": 143,
+            "target": 153,
+            "weight": 0.588
+        },
+        {
+            "source": 143,
+            "target": 198,
+            "weight": 0.418
+        },
+        {
+            "source": 143,
+            "target": 195,
+            "weight": 0.427
+        },
+        {
+            "source": 143,
+            "target": 199,
+            "weight": 0.427
+        },
+        {
+            "source": 143,
+            "target": 371,
+            "weight": 0.98
+        },
+        {
+            "source": 143,
+            "target": 82,
+            "weight": 0.966
+        },
+        {
+            "source": 143,
+            "target": 60,
+            "weight": 0.963
+        },
+        {
+            "source": 108,
+            "target": 80,
+            "weight": 0.969
+        },
+        {
+            "source": 108,
+            "target": 220,
+            "weight": 0.406
+        },
+        {
+            "source": 108,
+            "target": 164,
+            "weight": 0.96
+        },
+        {
+            "source": 108,
+            "target": 349,
+            "weight": 0.971
+        },
+        {
+            "source": 108,
+            "target": 217,
+            "weight": 0.459
+        },
+        {
+            "source": 108,
+            "target": 31,
+            "weight": 0.873
+        },
+        {
+            "source": 108,
+            "target": 28,
+            "weight": 0.522
+        },
+        {
+            "source": 108,
+            "target": 371,
+            "weight": 0.98
+        },
+        {
+            "source": 108,
+            "target": 82,
+            "weight": 0.966
+        },
+        {
+            "source": 108,
+            "target": 60,
+            "weight": 0.967
+        },
+        {
+            "source": 82,
+            "target": 80,
+            "weight": 0.962
+        },
+        {
+            "source": 82,
+            "target": 164,
+            "weight": 0.96
+        },
+        {
+            "source": 82,
+            "target": 349,
+            "weight": 0.965
+        },
+        {
+            "source": 82,
+            "target": 60,
+            "weight": 0.959
+        },
+        {
+            "source": 82,
+            "target": 371,
+            "weight": 0.98
+        },
+        {
+            "source": 349,
+            "target": 80,
+            "weight": 0.966
+        },
+        {
+            "source": 349,
+            "target": 164,
+            "weight": 0.964
+        },
+        {
+            "source": 349,
+            "target": 371,
+            "weight": 0.98
+        },
+        {
+            "source": 349,
+            "target": 60,
+            "weight": 0.974
+        },
+        {
+            "source": 349,
+            "target": 298,
+            "weight": 0.993
+        },
+        {
+            "source": 164,
+            "target": 236,
+            "weight": 0.419
+        },
+        {
+            "source": 164,
+            "target": 80,
+            "weight": 0.96
+        },
+        {
+            "source": 164,
+            "target": 10,
+            "weight": 0.432
+        },
+        {
+            "source": 164,
+            "target": 178,
+            "weight": 0.491
+        },
+        {
+            "source": 164,
+            "target": 217,
+            "weight": 0.459
+        },
+        {
+            "source": 164,
+            "target": 31,
+            "weight": 0.869
+        },
+        {
+            "source": 164,
+            "target": 371,
+            "weight": 0.98
+        },
+        {
+            "source": 164,
+            "target": 60,
+            "weight": 0.957
+        },
+        {
+            "source": 80,
+            "target": 371,
+            "weight": 0.98
+        },
+        {
+            "source": 80,
+            "target": 60,
+            "weight": 0.973
+        },
+        {
+            "source": 371,
+            "target": 147,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 0,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 133,
+            "weight": 0.983
+        },
+        {
+            "source": 371,
+            "target": 125,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 11,
+            "weight": 0.982
+        },
+        {
+            "source": 371,
+            "target": 210,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 22,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 113,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 102,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 322,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 32,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 109,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 158,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 48,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 280,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 81,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 19,
+            "weight": 0.984
+        },
+        {
+            "source": 371,
+            "target": 86,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 33,
+            "weight": 0.983
+        },
+        {
+            "source": 371,
+            "target": 30,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 7,
+            "weight": 0.982
+        },
+        {
+            "source": 371,
+            "target": 10,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 98,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 6,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 204,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 72,
+            "weight": 0.998
+        },
+        {
+            "source": 371,
+            "target": 60,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 104,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 39,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 128,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 249,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 189,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 139,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 129,
+            "weight": 0.665
+        },
+        {
+            "source": 371,
+            "target": 342,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 199,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 190,
+            "weight": 0.995
+        },
+        {
+            "source": 371,
+            "target": 18,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 21,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 62,
+            "weight": 0.983
+        },
+        {
+            "source": 371,
+            "target": 245,
+            "weight": 0.983
+        },
+        {
+            "source": 371,
+            "target": 14,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 196,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 131,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 187,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 45,
+            "weight": 0.547
+        },
+        {
+            "source": 371,
+            "target": 74,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 119,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 68,
+            "weight": 0.505
+        },
+        {
+            "source": 371,
+            "target": 331,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 27,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 197,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 338,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 15,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 140,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 265,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 310,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 23,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 152,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 110,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 195,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 73,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 134,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 167,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 275,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 43,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 214,
+            "weight": 0.983
+        },
+        {
+            "source": 371,
+            "target": 46,
+            "weight": 0.995
+        },
+        {
+            "source": 371,
+            "target": 28,
+            "weight": 0.98
+        },
+        {
+            "source": 371,
+            "target": 394,
+            "weight": 0.983
+        },
+        {
+            "source": 134,
+            "target": 242,
+            "weight": 0.741
+        },
+        {
+            "source": 134,
+            "target": 11,
+            "weight": 0.489
+        },
+        {
+            "source": 134,
+            "target": 22,
+            "weight": 0.473
+        },
+        {
+            "source": 134,
+            "target": 24,
+            "weight": 0.473
+        },
+        {
+            "source": 134,
+            "target": 9,
+            "weight": 0.504
+        },
+        {
+            "source": 134,
+            "target": 7,
+            "weight": 0.489
+        },
+        {
+            "source": 134,
+            "target": 65,
+            "weight": 0.408
+        },
+        {
+            "source": 134,
+            "target": 21,
+            "weight": 0.473
+        },
+        {
+            "source": 134,
+            "target": 215,
+            "weight": 0.52
+        },
+        {
+            "source": 134,
+            "target": 335,
+            "weight": 0.741
+        },
+        {
+            "source": 134,
+            "target": 23,
+            "weight": 0.473
+        },
+        {
+            "source": 216,
+            "target": 339,
+            "weight": 0.875
+        },
+        {
+            "source": 223,
+            "target": 201,
+            "weight": 0.521
+        },
+        {
+            "source": 223,
+            "target": 89,
+            "weight": 0.842
+        },
+        {
+            "source": 223,
+            "target": 194,
+            "weight": 0.881
+        },
+        {
+            "source": 194,
+            "target": 386,
+            "weight": 0.406
+        },
+        {
+            "source": 194,
+            "target": 347,
+            "weight": 0.876
+        },
+        {
+            "source": 194,
+            "target": 294,
+            "weight": 0.532
+        },
+        {
+            "source": 194,
+            "target": 397,
+            "weight": 0.462
+        },
+        {
+            "source": 89,
+            "target": 249,
+            "weight": 0.419
+        },
+        {
+            "source": 89,
+            "target": 136,
+            "weight": 0.489
+        },
+        {
+            "source": 89,
+            "target": 55,
+            "weight": 0.421
+        },
+        {
+            "source": 89,
+            "target": 347,
+            "weight": 0.8
+        },
+        {
+            "source": 74,
+            "target": 210,
+            "weight": 0.983
+        },
+        {
+            "source": 74,
+            "target": 30,
+            "weight": 0.665
+        },
+        {
+            "source": 74,
+            "target": 189,
+            "weight": 0.979
+        },
+        {
+            "source": 74,
+            "target": 190,
+            "weight": 0.812
+        },
+        {
+            "source": 210,
+            "target": 190,
+            "weight": 0.418
+        },
+        {
+            "source": 210,
+            "target": 31,
+            "weight": 0.82
+        },
+        {
+            "source": 210,
+            "target": 189,
+            "weight": 0.965
+        },
+        {
+            "source": 189,
+            "target": 30,
+            "weight": 0.665
+        },
+        {
+            "source": 189,
+            "target": 190,
+            "weight": 0.812
+        },
+        {
+            "source": 226,
+            "target": 357,
+            "weight": 0.873
+        },
+        {
+            "source": 226,
+            "target": 286,
+            "weight": 0.775
+        },
+        {
+            "source": 270,
+            "target": 233,
+            "weight": 0.819
+        },
+        {
+            "source": 270,
+            "target": 269,
+            "weight": 0.868
+        },
+        {
+            "source": 102,
+            "target": 113,
+            "weight": 0.468
+        },
+        {
+            "source": 102,
+            "target": 198,
+            "weight": 0.418
+        },
+        {
+            "source": 102,
+            "target": 192,
+            "weight": 0.553
+        },
+        {
+            "source": 102,
+            "target": 206,
+            "weight": 0.429
+        },
+        {
+            "source": 102,
+            "target": 86,
+            "weight": 0.412
+        },
+        {
+            "source": 102,
+            "target": 73,
+            "weight": 0.702
+        },
+        {
+            "source": 215,
+            "target": 135,
+            "weight": 0.556
+        },
+        {
+            "source": 215,
+            "target": 365,
+            "weight": 0.466
+        },
+        {
+            "source": 215,
+            "target": 44,
+            "weight": 0.447
+        },
+        {
+            "source": 215,
+            "target": 57,
+            "weight": 0.434
+        },
+        {
+            "source": 215,
+            "target": 174,
+            "weight": 0.693
+        },
+        {
+            "source": 215,
+            "target": 259,
+            "weight": 0.409
+        },
+        {
+            "source": 215,
+            "target": 121,
+            "weight": 0.511
+        },
+        {
+            "source": 121,
+            "target": 124,
+            "weight": 0.472
+        },
+        {
+            "source": 121,
+            "target": 174,
+            "weight": 0.464
+        },
+        {
+            "source": 124,
+            "target": 71,
+            "weight": 0.597
+        },
+        {
+            "source": 341,
+            "target": 151,
+            "weight": 0.9
+        },
+        {
+            "source": 341,
+            "target": 220,
+            "weight": 0.89
+        },
+        {
+            "source": 341,
+            "target": 175,
+            "weight": 0.885
+        },
+        {
+            "source": 341,
+            "target": 114,
+            "weight": 0.895
+        },
+        {
+            "source": 341,
+            "target": 55,
+            "weight": 0.883
+        },
+        {
+            "source": 177,
+            "target": 253,
+            "weight": 0.787
+        },
+        {
+            "source": 177,
+            "target": 8,
+            "weight": 0.443
+        },
+        {
+            "source": 177,
+            "target": 196,
+            "weight": 0.813
+        },
+        {
+            "source": 338,
+            "target": 380,
+            "weight": 0.865
+        },
+        {
+            "source": 338,
+            "target": 322,
+            "weight": 0.599
+        },
+        {
+            "source": 338,
+            "target": 14,
+            "weight": 0.918
+        },
+        {
+            "source": 338,
+            "target": 69,
+            "weight": 0.737
+        },
+        {
+            "source": 338,
+            "target": 181,
+            "weight": 0.737
+        },
+        {
+            "source": 338,
+            "target": 87,
+            "weight": 0.737
+        },
+        {
+            "source": 338,
+            "target": 13,
+            "weight": 0.737
+        },
+        {
+            "source": 97,
+            "target": 147,
+            "weight": 0.847
+        },
+        {
+            "source": 97,
+            "target": 342,
+            "weight": 0.44
+        },
+        {
+            "source": 214,
+            "target": 133,
+            "weight": 0.707
+        },
+        {
+            "source": 214,
+            "target": 322,
+            "weight": 0.421
+        },
+        {
+            "source": 214,
+            "target": 19,
+            "weight": 0.526
+        },
+        {
+            "source": 214,
+            "target": 39,
+            "weight": 0.588
+        },
+        {
+            "source": 214,
+            "target": 264,
+            "weight": 0.457
+        },
+        {
+            "source": 214,
+            "target": 45,
+            "weight": 0.576
+        },
+        {
+            "source": 214,
+            "target": 213,
+            "weight": 0.418
+        },
+        {
+            "source": 62,
+            "target": 45,
+            "weight": 0.441
+        },
+        {
+            "source": 46,
+            "target": 33,
+            "weight": 0.409
+        },
+        {
+            "source": 46,
+            "target": 200,
+            "weight": 0.432
+        },
+        {
+            "source": 46,
+            "target": 107,
+            "weight": 0.412
+        },
+        {
+            "source": 46,
+            "target": 213,
+            "weight": 0.412
+        },
+        {
+            "source": 46,
+            "target": 246,
+            "weight": 0.477
+        },
+        {
+            "source": 46,
+            "target": 140,
+            "weight": 0.696
+        },
+        {
+            "source": 46,
+            "target": 178,
+            "weight": 0.407
+        },
+        {
+            "source": 46,
+            "target": 25,
+            "weight": 0.497
+        },
+        {
+            "source": 394,
+            "target": 190,
+            "weight": 0.994
+        },
+        {
+            "source": 133,
+            "target": 198,
+            "weight": 0.405
+        },
+        {
+            "source": 133,
+            "target": 213,
+            "weight": 0.418
+        },
+        {
+            "source": 133,
+            "target": 43,
+            "weight": 0.549
+        },
+        {
+            "source": 133,
+            "target": 45,
+            "weight": 0.631
+        },
+        {
+            "source": 45,
+            "target": 253,
+            "weight": 0.402
+        },
+        {
+            "source": 45,
+            "target": 137,
+            "weight": 0.746
+        },
+        {
+            "source": 45,
+            "target": 165,
+            "weight": 0.479
+        },
+        {
+            "source": 45,
+            "target": 200,
+            "weight": 0.746
+        },
+        {
+            "source": 45,
+            "target": 128,
+            "weight": 0.425
+        },
+        {
+            "source": 45,
+            "target": 245,
+            "weight": 0.4
+        },
+        {
+            "source": 45,
+            "target": 197,
+            "weight": 0.406
+        },
+        {
+            "source": 45,
+            "target": 68,
+            "weight": 0.472
+        },
+        {
+            "source": 45,
+            "target": 266,
+            "weight": 0.435
+        },
+        {
+            "source": 45,
+            "target": 66,
+            "weight": 0.731
+        },
+        {
+            "source": 45,
+            "target": 176,
+            "weight": 0.404
+        },
+        {
+            "source": 347,
+            "target": 78,
+            "weight": 0.669
+        },
+        {
+            "source": 347,
+            "target": 58,
+            "weight": 0.756
+        },
+        {
+            "source": 347,
+            "target": 153,
+            "weight": 0.669
+        },
+        {
+            "source": 347,
+            "target": 128,
+            "weight": 0.669
+        },
+        {
+            "source": 347,
+            "target": 212,
+            "weight": 0.756
+        },
+        {
+            "source": 347,
+            "target": 28,
+            "weight": 0.96
+        },
+        {
+            "source": 268,
+            "target": 232,
+            "weight": 0.46
+        },
+        {
+            "source": 268,
+            "target": 227,
+            "weight": 0.523
+        },
+        {
+            "source": 268,
+            "target": 1,
+            "weight": 0.4
+        },
+        {
+            "source": 268,
+            "target": 252,
+            "weight": 0.499
+        },
+        {
+            "source": 268,
+            "target": 302,
+            "weight": 0.474
+        },
+        {
+            "source": 233,
+            "target": 23,
+            "weight": 0.401
+        },
+        {
+            "source": 233,
+            "target": 269,
+            "weight": 0.869
+        },
+        {
+            "source": 163,
+            "target": 174,
+            "weight": 0.478
+        },
+        {
+            "source": 15,
+            "target": 242,
+            "weight": 0.566
+        },
+        {
+            "source": 15,
+            "target": 335,
+            "weight": 0.718
+        },
+        {
+            "source": 14,
+            "target": 242,
+            "weight": 0.407
+        },
+        {
+            "source": 14,
+            "target": 1,
+            "weight": 0.437
+        },
+        {
+            "source": 14,
+            "target": 363,
+            "weight": 0.4
+        },
+        {
+            "source": 14,
+            "target": 54,
+            "weight": 0.837
+        },
+        {
+            "source": 14,
+            "target": 140,
+            "weight": 0.449
+        },
+        {
+            "source": 14,
+            "target": 335,
+            "weight": 0.452
+        },
+        {
+            "source": 14,
+            "target": 318,
+            "weight": 0.731
+        },
+        {
+            "source": 14,
+            "target": 331,
+            "weight": 0.869
+        },
+        {
+            "source": 318,
+            "target": 98,
+            "weight": 0.4
+        },
+        {
+            "source": 318,
+            "target": 179,
+            "weight": 0.732
+        },
+        {
+            "source": 191,
+            "target": 43,
+            "weight": 0.515
+        },
+        {
+            "source": 18,
+            "target": 29,
+            "weight": 0.959
+        },
+        {
+            "source": 18,
+            "target": 156,
+            "weight": 0.469
+        },
+        {
+            "source": 18,
+            "target": 161,
+            "weight": 0.959
+        },
+        {
+            "source": 18,
+            "target": 158,
+            "weight": 0.807
+        },
+        {
+            "source": 18,
+            "target": 137,
+            "weight": 0.544
+        },
+        {
+            "source": 18,
+            "target": 78,
+            "weight": 0.42
+        },
+        {
+            "source": 18,
+            "target": 1,
+            "weight": 0.404
+        },
+        {
+            "source": 18,
+            "target": 198,
+            "weight": 0.458
+        },
+        {
+            "source": 18,
+            "target": 162,
+            "weight": 0.581
+        },
+        {
+            "source": 18,
+            "target": 200,
+            "weight": 0.544
+        },
+        {
+            "source": 18,
+            "target": 39,
+            "weight": 0.648
+        },
+        {
+            "source": 18,
+            "target": 146,
+            "weight": 0.881
+        },
+        {
+            "source": 18,
+            "target": 310,
+            "weight": 0.472
+        },
+        {
+            "source": 18,
+            "target": 212,
+            "weight": 0.441
+        },
+        {
+            "source": 18,
+            "target": 66,
+            "weight": 0.544
+        },
+        {
+            "source": 18,
+            "target": 264,
+            "weight": 0.436
+        },
+        {
+            "source": 18,
+            "target": 193,
+            "weight": 0.548
+        },
+        {
+            "source": 18,
+            "target": 251,
+            "weight": 0.944
+        },
+        {
+            "source": 18,
+            "target": 101,
+            "weight": 0.971
+        },
+        {
+            "source": 18,
+            "target": 118,
+            "weight": 0.973
+        },
+        {
+            "source": 18,
+            "target": 103,
+            "weight": 0.564
+        },
+        {
+            "source": 18,
+            "target": 182,
+            "weight": 0.971
+        },
+        {
+            "source": 18,
+            "target": 61,
+            "weight": 0.816
+        },
+        {
+            "source": 18,
+            "target": 100,
+            "weight": 0.96
+        },
+        {
+            "source": 18,
+            "target": 88,
+            "weight": 0.972
+        },
+        {
+            "source": 29,
+            "target": 1,
+            "weight": 0.404
+        },
+        {
+            "source": 29,
+            "target": 137,
+            "weight": 0.575
+        },
+        {
+            "source": 29,
+            "target": 200,
+            "weight": 0.544
+        },
+        {
+            "source": 29,
+            "target": 39,
+            "weight": 0.648
+        },
+        {
+            "source": 29,
+            "target": 251,
+            "weight": 0.736
+        },
+        {
+            "source": 29,
+            "target": 161,
+            "weight": 0.801
+        },
+        {
+            "source": 29,
+            "target": 88,
+            "weight": 0.765
+        },
+        {
+            "source": 29,
+            "target": 182,
+            "weight": 0.792
+        },
+        {
+            "source": 29,
+            "target": 198,
+            "weight": 0.506
+        },
+        {
+            "source": 29,
+            "target": 101,
+            "weight": 0.796
+        },
+        {
+            "source": 29,
+            "target": 100,
+            "weight": 0.801
+        },
+        {
+            "source": 29,
+            "target": 162,
+            "weight": 0.581
+        },
+        {
+            "source": 29,
+            "target": 61,
+            "weight": 0.724
+        },
+        {
+            "source": 29,
+            "target": 158,
+            "weight": 0.796
+        },
+        {
+            "source": 29,
+            "target": 118,
+            "weight": 0.8
+        },
+        {
+            "source": 29,
+            "target": 146,
+            "weight": 0.853
+        },
+        {
+            "source": 146,
+            "target": 125,
+            "weight": 0.428
+        },
+        {
+            "source": 146,
+            "target": 54,
+            "weight": 0.799
+        },
+        {
+            "source": 146,
+            "target": 167,
+            "weight": 0.412
+        },
+        {
+            "source": 198,
+            "target": 161,
+            "weight": 0.956
+        },
+        {
+            "source": 198,
+            "target": 158,
+            "weight": 0.798
+        },
+        {
+            "source": 198,
+            "target": 267,
+            "weight": 0.422
+        },
+        {
+            "source": 198,
+            "target": 190,
+            "weight": 0.558
+        },
+        {
+            "source": 198,
+            "target": 43,
+            "weight": 0.512
+        },
+        {
+            "source": 198,
+            "target": 39,
+            "weight": 0.729
+        },
+        {
+            "source": 198,
+            "target": 251,
+            "weight": 0.944
+        },
+        {
+            "source": 198,
+            "target": 101,
+            "weight": 0.963
+        },
+        {
+            "source": 198,
+            "target": 118,
+            "weight": 0.957
+        },
+        {
+            "source": 198,
+            "target": 103,
+            "weight": 0.944
+        },
+        {
+            "source": 198,
+            "target": 162,
+            "weight": 0.966
+        },
+        {
+            "source": 198,
+            "target": 193,
+            "weight": 0.956
+        },
+        {
+            "source": 198,
+            "target": 182,
+            "weight": 0.956
+        },
+        {
+            "source": 198,
+            "target": 61,
+            "weight": 0.968
+        },
+        {
+            "source": 198,
+            "target": 100,
+            "weight": 0.966
+        },
+        {
+            "source": 198,
+            "target": 88,
+            "weight": 0.967
+        },
+        {
+            "source": 56,
+            "target": 0,
+            "weight": 0.411
+        },
+        {
+            "source": 56,
+            "target": 221,
+            "weight": 0.88
+        },
+        {
+            "source": 56,
+            "target": 161,
+            "weight": 0.651
+        },
+        {
+            "source": 56,
+            "target": 158,
+            "weight": 0.813
+        },
+        {
+            "source": 56,
+            "target": 33,
+            "weight": 0.698
+        },
+        {
+            "source": 56,
+            "target": 162,
+            "weight": 0.404
+        },
+        {
+            "source": 56,
+            "target": 65,
+            "weight": 0.414
+        },
+        {
+            "source": 56,
+            "target": 39,
+            "weight": 0.706
+        },
+        {
+            "source": 56,
+            "target": 209,
+            "weight": 0.994
+        },
+        {
+            "source": 56,
+            "target": 61,
+            "weight": 0.731
+        },
+        {
+            "source": 56,
+            "target": 171,
+            "weight": 0.974
+        },
+        {
+            "source": 56,
+            "target": 118,
+            "weight": 0.72
+        },
+        {
+            "source": 56,
+            "target": 251,
+            "weight": 0.758
+        },
+        {
+            "source": 56,
+            "target": 88,
+            "weight": 0.736
+        },
+        {
+            "source": 56,
+            "target": 25,
+            "weight": 0.44
+        },
+        {
+            "source": 56,
+            "target": 101,
+            "weight": 0.772
+        },
+        {
+            "source": 56,
+            "target": 182,
+            "weight": 0.774
+        },
+        {
+            "source": 56,
+            "target": 205,
+            "weight": 0.995
+        },
+        {
+            "source": 171,
+            "target": 221,
+            "weight": 0.945
+        },
+        {
+            "source": 171,
+            "target": 161,
+            "weight": 0.651
+        },
+        {
+            "source": 171,
+            "target": 158,
+            "weight": 0.792
+        },
+        {
+            "source": 171,
+            "target": 86,
+            "weight": 0.404
+        },
+        {
+            "source": 171,
+            "target": 33,
+            "weight": 0.834
+        },
+        {
+            "source": 171,
+            "target": 39,
+            "weight": 0.717
+        },
+        {
+            "source": 171,
+            "target": 209,
+            "weight": 0.954
+        },
+        {
+            "source": 171,
+            "target": 61,
+            "weight": 0.7
+        },
+        {
+            "source": 171,
+            "target": 43,
+            "weight": 0.456
+        },
+        {
+            "source": 171,
+            "target": 126,
+            "weight": 0.412
+        },
+        {
+            "source": 171,
+            "target": 251,
+            "weight": 0.732
+        },
+        {
+            "source": 171,
+            "target": 118,
+            "weight": 0.736
+        },
+        {
+            "source": 171,
+            "target": 25,
+            "weight": 0.469
+        },
+        {
+            "source": 171,
+            "target": 101,
+            "weight": 0.771
+        },
+        {
+            "source": 171,
+            "target": 88,
+            "weight": 0.825
+        },
+        {
+            "source": 171,
+            "target": 182,
+            "weight": 0.772
+        },
+        {
+            "source": 171,
+            "target": 205,
+            "weight": 0.984
+        },
+        {
+            "source": 209,
+            "target": 0,
+            "weight": 0.441
+        },
+        {
+            "source": 209,
+            "target": 221,
+            "weight": 0.899
+        },
+        {
+            "source": 209,
+            "target": 161,
+            "weight": 0.414
+        },
+        {
+            "source": 209,
+            "target": 158,
+            "weight": 0.735
+        },
+        {
+            "source": 209,
+            "target": 33,
+            "weight": 0.689
+        },
+        {
+            "source": 209,
+            "target": 39,
+            "weight": 0.557
+        },
+        {
+            "source": 209,
+            "target": 118,
+            "weight": 0.63
+        },
+        {
+            "source": 209,
+            "target": 61,
+            "weight": 0.414
+        },
+        {
+            "source": 209,
+            "target": 101,
+            "weight": 0.788
+        },
+        {
+            "source": 209,
+            "target": 251,
+            "weight": 0.675
+        },
+        {
+            "source": 209,
+            "target": 88,
+            "weight": 0.725
+        },
+        {
+            "source": 209,
+            "target": 182,
+            "weight": 0.734
+        },
+        {
+            "source": 209,
+            "target": 205,
+            "weight": 0.994
+        },
+        {
+            "source": 221,
+            "target": 33,
+            "weight": 0.806
+        },
+        {
+            "source": 221,
+            "target": 205,
+            "weight": 0.956
+        },
+        {
+            "source": 205,
+            "target": 158,
+            "weight": 0.731
+        },
+        {
+            "source": 205,
+            "target": 101,
+            "weight": 0.762
+        },
+        {
+            "source": 205,
+            "target": 88,
+            "weight": 0.41
+        },
+        {
+            "source": 205,
+            "target": 110,
+            "weight": 0.816
+        },
+        {
+            "source": 205,
+            "target": 182,
+            "weight": 0.755
+        },
+        {
+            "source": 205,
+            "target": 251,
+            "weight": 0.437
+        },
+        {
+            "source": 33,
+            "target": 105,
+            "weight": 0.912
+        },
+        {
+            "source": 33,
+            "target": 200,
+            "weight": 0.472
+        },
+        {
+            "source": 33,
+            "target": 126,
+            "weight": 0.924
+        },
+        {
+            "source": 33,
+            "target": 178,
+            "weight": 0.623
+        },
+        {
+            "source": 33,
+            "target": 25,
+            "weight": 0.93
+        },
+        {
+            "source": 105,
+            "target": 25,
+            "weight": 0.761
+        },
+        {
+            "source": 105,
+            "target": 126,
+            "weight": 0.976
+        },
+        {
+            "source": 178,
+            "target": 0,
+            "weight": 0.416
+        },
+        {
+            "source": 178,
+            "target": 200,
+            "weight": 0.457
+        },
+        {
+            "source": 178,
+            "target": 107,
+            "weight": 0.47
+        },
+        {
+            "source": 178,
+            "target": 327,
+            "weight": 0.402
+        },
+        {
+            "source": 178,
+            "target": 88,
+            "weight": 0.732
+        },
+        {
+            "source": 178,
+            "target": 259,
+            "weight": 0.438
+        },
+        {
+            "source": 178,
+            "target": 359,
+            "weight": 0.41
+        },
+        {
+            "source": 178,
+            "target": 118,
+            "weight": 0.732
+        },
+        {
+            "source": 178,
+            "target": 251,
+            "weight": 0.681
+        },
+        {
+            "source": 178,
+            "target": 25,
+            "weight": 0.834
+        },
+        {
+            "source": 25,
+            "target": 137,
+            "weight": 0.8
+        },
+        {
+            "source": 25,
+            "target": 200,
+            "weight": 0.972
+        },
+        {
+            "source": 25,
+            "target": 66,
+            "weight": 0.821
+        },
+        {
+            "source": 25,
+            "target": 126,
+            "weight": 0.943
+        },
+        {
+            "source": 126,
+            "target": 137,
+            "weight": 0.731
+        },
+        {
+            "source": 126,
+            "target": 200,
+            "weight": 0.836
+        },
+        {
+            "source": 126,
+            "target": 66,
+            "weight": 0.834
+        },
+        {
+            "source": 47,
+            "target": 90,
+            "weight": 0.839
+        },
+        {
+            "source": 47,
+            "target": 235,
+            "weight": 0.812
+        },
+        {
+            "source": 40,
+            "target": 11,
+            "weight": 0.934
+        },
+        {
+            "source": 40,
+            "target": 22,
+            "weight": 0.489
+        },
+        {
+            "source": 40,
+            "target": 9,
+            "weight": 0.987
+        },
+        {
+            "source": 40,
+            "target": 7,
+            "weight": 0.941
+        },
+        {
+            "source": 55,
+            "target": 151,
+            "weight": 0.9
+        },
+        {
+            "source": 55,
+            "target": 220,
+            "weight": 0.947
+        },
+        {
+            "source": 55,
+            "target": 158,
+            "weight": 0.469
+        },
+        {
+            "source": 55,
+            "target": 60,
+            "weight": 0.415
+        },
+        {
+            "source": 55,
+            "target": 218,
+            "weight": 0.824
+        },
+        {
+            "source": 55,
+            "target": 88,
+            "weight": 0.457
+        },
+        {
+            "source": 55,
+            "target": 101,
+            "weight": 0.455
+        },
+        {
+            "source": 55,
+            "target": 193,
+            "weight": 0.453
+        },
+        {
+            "source": 55,
+            "target": 100,
+            "weight": 0.455
+        },
+        {
+            "source": 55,
+            "target": 175,
+            "weight": 0.899
+        },
+        {
+            "source": 55,
+            "target": 114,
+            "weight": 0.832
+        },
+        {
+            "source": 273,
+            "target": 360,
+            "weight": 0.419
+        },
+        {
+            "source": 316,
+            "target": 384,
+            "weight": 0.935
+        },
+        {
+            "source": 10,
+            "target": 31,
+            "weight": 0.44
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 0.443
+        },
+        {
+            "source": 8,
+            "target": 195,
+            "weight": 0.683
+        },
+        {
+            "source": 8,
+            "target": 20,
+            "weight": 0.827
+        },
+        {
+            "source": 20,
+            "target": 188,
+            "weight": 0.4
+        },
+        {
+            "source": 271,
+            "target": 322,
+            "weight": 0.419
+        },
+        {
+            "source": 271,
+            "target": 98,
+            "weight": 0.787
+        },
+        {
+            "source": 271,
+            "target": 141,
+            "weight": 0.8
+        },
+        {
+            "source": 271,
+            "target": 131,
+            "weight": 0.418
+        },
+        {
+            "source": 271,
+            "target": 118,
+            "weight": 0.513
+        },
+        {
+            "source": 241,
+            "target": 145,
+            "weight": 0.818
+        },
+        {
+            "source": 241,
+            "target": 200,
+            "weight": 0.416
+        },
+        {
+            "source": 241,
+            "target": 66,
+            "weight": 0.412
+        },
+        {
+            "source": 90,
+            "target": 125,
+            "weight": 0.468
+        },
+        {
+            "source": 90,
+            "target": 170,
+            "weight": 0.448
+        },
+        {
+            "source": 90,
+            "target": 28,
+            "weight": 0.45
+        },
+        {
+            "source": 90,
+            "target": 195,
+            "weight": 0.445
+        },
+        {
+            "source": 90,
+            "target": 199,
+            "weight": 0.442
+        },
+        {
+            "source": 90,
+            "target": 235,
+            "weight": 0.83
+        },
+        {
+            "source": 83,
+            "target": 264,
+            "weight": 0.418
+        },
+        {
+            "source": 83,
+            "target": 291,
+            "weight": 0.412
+        },
+        {
+            "source": 83,
+            "target": 344,
+            "weight": 0.663
+        },
+        {
+            "source": 240,
+            "target": 114,
+            "weight": 0.812
+        },
+        {
+            "source": 240,
+            "target": 218,
+            "weight": 0.871
+        },
+        {
+            "source": 254,
+            "target": 283,
+            "weight": 0.601
+        },
+        {
+            "source": 254,
+            "target": 301,
+            "weight": 0.887
+        },
+        {
+            "source": 254,
+            "target": 388,
+            "weight": 0.715
+        },
+        {
+            "source": 254,
+            "target": 292,
+            "weight": 0.405
+        },
+        {
+            "source": 254,
+            "target": 284,
+            "weight": 0.813
+        },
+        {
+            "source": 284,
+            "target": 255,
+            "weight": 0.42
+        },
+        {
+            "source": 284,
+            "target": 301,
+            "weight": 0.845
+        },
+        {
+            "source": 258,
+            "target": 238,
+            "weight": 0.877
+        },
+        {
+            "source": 258,
+            "target": 386,
+            "weight": 0.467
+        },
+        {
+            "source": 298,
+            "target": 118,
+            "weight": 0.472
+        },
+        {
+            "source": 326,
+            "target": 31,
+            "weight": 0.4
+        },
+        {
+            "source": 118,
+            "target": 354,
+            "weight": 0.409
+        },
+        {
+            "source": 118,
+            "target": 161,
+            "weight": 0.96
+        },
+        {
+            "source": 118,
+            "target": 158,
+            "weight": 0.876
+        },
+        {
+            "source": 118,
+            "target": 78,
+            "weight": 0.422
+        },
+        {
+            "source": 118,
+            "target": 361,
+            "weight": 0.412
+        },
+        {
+            "source": 118,
+            "target": 162,
+            "weight": 0.974
+        },
+        {
+            "source": 118,
+            "target": 39,
+            "weight": 0.816
+        },
+        {
+            "source": 118,
+            "target": 61,
+            "weight": 0.976
+        },
+        {
+            "source": 118,
+            "target": 103,
+            "weight": 0.947
+        },
+        {
+            "source": 118,
+            "target": 131,
+            "weight": 0.818
+        },
+        {
+            "source": 118,
+            "target": 101,
+            "weight": 0.96
+        },
+        {
+            "source": 118,
+            "target": 88,
+            "weight": 0.974
+        },
+        {
+            "source": 118,
+            "target": 182,
+            "weight": 0.967
+        },
+        {
+            "source": 118,
+            "target": 193,
+            "weight": 0.96
+        },
+        {
+            "source": 118,
+            "target": 100,
+            "weight": 0.96
+        },
+        {
+            "source": 118,
+            "target": 251,
+            "weight": 0.958
+        },
+        {
+            "source": 152,
+            "target": 364,
+            "weight": 0.815
+        },
+        {
+            "source": 152,
+            "target": 303,
+            "weight": 0.835
+        },
+        {
+            "source": 152,
+            "target": 262,
+            "weight": 0.818
+        },
+        {
+            "source": 152,
+            "target": 43,
+            "weight": 0.836
+        },
+        {
+            "source": 172,
+            "target": 161,
+            "weight": 0.651
+        },
+        {
+            "source": 172,
+            "target": 162,
+            "weight": 0.402
+        },
+        {
+            "source": 172,
+            "target": 101,
+            "weight": 0.793
+        },
+        {
+            "source": 172,
+            "target": 88,
+            "weight": 0.782
+        },
+        {
+            "source": 172,
+            "target": 75,
+            "weight": 0.692
+        },
+        {
+            "source": 172,
+            "target": 182,
+            "weight": 0.769
+        },
+        {
+            "source": 264,
+            "target": 109,
+            "weight": 0.482
+        },
+        {
+            "source": 264,
+            "target": 200,
+            "weight": 0.749
+        },
+        {
+            "source": 264,
+            "target": 72,
+            "weight": 0.502
+        },
+        {
+            "source": 264,
+            "target": 129,
+            "weight": 0.617
+        },
+        {
+            "source": 264,
+            "target": 88,
+            "weight": 0.419
+        },
+        {
+            "source": 264,
+            "target": 266,
+            "weight": 0.401
+        },
+        {
+            "source": 264,
+            "target": 246,
+            "weight": 0.674
+        },
+        {
+            "source": 264,
+            "target": 245,
+            "weight": 0.81
+        },
+        {
+            "source": 245,
+            "target": 246,
+            "weight": 0.82
+        },
+        {
+            "source": 245,
+            "target": 225,
+            "weight": 0.854
+        },
+        {
+            "source": 245,
+            "target": 176,
+            "weight": 0.415
+        },
+        {
+            "source": 246,
+            "target": 129,
+            "weight": 0.433
+        },
+        {
+            "source": 129,
+            "target": 353,
+            "weight": 0.714
+        },
+        {
+            "source": 81,
+            "target": 51,
+            "weight": 0.406
+        },
+        {
+            "source": 81,
+            "target": 128,
+            "weight": 0.431
+        },
+        {
+            "source": 81,
+            "target": 266,
+            "weight": 0.422
+        },
+        {
+            "source": 81,
+            "target": 187,
+            "weight": 0.412
+        },
+        {
+            "source": 81,
+            "target": 213,
+            "weight": 0.764
+        },
+        {
+            "source": 199,
+            "target": 376,
+            "weight": 0.521
+        },
+        {
+            "source": 199,
+            "target": 78,
+            "weight": 0.548
+        },
+        {
+            "source": 199,
+            "target": 1,
+            "weight": 0.616
+        },
+        {
+            "source": 199,
+            "target": 361,
+            "weight": 0.595
+        },
+        {
+            "source": 199,
+            "target": 58,
+            "weight": 0.479
+        },
+        {
+            "source": 199,
+            "target": 111,
+            "weight": 0.421
+        },
+        {
+            "source": 199,
+            "target": 128,
+            "weight": 0.412
+        },
+        {
+            "source": 199,
+            "target": 103,
+            "weight": 0.791
+        },
+        {
+            "source": 199,
+            "target": 212,
+            "weight": 0.632
+        },
+        {
+            "source": 199,
+            "target": 195,
+            "weight": 0.883
+        },
+        {
+            "source": 199,
+            "target": 310,
+            "weight": 0.868
+        },
+        {
+            "source": 199,
+            "target": 28,
+            "weight": 0.73
+        },
+        {
+            "source": 195,
+            "target": 0,
+            "weight": 0.655
+        },
+        {
+            "source": 195,
+            "target": 1,
+            "weight": 0.615
+        },
+        {
+            "source": 195,
+            "target": 361,
+            "weight": 0.595
+        },
+        {
+            "source": 195,
+            "target": 128,
+            "weight": 0.422
+        },
+        {
+            "source": 195,
+            "target": 103,
+            "weight": 0.744
+        },
+        {
+            "source": 195,
+            "target": 115,
+            "weight": 0.441
+        },
+        {
+            "source": 195,
+            "target": 127,
+            "weight": 0.418
+        },
+        {
+            "source": 195,
+            "target": 331,
+            "weight": 0.558
+        },
+        {
+            "source": 195,
+            "target": 212,
+            "weight": 0.558
+        },
+        {
+            "source": 195,
+            "target": 310,
+            "weight": 0.859
+        },
+        {
+            "source": 195,
+            "target": 28,
+            "weight": 0.745
+        },
+        {
+            "source": 212,
+            "target": 78,
+            "weight": 0.803
+        },
+        {
+            "source": 212,
+            "target": 153,
+            "weight": 0.881
+        },
+        {
+            "source": 212,
+            "target": 28,
+            "weight": 0.82
+        },
+        {
+            "source": 128,
+            "target": 125,
+            "weight": 0.504
+        },
+        {
+            "source": 128,
+            "target": 86,
+            "weight": 0.406
+        },
+        {
+            "source": 128,
+            "target": 58,
+            "weight": 0.8
+        },
+        {
+            "source": 128,
+            "target": 188,
+            "weight": 0.417
+        },
+        {
+            "source": 128,
+            "target": 396,
+            "weight": 0.441
+        },
+        {
+            "source": 128,
+            "target": 267,
+            "weight": 0.42
+        },
+        {
+            "source": 28,
+            "target": 1,
+            "weight": 0.433
+        },
+        {
+            "source": 28,
+            "target": 361,
+            "weight": 0.419
+        },
+        {
+            "source": 28,
+            "target": 200,
+            "weight": 0.422
+        },
+        {
+            "source": 28,
+            "target": 6,
+            "weight": 0.414
+        },
+        {
+            "source": 28,
+            "target": 153,
+            "weight": 0.717
+        },
+        {
+            "source": 28,
+            "target": 342,
+            "weight": 0.406
+        },
+        {
+            "source": 28,
+            "target": 201,
+            "weight": 0.413
+        },
+        {
+            "source": 28,
+            "target": 310,
+            "weight": 0.546
+        },
+        {
+            "source": 28,
+            "target": 127,
+            "weight": 0.454
+        },
+        {
+            "source": 28,
+            "target": 331,
+            "weight": 0.558
+        },
+        {
+            "source": 78,
+            "target": 1,
+            "weight": 0.424
+        },
+        {
+            "source": 78,
+            "target": 153,
+            "weight": 0.445
+        },
+        {
+            "source": 153,
+            "target": 11,
+            "weight": 0.426
+        },
+        {
+            "source": 333,
+            "target": 190,
+            "weight": 0.734
+        },
+        {
+            "source": 57,
+            "target": 161,
+            "weight": 0.96
+        },
+        {
+            "source": 57,
+            "target": 72,
+            "weight": 0.401
+        },
+        {
+            "source": 57,
+            "target": 116,
+            "weight": 0.401
+        },
+        {
+            "source": 57,
+            "target": 167,
+            "weight": 0.775
+        },
+        {
+            "source": 175,
+            "target": 151,
+            "weight": 0.915
+        },
+        {
+            "source": 175,
+            "target": 220,
+            "weight": 0.932
+        },
+        {
+            "source": 175,
+            "target": 204,
+            "weight": 0.794
+        },
+        {
+            "source": 175,
+            "target": 218,
+            "weight": 0.828
+        },
+        {
+            "source": 175,
+            "target": 114,
+            "weight": 0.859
+        },
+        {
+            "source": 275,
+            "target": 266,
+            "weight": 0.454
+        },
+        {
+            "source": 113,
+            "target": 389,
+            "weight": 0.495
+        },
+        {
+            "source": 113,
+            "target": 100,
+            "weight": 0.428
+        },
+        {
+            "source": 113,
+            "target": 19,
+            "weight": 0.438
+        },
+        {
+            "source": 113,
+            "target": 167,
+            "weight": 0.418
+        },
+        {
+            "source": 113,
+            "target": 86,
+            "weight": 0.563
+        },
+        {
+            "source": 113,
+            "target": 206,
+            "weight": 0.442
+        },
+        {
+            "source": 113,
+            "target": 127,
+            "weight": 0.835
+        },
+        {
+            "source": 113,
+            "target": 192,
+            "weight": 0.901
+        },
+        {
+            "source": 127,
+            "target": 192,
+            "weight": 0.845
+        },
+        {
+            "source": 32,
+            "target": 125,
+            "weight": 0.4
+        },
+        {
+            "source": 32,
+            "target": 4,
+            "weight": 0.859
+        },
+        {
+            "source": 32,
+            "target": 386,
+            "weight": 0.521
+        },
+        {
+            "source": 359,
+            "target": 322,
+            "weight": 0.467
+        },
+        {
+            "source": 165,
+            "target": 11,
+            "weight": 0.412
+        },
+        {
+            "source": 165,
+            "target": 22,
+            "weight": 0.732
+        },
+        {
+            "source": 165,
+            "target": 24,
+            "weight": 0.41
+        },
+        {
+            "source": 165,
+            "target": 9,
+            "weight": 0.93
+        },
+        {
+            "source": 165,
+            "target": 7,
+            "weight": 0.632
+        },
+        {
+            "source": 165,
+            "target": 21,
+            "weight": 0.41
+        },
+        {
+            "source": 165,
+            "target": 23,
+            "weight": 0.671
+        },
+        {
+            "source": 73,
+            "target": 86,
+            "weight": 0.989
+        },
+        {
+            "source": 73,
+            "target": 190,
+            "weight": 0.412
+        },
+        {
+            "source": 73,
+            "target": 384,
+            "weight": 0.476
+        },
+        {
+            "source": 73,
+            "target": 192,
+            "weight": 0.472
+        },
+        {
+            "source": 86,
+            "target": 19,
+            "weight": 0.643
+        },
+        {
+            "source": 86,
+            "target": 76,
+            "weight": 0.512
+        },
+        {
+            "source": 86,
+            "target": 167,
+            "weight": 0.529
+        },
+        {
+            "source": 86,
+            "target": 192,
+            "weight": 0.989
+        },
+        {
+            "source": 41,
+            "target": 106,
+            "weight": 0.604
+        },
+        {
+            "source": 41,
+            "target": 52,
+            "weight": 0.953
+        },
+        {
+            "source": 41,
+            "target": 37,
+            "weight": 0.99
+        },
+        {
+            "source": 37,
+            "target": 52,
+            "weight": 0.945
+        },
+        {
+            "source": 114,
+            "target": 151,
+            "weight": 0.864
+        },
+        {
+            "source": 114,
+            "target": 220,
+            "weight": 0.832
+        },
+        {
+            "source": 114,
+            "target": 218,
+            "weight": 0.827
+        },
+        {
+            "source": 217,
+            "target": 141,
+            "weight": 0.458
+        },
+        {
+            "source": 1,
+            "target": 125,
+            "weight": 0.454
+        },
+        {
+            "source": 1,
+            "target": 288,
+            "weight": 0.825
+        },
+        {
+            "source": 1,
+            "target": 22,
+            "weight": 0.4
+        },
+        {
+            "source": 1,
+            "target": 24,
+            "weight": 0.441
+        },
+        {
+            "source": 1,
+            "target": 211,
+            "weight": 0.825
+        },
+        {
+            "source": 1,
+            "target": 227,
+            "weight": 0.472
+        },
+        {
+            "source": 1,
+            "target": 19,
+            "weight": 0.404
+        },
+        {
+            "source": 1,
+            "target": 26,
+            "weight": 0.472
+        },
+        {
+            "source": 1,
+            "target": 23,
+            "weight": 0.4
+        },
+        {
+            "source": 1,
+            "target": 173,
+            "weight": 0.405
+        },
+        {
+            "source": 1,
+            "target": 115,
+            "weight": 0.405
+        },
+        {
+            "source": 1,
+            "target": 9,
+            "weight": 0.403
+        },
+        {
+            "source": 1,
+            "target": 21,
+            "weight": 0.425
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "weight": 0.464
+        },
+        {
+            "source": 1,
+            "target": 386,
+            "weight": 0.529
+        },
+        {
+            "source": 1,
+            "target": 277,
+            "weight": 0.546
+        },
+        {
+            "source": 1,
+            "target": 285,
+            "weight": 0.546
+        },
+        {
+            "source": 1,
+            "target": 342,
+            "weight": 0.546
+        },
+        {
+            "source": 1,
+            "target": 136,
+            "weight": 0.472
+        },
+        {
+            "source": 1,
+            "target": 252,
+            "weight": 0.472
+        },
+        {
+            "source": 1,
+            "target": 396,
+            "weight": 0.825
+        },
+        {
+            "source": 1,
+            "target": 259,
+            "weight": 0.825
+        },
+        {
+            "source": 1,
+            "target": 304,
+            "weight": 0.825
+        },
+        {
+            "source": 1,
+            "target": 234,
+            "weight": 0.472
+        },
+        {
+            "source": 116,
+            "target": 242,
+            "weight": 0.703
+        },
+        {
+            "source": 116,
+            "target": 335,
+            "weight": 0.851
+        },
+        {
+            "source": 26,
+            "target": 331,
+            "weight": 0.472
+        },
+        {
+            "source": 231,
+            "target": 11,
+            "weight": 0.408
+        },
+        {
+            "source": 231,
+            "target": 201,
+            "weight": 0.456
+        },
+        {
+            "source": 250,
+            "target": 9,
+            "weight": 0.568
+        },
+        {
+            "source": 188,
+            "target": 23,
+            "weight": 0.52
+        },
+        {
+            "source": 335,
+            "target": 242,
+            "weight": 0.991
+        },
+        {
+            "source": 335,
+            "target": 11,
+            "weight": 0.412
+        },
+        {
+            "source": 335,
+            "target": 9,
+            "weight": 0.583
+        },
+        {
+            "source": 335,
+            "target": 7,
+            "weight": 0.412
+        },
+        {
+            "source": 335,
+            "target": 39,
+            "weight": 0.725
+        },
+        {
+            "source": 335,
+            "target": 196,
+            "weight": 0.448
+        },
+        {
+            "source": 335,
+            "target": 300,
+            "weight": 0.404
+        },
+        {
+            "source": 242,
+            "target": 300,
+            "weight": 0.404
+        },
+        {
+            "source": 242,
+            "target": 196,
+            "weight": 0.404
+        },
+        {
+            "source": 242,
+            "target": 11,
+            "weight": 0.412
+        },
+        {
+            "source": 242,
+            "target": 39,
+            "weight": 0.703
+        },
+        {
+            "source": 242,
+            "target": 7,
+            "weight": 0.732
+        },
+        {
+            "source": 242,
+            "target": 9,
+            "weight": 0.732
+        },
+        {
+            "source": 220,
+            "target": 151,
+            "weight": 0.959
+        },
+        {
+            "source": 187,
+            "target": 19,
+            "weight": 0.795
+        },
+        {
+            "source": 185,
+            "target": 71,
+            "weight": 0.619
+        },
+        {
+            "source": 123,
+            "target": 218,
+            "weight": 0.446
+        },
+        {
+            "source": 123,
+            "target": 119,
+            "weight": 0.416
+        },
+        {
+            "source": 123,
+            "target": 31,
+            "weight": 0.817
+        },
+        {
+            "source": 263,
+            "target": 218,
+            "weight": 0.804
+        },
+        {
+            "source": 75,
+            "target": 162,
+            "weight": 0.512
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 0.829
+        },
+        {
+            "source": 4,
+            "target": 115,
+            "weight": 0.519
+        },
+        {
+            "source": 50,
+            "target": 184,
+            "weight": 0.404
+        },
+        {
+            "source": 50,
+            "target": 115,
+            "weight": 0.454
+        },
+        {
+            "source": 0,
+            "target": 184,
+            "weight": 0.445
+        },
+        {
+            "source": 0,
+            "target": 115,
+            "weight": 0.858
+        },
+        {
+            "source": 115,
+            "target": 119,
+            "weight": 0.421
+        },
+        {
+            "source": 115,
+            "target": 285,
+            "weight": 0.401
+        },
+        {
+            "source": 115,
+            "target": 180,
+            "weight": 0.423
+        },
+        {
+            "source": 179,
+            "target": 92,
+            "weight": 0.421
+        },
+        {
+            "source": 179,
+            "target": 367,
+            "weight": 0.408
+        },
+        {
+            "source": 99,
+            "target": 253,
+            "weight": 0.588
+        },
+        {
+            "source": 99,
+            "target": 161,
+            "weight": 0.96
+        },
+        {
+            "source": 329,
+            "target": 401,
+            "weight": 0.685
+        },
+        {
+            "source": 291,
+            "target": 147,
+            "weight": 0.41
+        },
+        {
+            "source": 291,
+            "target": 206,
+            "weight": 0.418
+        },
+        {
+            "source": 200,
+            "target": 98,
+            "weight": 0.458
+        },
+        {
+            "source": 200,
+            "target": 304,
+            "weight": 0.418
+        },
+        {
+            "source": 200,
+            "target": 131,
+            "weight": 0.458
+        },
+        {
+            "source": 200,
+            "target": 101,
+            "weight": 0.402
+        },
+        {
+            "source": 200,
+            "target": 43,
+            "weight": 0.523
+        },
+        {
+            "source": 137,
+            "target": 253,
+            "weight": 0.4
+        },
+        {
+            "source": 66,
+            "target": 304,
+            "weight": 0.416
+        },
+        {
+            "source": 66,
+            "target": 277,
+            "weight": 0.416
+        },
+        {
+            "source": 302,
+            "target": 249,
+            "weight": 0.406
+        },
+        {
+            "source": 331,
+            "target": 9,
+            "weight": 0.408
+        },
+        {
+            "source": 31,
+            "target": 249,
+            "weight": 0.828
+        },
+        {
+            "source": 98,
+            "target": 382,
+            "weight": 0.444
+        },
+        {
+            "source": 98,
+            "target": 141,
+            "weight": 0.812
+        },
+        {
+            "source": 131,
+            "target": 382,
+            "weight": 0.435
+        },
+        {
+            "source": 79,
+            "target": 227,
+            "weight": 0.472
+        },
+        {
+            "source": 79,
+            "target": 252,
+            "weight": 0.454
+        },
+        {
+            "source": 232,
+            "target": 305,
+            "weight": 0.432
+        },
+        {
+            "source": 232,
+            "target": 282,
+            "weight": 0.447
+        },
+        {
+            "source": 279,
+            "target": 235,
+            "weight": 0.402
+        },
+        {
+            "source": 141,
+            "target": 11,
+            "weight": 0.418
+        },
+        {
+            "source": 141,
+            "target": 361,
+            "weight": 0.41
+        },
+        {
+            "source": 141,
+            "target": 386,
+            "weight": 0.412
+        },
+        {
+            "source": 141,
+            "target": 100,
+            "weight": 0.622
+        },
+        {
+            "source": 141,
+            "target": 193,
+            "weight": 0.622
+        },
+        {
+            "source": 354,
+            "target": 294,
+            "weight": 0.454
+        },
+        {
+            "source": 39,
+            "target": 161,
+            "weight": 0.732
+        },
+        {
+            "source": 39,
+            "target": 158,
+            "weight": 0.734
+        },
+        {
+            "source": 39,
+            "target": 162,
+            "weight": 0.732
+        },
+        {
+            "source": 39,
+            "target": 197,
+            "weight": 0.431
+        },
+        {
+            "source": 39,
+            "target": 27,
+            "weight": 0.416
+        },
+        {
+            "source": 39,
+            "target": 103,
+            "weight": 0.7
+        },
+        {
+            "source": 39,
+            "target": 100,
+            "weight": 0.732
+        },
+        {
+            "source": 39,
+            "target": 193,
+            "weight": 0.732
+        },
+        {
+            "source": 39,
+            "target": 101,
+            "weight": 0.716
+        },
+        {
+            "source": 39,
+            "target": 88,
+            "weight": 0.732
+        },
+        {
+            "source": 39,
+            "target": 182,
+            "weight": 0.732
+        },
+        {
+            "source": 39,
+            "target": 61,
+            "weight": 0.732
+        },
+        {
+            "source": 361,
+            "target": 158,
+            "weight": 0.412
+        },
+        {
+            "source": 361,
+            "target": 48,
+            "weight": 0.401
+        },
+        {
+            "source": 342,
+            "target": 288,
+            "weight": 0.448
+        },
+        {
+            "source": 342,
+            "target": 211,
+            "weight": 0.43
+        },
+        {
+            "source": 342,
+            "target": 259,
+            "weight": 0.41
+        },
+        {
+            "source": 342,
+            "target": 285,
+            "weight": 0.885
+        },
+        {
+            "source": 342,
+            "target": 350,
+            "weight": 0.77
+        },
+        {
+            "source": 342,
+            "target": 277,
+            "weight": 0.931
+        },
+        {
+            "source": 285,
+            "target": 277,
+            "weight": 0.986
+        },
+        {
+            "source": 285,
+            "target": 350,
+            "weight": 0.59
+        },
+        {
+            "source": 277,
+            "target": 211,
+            "weight": 0.41
+        },
+        {
+            "source": 277,
+            "target": 396,
+            "weight": 0.443
+        },
+        {
+            "source": 277,
+            "target": 259,
+            "weight": 0.865
+        },
+        {
+            "source": 277,
+            "target": 350,
+            "weight": 0.695
+        },
+        {
+            "source": 244,
+            "target": 397,
+            "weight": 0.458
+        },
+        {
+            "source": 170,
+            "target": 339,
+            "weight": 0.409
+        },
+        {
+            "source": 170,
+            "target": 267,
+            "weight": 0.552
+        },
+        {
+            "source": 6,
+            "target": 19,
+            "weight": 0.412
+        },
+        {
+            "source": 266,
+            "target": 213,
+            "weight": 0.81
+        },
+        {
+            "source": 266,
+            "target": 176,
+            "weight": 0.45
+        },
+        {
+            "source": 266,
+            "target": 202,
+            "weight": 0.454
+        },
+        {
+            "source": 363,
+            "target": 201,
+            "weight": 0.421
+        },
+        {
+            "source": 330,
+            "target": 61,
+            "weight": 0.428
+        },
+        {
+            "source": 283,
+            "target": 255,
+            "weight": 0.732
+        },
+        {
+            "source": 283,
+            "target": 292,
+            "weight": 0.732
+        },
+        {
+            "source": 283,
+            "target": 280,
+            "weight": 0.732
+        },
+        {
+            "source": 255,
+            "target": 292,
+            "weight": 0.752
+        },
+        {
+            "source": 255,
+            "target": 295,
+            "weight": 0.866
+        },
+        {
+            "source": 292,
+            "target": 295,
+            "weight": 0.602
+        },
+        {
+            "source": 280,
+            "target": 295,
+            "weight": 0.734
+        },
+        {
+            "source": 301,
+            "target": 234,
+            "weight": 0.521
+        },
+        {
+            "source": 301,
+            "target": 295,
+            "weight": 0.693
+        },
+        {
+            "source": 386,
+            "target": 11,
+            "weight": 0.446
+        },
+        {
+            "source": 386,
+            "target": 282,
+            "weight": 0.437
+        },
+        {
+            "source": 192,
+            "target": 157,
+            "weight": 0.818
+        },
+        {
+            "source": 192,
+            "target": 365,
+            "weight": 0.404
+        },
+        {
+            "source": 192,
+            "target": 156,
+            "weight": 0.963
+        },
+        {
+            "source": 192,
+            "target": 19,
+            "weight": 0.989
+        },
+        {
+            "source": 192,
+            "target": 206,
+            "weight": 0.97
+        },
+        {
+            "source": 192,
+            "target": 93,
+            "weight": 0.648
+        },
+        {
+            "source": 192,
+            "target": 167,
+            "weight": 0.951
+        },
+        {
+            "source": 192,
+            "target": 353,
+            "weight": 0.497
+        },
+        {
+            "source": 19,
+            "target": 201,
+            "weight": 0.418
+        },
+        {
+            "source": 19,
+            "target": 72,
+            "weight": 0.562
+        },
+        {
+            "source": 19,
+            "target": 68,
+            "weight": 0.488
+        },
+        {
+            "source": 19,
+            "target": 206,
+            "weight": 0.617
+        },
+        {
+            "source": 19,
+            "target": 167,
+            "weight": 0.917
+        },
+        {
+            "source": 167,
+            "target": 157,
+            "weight": 0.581
+        },
+        {
+            "source": 167,
+            "target": 95,
+            "weight": 0.402
+        },
+        {
+            "source": 167,
+            "target": 206,
+            "weight": 0.805
+        },
+        {
+            "source": 93,
+            "target": 206,
+            "weight": 0.41
+        },
+        {
+            "source": 157,
+            "target": 206,
+            "weight": 0.41
+        },
+        {
+            "source": 295,
+            "target": 357,
+            "weight": 0.96
+        },
+        {
+            "source": 100,
+            "target": 161,
+            "weight": 0.991
+        },
+        {
+            "source": 100,
+            "target": 158,
+            "weight": 0.965
+        },
+        {
+            "source": 100,
+            "target": 162,
+            "weight": 0.99
+        },
+        {
+            "source": 100,
+            "target": 111,
+            "weight": 0.802
+        },
+        {
+            "source": 100,
+            "target": 61,
+            "weight": 0.992
+        },
+        {
+            "source": 100,
+            "target": 103,
+            "weight": 0.992
+        },
+        {
+            "source": 100,
+            "target": 51,
+            "weight": 0.8
+        },
+        {
+            "source": 100,
+            "target": 101,
+            "weight": 0.991
+        },
+        {
+            "source": 100,
+            "target": 88,
+            "weight": 0.992
+        },
+        {
+            "source": 100,
+            "target": 182,
+            "weight": 0.992
+        },
+        {
+            "source": 100,
+            "target": 193,
+            "weight": 0.991
+        },
+        {
+            "source": 100,
+            "target": 251,
+            "weight": 0.992
+        },
+        {
+            "source": 103,
+            "target": 161,
+            "weight": 0.947
+        },
+        {
+            "source": 103,
+            "target": 158,
+            "weight": 0.952
+        },
+        {
+            "source": 103,
+            "target": 162,
+            "weight": 0.99
+        },
+        {
+            "source": 103,
+            "target": 111,
+            "weight": 0.913
+        },
+        {
+            "source": 103,
+            "target": 61,
+            "weight": 0.989
+        },
+        {
+            "source": 103,
+            "target": 101,
+            "weight": 0.99
+        },
+        {
+            "source": 103,
+            "target": 88,
+            "weight": 0.989
+        },
+        {
+            "source": 103,
+            "target": 193,
+            "weight": 0.987
+        },
+        {
+            "source": 103,
+            "target": 182,
+            "weight": 0.989
+        },
+        {
+            "source": 103,
+            "target": 251,
+            "weight": 0.989
+        },
+        {
+            "source": 162,
+            "target": 161,
+            "weight": 0.99
+        },
+        {
+            "source": 162,
+            "target": 158,
+            "weight": 0.963
+        },
+        {
+            "source": 162,
+            "target": 51,
+            "weight": 0.552
+        },
+        {
+            "source": 162,
+            "target": 111,
+            "weight": 0.613
+        },
+        {
+            "source": 162,
+            "target": 101,
+            "weight": 0.991
+        },
+        {
+            "source": 162,
+            "target": 193,
+            "weight": 0.99
+        },
+        {
+            "source": 162,
+            "target": 182,
+            "weight": 0.992
+        },
+        {
+            "source": 162,
+            "target": 251,
+            "weight": 0.989
+        },
+        {
+            "source": 162,
+            "target": 61,
+            "weight": 0.992
+        },
+        {
+            "source": 162,
+            "target": 88,
+            "weight": 0.991
+        },
+        {
+            "source": 193,
+            "target": 161,
+            "weight": 0.99
+        },
+        {
+            "source": 193,
+            "target": 158,
+            "weight": 0.965
+        },
+        {
+            "source": 193,
+            "target": 111,
+            "weight": 0.798
+        },
+        {
+            "source": 193,
+            "target": 61,
+            "weight": 0.992
+        },
+        {
+            "source": 193,
+            "target": 51,
+            "weight": 0.794
+        },
+        {
+            "source": 193,
+            "target": 101,
+            "weight": 0.991
+        },
+        {
+            "source": 193,
+            "target": 88,
+            "weight": 0.992
+        },
+        {
+            "source": 193,
+            "target": 182,
+            "weight": 0.991
+        },
+        {
+            "source": 193,
+            "target": 251,
+            "weight": 0.992
+        },
+        {
+            "source": 251,
+            "target": 161,
+            "weight": 0.992
+        },
+        {
+            "source": 251,
+            "target": 158,
+            "weight": 0.961
+        },
+        {
+            "source": 251,
+            "target": 61,
+            "weight": 0.991
+        },
+        {
+            "source": 251,
+            "target": 101,
+            "weight": 0.999
+        },
+        {
+            "source": 251,
+            "target": 88,
+            "weight": 0.991
+        },
+        {
+            "source": 251,
+            "target": 182,
+            "weight": 0.992
+        },
+        {
+            "source": 61,
+            "target": 161,
+            "weight": 0.987
+        },
+        {
+            "source": 61,
+            "target": 158,
+            "weight": 0.964
+        },
+        {
+            "source": 61,
+            "target": 111,
+            "weight": 0.792
+        },
+        {
+            "source": 61,
+            "target": 176,
+            "weight": 0.533
+        },
+        {
+            "source": 61,
+            "target": 101,
+            "weight": 0.999
+        },
+        {
+            "source": 61,
+            "target": 88,
+            "weight": 0.992
+        },
+        {
+            "source": 61,
+            "target": 182,
+            "weight": 0.992
+        },
+        {
+            "source": 161,
+            "target": 256,
+            "weight": 0.937
+        },
+        {
+            "source": 161,
+            "target": 247,
+            "weight": 0.96
+        },
+        {
+            "source": 161,
+            "target": 101,
+            "weight": 0.991
+        },
+        {
+            "source": 161,
+            "target": 158,
+            "weight": 0.959
+        },
+        {
+            "source": 161,
+            "target": 182,
+            "weight": 0.991
+        },
+        {
+            "source": 161,
+            "target": 88,
+            "weight": 0.987
+        },
+        {
+            "source": 158,
+            "target": 51,
+            "weight": 0.539
+        },
+        {
+            "source": 158,
+            "target": 43,
+            "weight": 0.512
+        },
+        {
+            "source": 158,
+            "target": 111,
+            "weight": 0.805
+        },
+        {
+            "source": 158,
+            "target": 101,
+            "weight": 0.998
+        },
+        {
+            "source": 158,
+            "target": 88,
+            "weight": 0.963
+        },
+        {
+            "source": 158,
+            "target": 182,
+            "weight": 0.964
+        },
+        {
+            "source": 101,
+            "target": 22,
+            "weight": 0.416
+        },
+        {
+            "source": 101,
+            "target": 88,
+            "weight": 0.998
+        },
+        {
+            "source": 101,
+            "target": 182,
+            "weight": 0.999
+        },
+        {
+            "source": 88,
+            "target": 169,
+            "weight": 0.527
+        },
+        {
+            "source": 88,
+            "target": 43,
+            "weight": 0.555
+        },
+        {
+            "source": 88,
+            "target": 182,
+            "weight": 0.992
+        },
+        {
+            "source": 182,
+            "target": 51,
+            "weight": 0.687
+        },
+        {
+            "source": 136,
+            "target": 159,
+            "weight": 0.537
+        },
+        {
+            "source": 159,
+            "target": 399,
+            "weight": 0.966
+        },
+        {
+            "source": 190,
+            "target": 72,
+            "weight": 0.992
+        },
+        {
+            "source": 227,
+            "target": 397,
+            "weight": 0.526
+        },
+        {
+            "source": 227,
+            "target": 252,
+            "weight": 0.857
+        },
+        {
+            "source": 252,
+            "target": 397,
+            "weight": 0.515
+        },
+        {
+            "source": 48,
+            "target": 51,
+            "weight": 0.904
+        },
+        {
+            "source": 51,
+            "target": 154,
+            "weight": 0.44
+        },
+        {
+            "source": 365,
+            "target": 322,
+            "weight": 0.451
+        },
+        {
+            "source": 365,
+            "target": 196,
+            "weight": 0.401
+        },
+        {
+            "source": 357,
+            "target": 401,
+            "weight": 0.62
+        },
+        {
+            "source": 357,
+            "target": 286,
+            "weight": 0.974
+        },
+        {
+            "source": 234,
+            "target": 288,
+            "weight": 0.454
+        },
+        {
+            "source": 234,
+            "target": 9,
+            "weight": 0.437
+        },
+        {
+            "source": 234,
+            "target": 44,
+            "weight": 0.454
+        },
+        {
+            "source": 72,
+            "target": 95,
+            "weight": 0.713
+        },
+        {
+            "source": 197,
+            "target": 196,
+            "weight": 0.957
+        },
+        {
+            "source": 197,
+            "target": 396,
+            "weight": 0.447
+        },
+        {
+            "source": 197,
+            "target": 300,
+            "weight": 0.603
+        },
+        {
+            "source": 401,
+            "target": 154,
+            "weight": 0.418
+        },
+        {
+            "source": 310,
+            "target": 125,
+            "weight": 0.797
+        },
+        {
+            "source": 276,
+            "target": 286,
+            "weight": 0.404
+        },
+        {
+            "source": 213,
+            "target": 43,
+            "weight": 0.498
+        },
+        {
+            "source": 60,
+            "target": 11,
+            "weight": 0.468
+        },
+        {
+            "source": 204,
+            "target": 135,
+            "weight": 0.974
+        },
+        {
+            "source": 204,
+            "target": 218,
+            "weight": 0.819
+        },
+        {
+            "source": 125,
+            "target": 154,
+            "weight": 0.402
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "weight": 0.809
+        },
+        {
+            "source": 9,
+            "target": 22,
+            "weight": 0.819
+        },
+        {
+            "source": 9,
+            "target": 24,
+            "weight": 0.407
+        },
+        {
+            "source": 9,
+            "target": 256,
+            "weight": 0.472
+        },
+        {
+            "source": 9,
+            "target": 65,
+            "weight": 0.795
+        },
+        {
+            "source": 9,
+            "target": 21,
+            "weight": 0.881
+        },
+        {
+            "source": 9,
+            "target": 23,
+            "weight": 0.98
+        },
+        {
+            "source": 7,
+            "target": 11,
+            "weight": 0.519
+        },
+        {
+            "source": 7,
+            "target": 22,
+            "weight": 0.812
+        },
+        {
+            "source": 7,
+            "target": 24,
+            "weight": 0.614
+        },
+        {
+            "source": 7,
+            "target": 21,
+            "weight": 0.519
+        },
+        {
+            "source": 7,
+            "target": 23,
+            "weight": 0.761
+        },
+        {
+            "source": 7,
+            "target": 65,
+            "weight": 0.851
+        },
+        {
+            "source": 11,
+            "target": 65,
+            "weight": 0.445
+        },
+        {
+            "source": 11,
+            "target": 24,
+            "weight": 0.602
+        },
+        {
+            "source": 11,
+            "target": 22,
+            "weight": 0.742
+        },
+        {
+            "source": 11,
+            "target": 21,
+            "weight": 0.875
+        },
+        {
+            "source": 11,
+            "target": 23,
+            "weight": 0.915
+        },
+        {
+            "source": 23,
+            "target": 21,
+            "weight": 0.945
+        },
+        {
+            "source": 22,
+            "target": 201,
+            "weight": 0.406
+        },
+        {
+            "source": 21,
+            "target": 201,
+            "weight": 0.416
+        },
+        {
+            "source": 95,
+            "target": 44,
+            "weight": 0.801
+        },
+        {
+            "source": 43,
+            "target": 364,
+            "weight": 0.819
+        },
+        {
+            "source": 144,
+            "target": 383,
+            "weight": 0.806
+        },
+        {
+            "source": 27,
+            "target": 211,
+            "weight": 0.454
+        },
+        {
+            "source": 27,
+            "target": 396,
+            "weight": 0.521
+        },
+        {
+            "source": 27,
+            "target": 259,
+            "weight": 0.454
+        },
+        {
+            "source": 262,
+            "target": 364,
+            "weight": 0.993
+        },
+        {
+            "source": 396,
+            "target": 288,
+            "weight": 0.976
+        },
+        {
+            "source": 396,
+            "target": 211,
+            "weight": 0.875
+        },
+        {
+            "source": 396,
+            "target": 304,
+            "weight": 0.833
+        },
+        {
+            "source": 396,
+            "target": 259,
+            "weight": 0.993
+        },
+        {
+            "source": 211,
+            "target": 288,
+            "weight": 0.833
+        },
+        {
+            "source": 211,
+            "target": 259,
+            "weight": 0.851
+        },
+        {
+            "source": 211,
+            "target": 304,
+            "weight": 0.856
+        },
+        {
+            "source": 304,
+            "target": 288,
+            "weight": 0.976
+        },
+        {
+            "source": 304,
+            "target": 259,
+            "weight": 0.886
+        },
+        {
+            "source": 288,
+            "target": 259,
+            "weight": 0.964
+        }
+    ],
+    "multigraph": false,
+    "nodes": [
+        {
+            "Description": "myosin heavy chain 9",
+            "id": "ENSG00000100345",
+            "label": "MYH9"
+        },
+        {
+            "Description": "leucine rich repeat kinase 2",
+            "id": "ENSG00000188906",
+            "label": "LRRK2"
+        },
+        {
+            "Description": "actin beta",
+            "id": "ENSG00000075624",
+            "label": "ACTB"
+        },
+        {
+            "Description": "actin gamma 1",
+            "id": "ENSG00000184009",
+            "label": "ACTG1"
+        },
+        {
+            "Description": "myosin heavy chain 10",
+            "id": "ENSG00000133026",
+            "label": "MYH10"
+        },
+        {
+            "Description": "heat shock protein family A (Hsp70) member 1A",
+            "id": "ENSG00000234475",
+            "label": "HSPA1A"
+        },
+        {
+            "Description": "protein kinase, DNA-activated, catalytic subunit",
+            "id": "ENSG00000253729",
+            "label": "PRKDC"
+        },
+        {
+            "Description": "tubulin alpha 1c",
+            "id": "ENSG00000167553",
+            "label": "TUBA1C"
+        },
+        {
+            "Description": "filamin A",
+            "id": "ENSG00000196924",
+            "label": "FLNA"
+        },
+        {
+            "Description": "tubulin alpha 1a",
+            "id": "ENSG00000167552",
+            "label": "TUBA1A"
+        },
+        {
+            "Description": "fatty acid synthase",
+            "id": "ENSG00000169710",
+            "label": "FASN"
+        },
+        {
+            "Description": "tubulin alpha 4a",
+            "id": "ENSG00000127824",
+            "label": "TUBA4A"
+        },
+        {
+            "Description": "acetyl-CoA carboxylase alpha",
+            "id": "ENSG00000275176",
+            "label": "ACACA"
+        },
+        {
+            "Description": "POTE ankyrin domain family member E",
+            "id": "ENSG00000188219",
+            "label": "POTEE"
+        },
+        {
+            "Description": "dynein cytoplasmic 1 heavy chain 1",
+            "id": "ENSG00000197102",
+            "label": "DYNC1H1"
+        },
+        {
+            "Description": "desmoplakin",
+            "id": "ENSG00000096696",
+            "label": "DSP"
+        },
+        {
+            "Description": "heat shock protein family A (Hsp70) member 1 like",
+            "id": "ENSG00000234258",
+            "label": "HSPA1L"
+        },
+        {
+            "Description": "tubulin beta class I",
+            "id": "ENSG00000235067",
+            "label": "TUBB"
+        },
+        {
+            "Description": "eukaryotic translation elongation factor 1 alpha 1",
+            "id": "ENSG00000156508",
+            "label": "EEF1A1"
+        },
+        {
+            "Description": "RAN binding protein 2",
+            "id": "ENSG00000153201",
+            "label": "RANBP2"
+        },
+        {
+            "Description": "filamin B",
+            "id": "ENSG00000136068",
+            "label": "FLNB"
+        },
+        {
+            "Description": "tubulin beta 4B class IVb",
+            "id": "ENSG00000188229",
+            "label": "TUBB4B"
+        },
+        {
+            "Description": "tubulin beta 2B class IIb",
+            "id": "ENSG00000137285",
+            "label": "TUBB2B"
+        },
+        {
+            "Description": "tubulin beta 2A class IIa",
+            "id": "ENSG00000137267",
+            "label": "TUBB2A"
+        },
+        {
+            "Description": "tubulin beta 4A class IVa",
+            "id": "ENSG00000104833",
+            "label": "TUBB4A"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 4 gamma 1",
+            "id": "ENSG00000114867",
+            "label": "EIF4G1"
+        },
+        {
+            "Description": "microtubule associated protein 1B",
+            "id": "ENSG00000131711",
+            "label": "MAP1B"
+        },
+        {
+            "Description": "vimentin",
+            "id": "ENSG00000026025",
+            "label": "VIM"
+        },
+        {
+            "Description": "heat shock protein family A (Hsp70) member 8",
+            "id": "ENSG00000109971",
+            "label": "HSPA8"
+        },
+        {
+            "Description": "eukaryotic translation elongation factor 1 alpha 2",
+            "id": "ENSG00000101210",
+            "label": "EEF1A2"
+        },
+        {
+            "Description": "GCN1 activator of EIF2AK4",
+            "id": "ENSG00000089154",
+            "label": "GCN1"
+        },
+        {
+            "Description": "pyruvate carboxylase",
+            "id": "ENSG00000173599",
+            "label": "PC"
+        },
+        {
+            "Description": "IQ motif containing GTPase activating protein 1",
+            "id": "ENSG00000140575",
+            "label": "IQGAP1"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 4A1",
+            "id": "ENSG00000161960",
+            "label": "EIF4A1"
+        },
+        {
+            "Description": "insulin receptor substrate 4",
+            "id": "ENSG00000133124",
+            "label": "IRS4"
+        },
+        {
+            "Description": "myosin heavy chain 11",
+            "id": "ENSG00000276480",
+            "label": "MYH11"
+        },
+        {
+            "Description": "actin alpha 1, skeletal muscle",
+            "id": "ENSG00000143632",
+            "label": "ACTA1"
+        },
+        {
+            "Description": "keratin 10",
+            "id": "ENSG00000186395",
+            "label": "KRT10"
+        },
+        {
+            "Description": "AHNAK nucleoprotein",
+            "id": "ENSG00000124942",
+            "label": "AHNAK"
+        },
+        {
+            "Description": "plectin",
+            "id": "ENSG00000178209",
+            "label": "PLEC"
+        },
+        {
+            "Description": "tubulin beta 3 class III",
+            "id": "ENSG00000258947",
+            "label": "TUBB3"
+        },
+        {
+            "Description": "keratin 1",
+            "id": "ENSG00000167768",
+            "label": "KRT1"
+        },
+        {
+            "Description": "solute carrier family 25 member 6",
+            "id": "ENSG00000169100",
+            "label": "SLC25A6"
+        },
+        {
+            "Description": "UPF1 RNA helicase and ATPase",
+            "id": "ENSG00000005007",
+            "label": "UPF1"
+        },
+        {
+            "Description": "ubiquitin specific peptidase 9 X-linked",
+            "id": "ENSG00000124486",
+            "label": "USP9X"
+        },
+        {
+            "Description": "DExH-box helicase 9",
+            "id": "ENSG00000135829",
+            "label": "DHX9"
+        },
+        {
+            "Description": "DEAD-box helicase 3 X-linked",
+            "id": "ENSG00000215301",
+            "label": "DDX3X"
+        },
+        {
+            "Description": "enolase 1",
+            "id": "ENSG00000074800",
+            "label": "ENO1"
+        },
+        {
+            "Description": "solute carrier family 25 member 4",
+            "id": "ENSG00000151729",
+            "label": "SLC25A4"
+        },
+        {
+            "Description": "actinin alpha 4",
+            "id": "ENSG00000282844",
+            "label": "ACTN4"
+        },
+        {
+            "Description": "myosin heavy chain 14",
+            "id": "ENSG00000105357",
+            "label": "MYH14"
+        },
+        {
+            "Description": "solute carrier family 25 member 5",
+            "id": "ENSG00000005022",
+            "label": "SLC25A5"
+        },
+        {
+            "Description": "keratin 2",
+            "id": "ENSG00000172867",
+            "label": "KRT2"
+        },
+        {
+            "Description": "carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase",
+            "id": "ENSG00000084774",
+            "label": "CAD"
+        },
+        {
+            "Description": "filamin C",
+            "id": "ENSG00000128591",
+            "label": "FLNC"
+        },
+        {
+            "Description": "glutamyl-prolyl-tRNA synthetase 1",
+            "id": "ENSG00000136628",
+            "label": "EPRS1"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 3 subunit A",
+            "id": "ENSG00000107581",
+            "label": "EIF3A"
+        },
+        {
+            "Description": "HECT, UBA and WWE domain containing E3 ubiquitin protein ligase 1",
+            "id": "ENSG00000086758",
+            "label": "HUWE1"
+        },
+        {
+            "Description": "heat shock protein family A (Hsp70) member 6",
+            "id": "ENSG00000173110",
+            "label": "HSPA6"
+        },
+        {
+            "Description": "midasin AAA ATPase 1",
+            "id": "ENSG00000288121",
+            "label": "MDN1"
+        },
+        {
+            "Description": "t-complex 1",
+            "id": "ENSG00000120438",
+            "label": "TCP1"
+        },
+        {
+            "Description": "ribosomal protein S2",
+            "id": "ENSG00000140988",
+            "label": "RPS2"
+        },
+        {
+            "Description": "DExD-box helicase 21",
+            "id": "ENSG00000165732",
+            "label": "DDX21"
+        },
+        {
+            "Description": "DEAD-box helicase 3 Y-linked",
+            "id": "ENSG00000067048",
+            "label": "DDX3Y"
+        },
+        {
+            "Description": "actin beta like 2",
+            "id": "ENSG00000169067",
+            "label": "ACTBL2"
+        },
+        {
+            "Description": "tubulin beta 6 class V",
+            "id": "ENSG00000176014",
+            "label": "TUBB6"
+        },
+        {
+            "Description": "poly(A) binding protein cytoplasmic 4",
+            "id": "ENSG00000090621",
+            "label": "PABPC4"
+        },
+        {
+            "Description": "proline rich coiled-coil 2C",
+            "id": "ENSG00000117523",
+            "label": "PRRC2C"
+        },
+        {
+            "Description": "DNA topoisomerase II alpha",
+            "id": "ENSG00000131747",
+            "label": "TOP2A"
+        },
+        {
+            "Description": "POTE ankyrin domain family member F",
+            "id": "ENSG00000196604",
+            "label": "POTEF"
+        },
+        {
+            "Description": "aldehyde dehydrogenase 18 family member A1",
+            "id": "ENSG00000059573",
+            "label": "ALDH18A1"
+        },
+        {
+            "Description": "tight junction protein 1",
+            "id": "ENSG00000104067",
+            "label": "TJP1"
+        },
+        {
+            "Description": "small nuclear ribonucleoprotein U5 subunit 200",
+            "id": "ENSG00000144028",
+            "label": "SNRNP200"
+        },
+        {
+            "Description": "karyopherin subunit alpha 2",
+            "id": "ENSG00000182481",
+            "label": "KPNA2"
+        },
+        {
+            "Description": "COPI coat complex subunit alpha",
+            "id": "ENSG00000122218",
+            "label": "COPA"
+        },
+        {
+            "Description": "MYB binding protein 1a",
+            "id": "ENSG00000132382",
+            "label": "MYBBP1A"
+        },
+        {
+            "Description": "nucleoporin 205",
+            "id": "ENSG00000155561",
+            "label": "NUP205"
+        },
+        {
+            "Description": "myosin ID",
+            "id": "ENSG00000176658",
+            "label": "MYO1D"
+        },
+        {
+            "Description": "heat shock protein family A (Hsp70) member 9",
+            "id": "ENSG00000113013",
+            "label": "HSPA9"
+        },
+        {
+            "Description": "programmed cell death 6 interacting protein",
+            "id": "ENSG00000170248",
+            "label": "PDCD6IP"
+        },
+        {
+            "Description": "chaperonin containing TCP1 subunit 7",
+            "id": "ENSG00000135624",
+            "label": "CCT7"
+        },
+        {
+            "Description": "heterogeneous nuclear ribonucleoprotein U",
+            "id": "ENSG00000153187",
+            "label": "HNRNPU"
+        },
+        {
+            "Description": "chaperonin containing TCP1 subunit 4",
+            "id": "ENSG00000115484",
+            "label": "CCT4"
+        },
+        {
+            "Description": "phosphoribosylglycinamide formyltransferase, phosphoribosylglycinamide synthetase, phosphoribosylaminoimidazole synthetase",
+            "id": "ENSG00000159131",
+            "label": "GART"
+        },
+        {
+            "Description": "golgin B1",
+            "id": "ENSG00000173230",
+            "label": "GOLGB1"
+        },
+        {
+            "Description": "marker of proliferation Ki-67",
+            "id": "ENSG00000148773",
+            "label": "MKI67"
+        },
+        {
+            "Description": "karyopherin subunit beta 1",
+            "id": "ENSG00000108424",
+            "label": "KPNB1"
+        },
+        {
+            "Description": "POTE ankyrin domain family member I",
+            "id": "ENSG00000196834",
+            "label": "POTEI"
+        },
+        {
+            "Description": "ribosomal protein S6",
+            "id": "ENSG00000137154",
+            "label": "RPS6"
+        },
+        {
+            "Description": "clathrin heavy chain like 1",
+            "id": "ENSG00000070371",
+            "label": "CLTCL1"
+        },
+        {
+            "Description": "glyceraldehyde-3-phosphate dehydrogenase",
+            "id": "ENSG00000111640",
+            "label": "GAPDH"
+        },
+        {
+            "Description": "trafficking from ER to golgi regulator",
+            "id": "ENSG00000114354",
+            "label": "TFG"
+        },
+        {
+            "Description": "plastin 3",
+            "id": "ENSG00000102024",
+            "label": "PLS3"
+        },
+        {
+            "Description": "RANBP2 like and GRIP domain containing 4",
+            "id": "ENSG00000196862",
+            "label": "RGPD4"
+        },
+        {
+            "Description": "propionyl-CoA carboxylase subunit alpha",
+            "id": "ENSG00000175198",
+            "label": "PCCA"
+        },
+        {
+            "Description": "ubiquitin protein ligase E3 component n-recognin 4",
+            "id": "ENSG00000127481",
+            "label": "UBR4"
+        },
+        {
+            "Description": "heterogeneous nuclear ribonucleoprotein H1",
+            "id": "ENSG00000284254",
+            "label": "HNRNPH1"
+        },
+        {
+            "Description": "DEAD-box helicase 1",
+            "id": "ENSG00000079785",
+            "label": "DDX1"
+        },
+        {
+            "Description": "poly(rC) binding protein 1",
+            "id": "ENSG00000169564",
+            "label": "PCBP1"
+        },
+        {
+            "Description": "myosin VI",
+            "id": "ENSG00000196586",
+            "label": "MYO6"
+        },
+        {
+            "Description": "ribosomal protein L23",
+            "id": "ENSG00000125691",
+            "label": "RPL23"
+        },
+        {
+            "Description": "ribosomal protein S4 X-linked",
+            "id": "ENSG00000198034",
+            "label": "RPS4X"
+        },
+        {
+            "Description": "chromosome segregation 1 like",
+            "id": "ENSG00000124207",
+            "label": "CSE1L"
+        },
+        {
+            "Description": "ribosomal protein L3",
+            "id": "ENSG00000100316",
+            "label": "RPL3"
+        },
+        {
+            "Description": "CCR4-NOT transcription complex subunit 1",
+            "id": "ENSG00000125107",
+            "label": "CNOT1"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 4A2",
+            "id": "ENSG00000156976",
+            "label": "EIF4A2"
+        },
+        {
+            "Description": "keratin 9",
+            "id": "ENSG00000171403",
+            "label": "KRT9"
+        },
+        {
+            "Description": "inosine monophosphate dehydrogenase 2",
+            "id": "ENSG00000178035",
+            "label": "IMPDH2"
+        },
+        {
+            "Description": "chaperonin containing TCP1 subunit 3",
+            "id": "ENSG00000163468",
+            "label": "CCT3"
+        },
+        {
+            "Description": "non-POU domain containing octamer binding",
+            "id": "ENSG00000147140",
+            "label": "NONO"
+        },
+        {
+            "Description": "nuclear mitotic apparatus protein 1",
+            "id": "ENSG00000137497",
+            "label": "NUMA1"
+        },
+        {
+            "Description": "Tu translation elongation factor, mitochondrial",
+            "id": "ENSG00000178952",
+            "label": "TUFM"
+        },
+        {
+            "Description": "aldolase, fructose-bisphosphate A",
+            "id": "ENSG00000149925",
+            "label": "ALDOA"
+        },
+        {
+            "Description": "importin 5",
+            "id": "ENSG00000065150",
+            "label": "IPO5"
+        },
+        {
+            "Description": "leucyl-tRNA synthetase 1",
+            "id": "ENSG00000133706",
+            "label": "LARS1"
+        },
+        {
+            "Description": "myosin light chain 6",
+            "id": "ENSG00000092841",
+            "label": "MYL6"
+        },
+        {
+            "Description": "microtubule actin crosslinking factor 1",
+            "id": "ENSG00000127603",
+            "label": "MACF1"
+        },
+        {
+            "Description": "methylcrotonoyl-CoA carboxylase 1",
+            "id": "ENSG00000078070",
+            "label": "MCCC1"
+        },
+        {
+            "Description": "receptor for activated C kinase 1",
+            "id": "ENSG00000204628",
+            "label": "RACK1"
+        },
+        {
+            "Description": "phosphoglycerate dehydrogenase",
+            "id": "ENSG00000092621",
+            "label": "PHGDH"
+        },
+        {
+            "Description": "ATP citrate lyase",
+            "id": "ENSG00000131473",
+            "label": "ACLY"
+        },
+        {
+            "Description": "catenin delta 1",
+            "id": "ENSG00000198561",
+            "label": "CTNND1"
+        },
+        {
+            "Description": "sperm associated antigen 9",
+            "id": "ENSG00000008294",
+            "label": "SPAG9"
+        },
+        {
+            "Description": "methylenetetrahydrofolate dehydrogenase, cyclohydrolase and formyltetrahydrofolate synthetase 1",
+            "id": "ENSG00000100714",
+            "label": "MTHFD1"
+        },
+        {
+            "Description": "cortactin",
+            "id": "ENSG00000288401",
+            "label": "CTTN"
+        },
+        {
+            "Description": "TNF receptor associated protein 1",
+            "id": "ENSG00000126602",
+            "label": "TRAP1"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 4 gamma 3",
+            "id": "ENSG00000075151",
+            "label": "EIF4G3"
+        },
+        {
+            "Description": "importin 7",
+            "id": "ENSG00000205339",
+            "label": "IPO7"
+        },
+        {
+            "Description": "heat shock protein family A (Hsp70) member 5",
+            "id": "ENSG00000044574",
+            "label": "HSPA5"
+        },
+        {
+            "Description": "heterogeneous nuclear ribonucleoprotein M",
+            "id": "ENSG00000099783",
+            "label": "HNRNPM"
+        },
+        {
+            "Description": "chromodomain helicase DNA binding protein 4",
+            "id": "ENSG00000111642",
+            "label": "CHD4"
+        },
+        {
+            "Description": "poly(rC) binding protein 2",
+            "id": "ENSG00000197111",
+            "label": "PCBP2"
+        },
+        {
+            "Description": "calponin 3",
+            "id": "ENSG00000117519",
+            "label": "CNN3"
+        },
+        {
+            "Description": "DEAD-box helicase 5",
+            "id": "ENSG00000108654",
+            "label": "DDX5"
+        },
+        {
+            "Description": "cytoskeleton associated protein 5",
+            "id": "ENSG00000175216",
+            "label": "CKAP5"
+        },
+        {
+            "Description": "vinculin",
+            "id": "ENSG00000035403",
+            "label": "VCL"
+        },
+        {
+            "Description": "SEC16 homolog A, endoplasmic reticulum export factor",
+            "id": "ENSG00000148396",
+            "label": "SEC16A"
+        },
+        {
+            "Description": "poly(A) binding protein cytoplasmic 3",
+            "id": "ENSG00000151846",
+            "label": "PABPC3"
+        },
+        {
+            "Description": "ataxin 2 like",
+            "id": "ENSG00000168488",
+            "label": "ATXN2L"
+        },
+        {
+            "Description": "non-SMC condensin I complex subunit D2",
+            "id": "ENSG00000010292",
+            "label": "NCAPD2"
+        },
+        {
+            "Description": "epiplakin 1",
+            "id": "ENSG00000261150",
+            "label": "EPPK1"
+        },
+        {
+            "Description": "pyruvate kinase M1/2",
+            "id": "ENSG00000067225",
+            "label": "PKM"
+        },
+        {
+            "Description": "ATP binding cassette subfamily E member 1",
+            "id": "ENSG00000164163",
+            "label": "ABCE1"
+        },
+        {
+            "Description": "chaperonin containing TCP1 subunit 2",
+            "id": "ENSG00000166226",
+            "label": "CCT2"
+        },
+        {
+            "Description": "utrophin",
+            "id": "ENSG00000152818",
+            "label": "UTRN"
+        },
+        {
+            "Description": "nuclear FMR1 interacting protein 2",
+            "id": "ENSG00000108256",
+            "label": "NUFIP2"
+        },
+        {
+            "Description": "eukaryotic translation elongation factor 1 gamma",
+            "id": "ENSG00000254772",
+            "label": "EEF1G"
+        },
+        {
+            "Description": "RNA 2',3'-cyclic phosphate and 5'-OH ligase",
+            "id": "ENSG00000100220",
+            "label": "RTCB"
+        },
+        {
+            "Description": "LPS responsive beige-like anchor protein",
+            "id": "ENSG00000198589",
+            "label": "LRBA"
+        },
+        {
+            "Description": "keratin 8",
+            "id": "ENSG00000170421",
+            "label": "KRT8"
+        },
+        {
+            "Description": "angiomotin",
+            "id": "ENSG00000126016",
+            "label": "AMOT"
+        },
+        {
+            "Description": "arginyl-tRNA synthetase 1",
+            "id": "ENSG00000113643",
+            "label": "RARS1"
+        },
+        {
+            "Description": "high density lipoprotein binding protein",
+            "id": "ENSG00000115677",
+            "label": "HDLBP"
+        },
+        {
+            "Description": "heat shock protein family H (Hsp110) member 1",
+            "id": "ENSG00000120694",
+            "label": "HSPH1"
+        },
+        {
+            "Description": "voltage dependent anion channel 2",
+            "id": "ENSG00000165637",
+            "label": "VDAC2"
+        },
+        {
+            "Description": "proline rich coiled-coil 2A",
+            "id": "ENSG00000225164",
+            "label": "PRRC2A"
+        },
+        {
+            "Description": "exportin 5",
+            "id": "ENSG00000124571",
+            "label": "XPO5"
+        },
+        {
+            "Description": "RANBP2 like and GRIP domain containing 5",
+            "id": "ENSG00000015568",
+            "label": "RGPD5"
+        },
+        {
+            "Description": "ribosomal protein S3",
+            "id": "ENSG00000149273",
+            "label": "RPS3"
+        },
+        {
+            "Description": "Sec23 homolog A, COPII coat complex component",
+            "id": "ENSG00000100934",
+            "label": "SEC23A"
+        },
+        {
+            "Description": "MYC binding protein 2",
+            "id": "ENSG00000005810",
+            "label": "MYCBP2"
+        },
+        {
+            "Description": "ribosomal protein S27a",
+            "id": "ENSG00000143947",
+            "label": "RPS27A"
+        },
+        {
+            "Description": "ribosomal protein L4",
+            "id": "ENSG00000174444",
+            "label": "RPL4"
+        },
+        {
+            "Description": "desmoglein 2",
+            "id": "ENSG00000046604",
+            "label": "DSG2"
+        },
+        {
+            "Description": "chaperonin containing TCP1 subunit 6A",
+            "id": "ENSG00000146731",
+            "label": "CCT6A"
+        },
+        {
+            "Description": "kinesin family member 5B",
+            "id": "ENSG00000170759",
+            "label": "KIF5B"
+        },
+        {
+            "Description": "importin 4",
+            "id": "ENSG00000285248",
+            "label": "IPO4"
+        },
+        {
+            "Description": "Ran GTPase activating protein 1",
+            "id": "ENSG00000100401",
+            "label": "RANGAP1"
+        },
+        {
+            "Description": "glycogen phosphorylase L",
+            "id": "ENSG00000100504",
+            "label": "PYGL"
+        },
+        {
+            "Description": "zinc finger CCCH-type containing, antiviral 1",
+            "id": "ENSG00000105939",
+            "label": "ZC3HAV1"
+        },
+        {
+            "Description": "peroxiredoxin 1",
+            "id": "ENSG00000117450",
+            "label": "PRDX1"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 3 subunit B",
+            "id": "ENSG00000106263",
+            "label": "EIF3B"
+        },
+        {
+            "Description": "HEAT repeat containing 1",
+            "id": "ENSG00000119285",
+            "label": "HEATR1"
+        },
+        {
+            "Description": "myosin light chain 12B",
+            "id": "ENSG00000118680",
+            "label": "MYL12B"
+        },
+        {
+            "Description": "junction plakoglobin",
+            "id": "ENSG00000173801",
+            "label": "JUP"
+        },
+        {
+            "Description": "isoleucyl-tRNA synthetase 1",
+            "id": "ENSG00000196305",
+            "label": "IARS1"
+        },
+        {
+            "Description": "Y-box binding protein 1",
+            "id": "ENSG00000065978",
+            "label": "YBX1"
+        },
+        {
+            "Description": "drebrin 1",
+            "id": "ENSG00000113758",
+            "label": "DBN1"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 4B",
+            "id": "ENSG00000063046",
+            "label": "EIF4B"
+        },
+        {
+            "Description": "myosin VA",
+            "id": "ENSG00000197535",
+            "label": "MYO5A"
+        },
+        {
+            "Description": "myosin XVIIIA",
+            "id": "ENSG00000196535",
+            "label": "MYO18A"
+        },
+        {
+            "Description": "POTE ankyrin domain family member J",
+            "id": "ENSG00000222038",
+            "label": "POTEJ"
+        },
+        {
+            "Description": "ribosomal protein S8",
+            "id": "ENSG00000142937",
+            "label": "RPS8"
+        },
+        {
+            "Description": "alanyl-tRNA synthetase 1",
+            "id": "ENSG00000090861",
+            "label": "AARS1"
+        },
+        {
+            "Description": "myosin light chain 12A",
+            "id": "ENSG00000101608",
+            "label": "MYL12A"
+        },
+        {
+            "Description": "afadin, adherens junction formation factor",
+            "id": "ENSG00000130396",
+            "label": "AFDN"
+        },
+        {
+            "Description": "ubiquitin specific peptidase 9 Y-linked",
+            "id": "ENSG00000114374",
+            "label": "USP9Y"
+        },
+        {
+            "Description": "matrin 3",
+            "id": "ENSG00000015479",
+            "label": "MATR3"
+        },
+        {
+            "Description": "microtubule associated protein 4",
+            "id": "ENSG00000047849",
+            "label": "MAP4"
+        },
+        {
+            "Description": "COPI coat complex subunit gamma 1",
+            "id": "ENSG00000181789",
+            "label": "COPG1"
+        },
+        {
+            "Description": "splicing factor 3b subunit 1",
+            "id": "ENSG00000115524",
+            "label": "SF3B1"
+        },
+        {
+            "Description": "enhancer of mRNA decapping 4",
+            "id": "ENSG00000038358",
+            "label": "EDC4"
+        },
+        {
+            "Description": "RAN, member RAS oncogene family",
+            "id": "ENSG00000132341",
+            "label": "RAN"
+        },
+        {
+            "Description": "ribosomal protein L9",
+            "id": "ENSG00000163682",
+            "label": "RPL9"
+        },
+        {
+            "Description": "clathrin heavy chain",
+            "id": "ENSG00000141367",
+            "label": "CLTC"
+        },
+        {
+            "Description": "heat shock protein 90 alpha family class B member 1",
+            "id": "ENSG00000096384",
+            "label": "HSP90AB1"
+        },
+        {
+            "Description": "spectrin beta, non-erythrocytic 1",
+            "id": "ENSG00000115306",
+            "label": "SPTBN1"
+        },
+        {
+            "Description": "spectrin alpha, non-erythrocytic 1",
+            "id": "ENSG00000197694",
+            "label": "SPTAN1"
+        },
+        {
+            "Description": "eukaryotic translation elongation factor 2",
+            "id": "ENSG00000167658",
+            "label": "EEF2"
+        },
+        {
+            "Description": "heat shock protein 90 alpha family class A member 1",
+            "id": "ENSG00000080824",
+            "label": "HSP90AA1"
+        },
+        {
+            "Description": "poly(A) binding protein cytoplasmic 1",
+            "id": "ENSG00000070756",
+            "label": "PABPC1"
+        },
+        {
+            "Description": "valosin containing protein",
+            "id": "ENSG00000165280",
+            "label": "VCP"
+        },
+        {
+            "Description": "ubiquitin associated protein 2 like",
+            "id": "ENSG00000143569",
+            "label": "UBAP2L"
+        },
+        {
+            "Description": "actinin alpha 1",
+            "id": "ENSG00000072110",
+            "label": "ACTN1"
+        },
+        {
+            "Description": "talin 1",
+            "id": "ENSG00000137076",
+            "label": "TLN1"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 3 subunit L",
+            "id": "ENSG00000100129",
+            "label": "EIF3L"
+        },
+        {
+            "Description": "exportin 1",
+            "id": "ENSG00000082898",
+            "label": "XPO1"
+        },
+        {
+            "Description": "cullin associated and neddylation dissociated 1",
+            "id": "ENSG00000111530",
+            "label": "CAND1"
+        },
+        {
+            "Description": "cell cycle associated protein 1",
+            "id": "ENSG00000135387",
+            "label": "CAPRIN1"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 3 subunit C",
+            "id": "ENSG00000184110",
+            "label": "EIF3C"
+        },
+        {
+            "Description": "COPI coat complex subunit beta 1",
+            "id": "ENSG00000129083",
+            "label": "COPB1"
+        },
+        {
+            "Description": "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein epsilon",
+            "id": "ENSG00000108953",
+            "label": "YWHAE"
+        },
+        {
+            "Description": "heat shock protein family A (Hsp70) member 2",
+            "id": "ENSG00000126803",
+            "label": "HSPA2"
+        },
+        {
+            "Description": "synaptotagmin binding cytoplasmic RNA interacting protein",
+            "id": "ENSG00000135316",
+            "label": "SYNCRIP"
+        },
+        {
+            "Description": "DEAD-box helicase 17",
+            "id": "ENSG00000100201",
+            "label": "DDX17"
+        },
+        {
+            "Description": "catenin beta 1",
+            "id": "ENSG00000168036",
+            "label": "CTNNB1"
+        },
+        {
+            "Description": "creatine kinase B",
+            "id": "ENSG00000166165",
+            "label": "CKB"
+        },
+        {
+            "Description": "lactate dehydrogenase B",
+            "id": "ENSG00000111716",
+            "label": "LDHB"
+        },
+        {
+            "Description": "ubiquitin like modifier activating enzyme 1",
+            "id": "ENSG00000130985",
+            "label": "UBA1"
+        },
+        {
+            "Description": "ATPase Na+/K+ transporting subunit alpha 1",
+            "id": "ENSG00000163399",
+            "label": "ATP1A1"
+        },
+        {
+            "Description": "methionyl-tRNA synthetase 1",
+            "id": "ENSG00000166986",
+            "label": "MARS1"
+        },
+        {
+            "Description": "eukaryotic translation initiation factor 3 subunit D",
+            "id": "ENSG00000100353",
+            "label": "EIF3D"
+        },
+        {
+            "Description": "adaptor related protein complex 2 subunit beta 1",
+            "id": "ENSG00000006125",
+            "label": "AP2B1"
+        },
+        {
+            "Description": "clathrin light chain A",
+            "id": "ENSG00000122705",
+            "label": "CLTA"
+        },
+        {
+            "Description": "synaptophysin",
+            "id": "ENSG00000102003",
+            "label": "SYP"
+        },
+        {
+            "Description": "heterogeneous nuclear ribonucleoprotein A/B",
+            "id": "ENSG00000197451",
+            "label": "HNRNPAB"
+        },
+        {
+            "Description": "complexin 1",
+            "id": "ENSG00000168993",
+            "label": "CPLX1"
+        },
+        {
+            "Description": "SH3 domain containing GRB2 like 1, endophilin A2",
+            "id": "ENSG00000141985",
+            "label": "SH3GL1"
+        },
+        {
+            "Description": "calcyclin binding protein",
+            "id": "ENSG00000116161",
+            "label": "CACYBP"
+        },
+        {
+            "Description": "acidic nuclear phosphoprotein 32 family member A",
+            "id": "ENSG00000140350",
+            "label": "ANP32A"
+        },
+        {
+            "Description": "cold inducible RNA binding protein",
+            "id": "ENSG00000099622",
+            "label": "CIRBP"
+        },
+        {
+            "Description": "microtubule associated protein 1 light chain 3 alpha",
+            "id": "ENSG00000101460",
+            "label": "MAP1LC3A"
+        },
+        {
+            "Description": "profilin 2",
+            "id": "ENSG00000070087",
+            "label": "PFN2"
+        },
+        {
+            "Description": "dihydropyrimidinase like 2",
+            "id": "ENSG00000092964",
+            "label": "DPYSL2"
+        },
+        {
+            "Description": "synuclein alpha",
+            "id": "ENSG00000145335",
+            "label": "SNCA"
+        },
+        {
+            "Description": "triosephosphate isomerase 1",
+            "id": "ENSG00000111669",
+            "label": "TPI1"
+        },
+        {
+            "Description": "ubiquitin specific peptidase 5",
+            "id": "ENSG00000111667",
+            "label": "USP5"
+        },
+        {
+            "Description": "synuclein beta",
+            "id": "ENSG00000074317",
+            "label": "SNCB"
+        },
+        {
+            "Description": "GIT ArfGAP 2",
+            "id": "ENSG00000139436",
+            "label": "GIT2"
+        },
+        {
+            "Description": "kinesin family member 5C",
+            "id": "ENSG00000168280",
+            "label": "KIF5C"
+        },
+        {
+            "Description": "guanine deaminase",
+            "id": "ENSG00000119125",
+            "label": "GDA"
+        },
+        {
+            "Description": "G3BP stress granule assembly factor 2",
+            "id": "ENSG00000138757",
+            "label": "G3BP2"
+        },
+        {
+            "Description": "microtubule associated protein RP/EB family member 3",
+            "id": "ENSG00000084764",
+            "label": "MAPRE3"
+        },
+        {
+            "Description": "calbindin 2",
+            "id": "ENSG00000172137",
+            "label": "CALB2"
+        },
+        {
+            "Description": "protein phosphatase 3 catalytic subunit alpha",
+            "id": "ENSG00000138814",
+            "label": "PPP3CA"
+        },
+        {
+            "Description": "heterogeneous nuclear ribonucleoprotein A2/B1",
+            "id": "ENSG00000122566",
+            "label": "HNRNPA2B1"
+        },
+        {
+            "Description": "heterogeneous nuclear ribonucleoprotein D like",
+            "id": "ENSG00000152795",
+            "label": "HNRNPDL"
+        },
+        {
+            "Description": "signal transducing adaptor molecule",
+            "id": "ENSG00000136738",
+            "label": "STAM"
+        },
+        {
+            "Description": "WD repeat domain 37",
+            "id": "ENSG00000047056",
+            "label": "WDR37"
+        },
+        {
+            "Description": "protein phosphatase 2 scaffold subunit Aalpha",
+            "id": "ENSG00000105568",
+            "label": "PPP2R1A"
+        },
+        {
+            "Description": "microtubule associated protein 2",
+            "id": "ENSG00000078018",
+            "label": "MAP2"
+        },
+        {
+            "Description": "ribosomal protein S10",
+            "id": "ENSG00000124614",
+            "label": "RPS10"
+        },
+        {
+            "Description": "SH3 domain containing GRB2 like 2, endophilin A1",
+            "id": "ENSG00000107295",
+            "label": "SH3GL2"
+        },
+        {
+            "Description": "tropomodulin 2",
+            "id": "ENSG00000128872",
+            "label": "TMOD2"
+        },
+        {
+            "Description": "GDP dissociation inhibitor 1",
+            "id": "ENSG00000203879",
+            "label": "GDI1"
+        },
+        {
+            "Description": "RAB3A, member RAS oncogene family",
+            "id": "ENSG00000105649",
+            "label": "RAB3A"
+        },
+        {
+            "Description": "ubiquitin C-terminal hydrolase L1",
+            "id": "ENSG00000154277",
+            "label": "UCHL1"
+        },
+        {
+            "Description": "SH3 domain containing GRB2 like, endophilin B1",
+            "id": "ENSG00000097033",
+            "label": "SH3GLB1"
+        },
+        {
+            "Description": "GIT ArfGAP 1",
+            "id": "ENSG00000108262",
+            "label": "GIT1"
+        },
+        {
+            "Description": "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein zeta",
+            "id": "ENSG00000164924",
+            "label": "YWHAZ"
+        },
+        {
+            "Description": "O-GlcNAcase",
+            "id": "ENSG00000198408",
+            "label": "OGA"
+        },
+        {
+            "Description": "visinin like 1",
+            "id": "ENSG00000163032",
+            "label": "VSNL1"
+        },
+        {
+            "Description": "VPS29 retromer complex component",
+            "id": "ENSG00000111237",
+            "label": "VPS29"
+        },
+        {
+            "Description": "myotrophin",
+            "id": "ENSG00000105887",
+            "label": "MTPN"
+        },
+        {
+            "Description": "heterogeneous nuclear ribonucleoprotein A1",
+            "id": "ENSG00000135486",
+            "label": "HNRNPA1"
+        },
+        {
+            "Description": "heterogeneous nuclear ribonucleoprotein L like",
+            "id": "ENSG00000143889",
+            "label": "HNRNPLL"
+        },
+        {
+            "Description": "protein arginine methyltransferase 1",
+            "id": "ENSG00000126457",
+            "label": "PRMT1"
+        },
+        {
+            "Description": "thioredoxin",
+            "id": "ENSG00000136810",
+            "label": "TXN"
+        },
+        {
+            "Description": "dynamin 1",
+            "id": "ENSG00000106976",
+            "label": "DNM1"
+        },
+        {
+            "Description": "dihydropyrimidinase like 3",
+            "id": "ENSG00000113657",
+            "label": "DPYSL3"
+        },
+        {
+            "Description": "collapsin response mediator protein 1",
+            "id": "ENSG00000072832",
+            "label": "CRMP1"
+        },
+        {
+            "Description": "far upstream element binding protein 1",
+            "id": "ENSG00000162613",
+            "label": "FUBP1"
+        },
+        {
+            "Description": "synapsin II",
+            "id": "ENSG00000157152",
+            "label": "SYN2"
+        },
+        {
+            "Description": "ELKS/RAB6-interacting/CAST family member 2",
+            "id": "ENSG00000187672",
+            "label": "ERC2"
+        },
+        {
+            "Description": "microtubule associated protein tau",
+            "id": "ENSG00000186868",
+            "label": "MAPT"
+        },
+        {
+            "Description": "interleukin enhancer binding factor 3",
+            "id": "ENSG00000129351",
+            "label": "ILF3"
+        },
+        {
+            "Description": "synaptic vesicle glycoprotein 2B",
+            "id": "ENSG00000185518",
+            "label": "SV2B"
+        },
+        {
+            "Description": "protein phosphatase 1 catalytic subunit gamma",
+            "id": "ENSG00000186298",
+            "label": "PPP1CC"
+        },
+        {
+            "Description": "RAB15, member RAS oncogene family",
+            "id": "ENSG00000139998",
+            "label": "RAB15"
+        },
+        {
+            "Description": "phosphoglucomutase 2 like 1",
+            "id": "ENSG00000165434",
+            "label": "PGM2L1"
+        },
+        {
+            "Description": "RAB3C, member RAS oncogene family",
+            "id": "ENSG00000152932",
+            "label": "RAB3C"
+        },
+        {
+            "Description": "actin related protein 3B",
+            "id": "ENSG00000133627",
+            "label": "ACTR3B"
+        },
+        {
+            "Description": "WASP family member 1",
+            "id": "ENSG00000112290",
+            "label": "WASF1"
+        },
+        {
+            "Description": "RAB35, member RAS oncogene family",
+            "id": "ENSG00000111737",
+            "label": "RAB35"
+        },
+        {
+            "Description": "GDP dissociation inhibitor 2",
+            "id": "ENSG00000057608",
+            "label": "GDI2"
+        },
+        {
+            "Description": "protein phosphatase 1 catalytic subunit beta",
+            "id": "ENSG00000213639",
+            "label": "PPP1CB"
+        },
+        {
+            "Description": "synaptotagmin 1",
+            "id": "ENSG00000067715",
+            "label": "SYT1"
+        },
+        {
+            "Description": "eukaryotic translation elongation factor 1 beta 2",
+            "id": "ENSG00000114942",
+            "label": "EEF1B2"
+        },
+        {
+            "Description": "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein eta",
+            "id": "ENSG00000128245",
+            "label": "YWHAH"
+        },
+        {
+            "Description": "RAB4B, member RAS oncogene family",
+            "id": "ENSG00000167578",
+            "label": "RAB4B"
+        },
+        {
+            "Description": "Cbl proto-oncogene",
+            "id": "ENSG00000110395",
+            "label": "CBL"
+        },
+        {
+            "Description": "N-myc downstream regulated 1",
+            "id": "ENSG00000104419",
+            "label": "NDRG1"
+        },
+        {
+            "Description": "RAB3B, member RAS oncogene family",
+            "id": "ENSG00000169213",
+            "label": "RAB3B"
+        },
+        {
+            "Description": "heterogeneous nuclear ribonucleoprotein R",
+            "id": "ENSG00000125944",
+            "label": "HNRNPR"
+        },
+        {
+            "Description": "synaptosome associated protein 91",
+            "id": "ENSG00000065609",
+            "label": "SNAP91"
+        },
+        {
+            "Description": "rabphilin 3A",
+            "id": "ENSG00000089169",
+            "label": "RPH3A"
+        },
+        {
+            "Description": "phospholipase C beta 1",
+            "id": "ENSG00000182621",
+            "label": "PLCB1"
+        },
+        {
+            "Description": "protein phosphatase 3 catalytic subunit beta",
+            "id": "ENSG00000107758",
+            "label": "PPP3CB"
+        },
+        {
+            "Description": "G protein subunit beta 1",
+            "id": "ENSG00000078369",
+            "label": "GNB1"
+        },
+        {
+            "Description": "eukaryotic translation elongation factor 1 delta",
+            "id": "ENSG00000104529",
+            "label": "EEF1D"
+        },
+        {
+            "Description": "spectrin beta, non-erythrocytic 2",
+            "id": "ENSG00000173898",
+            "label": "SPTBN2"
+        },
+        {
+            "Description": "RAB8A, member RAS oncogene family",
+            "id": "ENSG00000167461",
+            "label": "RAB8A"
+        },
+        {
+            "Description": "protein kinase C and casein kinase substrate in neurons 1",
+            "id": "ENSG00000124507",
+            "label": "PACSIN1"
+        },
+        {
+            "Description": "spermine synthase",
+            "id": "ENSG00000102172",
+            "label": "SMS"
+        },
+        {
+            "Description": "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein gamma",
+            "id": "ENSG00000170027",
+            "label": "YWHAG"
+        },
+        {
+            "Description": "synapsin I",
+            "id": "ENSG00000008056",
+            "label": "SYN1"
+        },
+        {
+            "Description": "WD repeat domain 41",
+            "id": "ENSG00000164253",
+            "label": "WDR41"
+        },
+        {
+            "Description": "calcium voltage-gated channel auxiliary subunit beta 3",
+            "id": "ENSG00000167535",
+            "label": "CACNB3"
+        },
+        {
+            "Description": "N-terminal EF-hand calcium binding protein 2",
+            "id": "ENSG00000103154",
+            "label": "NECAB2"
+        },
+        {
+            "Description": "toll interacting protein",
+            "id": "ENSG00000078902",
+            "label": "TOLLIP"
+        },
+        {
+            "Description": "SGT1 homolog, MIS12 kinetochore complex assembly cochaperone",
+            "id": "ENSG00000165416",
+            "label": "SUGT1"
+        },
+        {
+            "Description": "WW domain binding protein 2",
+            "id": "ENSG00000132471",
+            "label": "WBP2"
+        },
+        {
+            "Description": "protein phosphatase 4 regulatory subunit 1",
+            "id": "ENSG00000154845",
+            "label": "PPP4R1"
+        },
+        {
+            "Description": "oxysterol binding protein like 11",
+            "id": "ENSG00000144909",
+            "label": "OSBPL11"
+        },
+        {
+            "Description": "phytanoyl-CoA 2-hydroxylase interacting protein",
+            "id": "ENSG00000168490",
+            "label": "PHYHIP"
+        },
+        {
+            "Description": "shroom family member 2",
+            "id": "ENSG00000146950",
+            "label": "SHROOM2"
+        },
+        {
+            "Description": "RNA guanine-7 methyltransferase activating subunit",
+            "id": "ENSG00000169612",
+            "label": "RAMAC"
+        },
+        {
+            "Description": "glutamate decarboxylase 1",
+            "id": "ENSG00000128683",
+            "label": "GAD1"
+        },
+        {
+            "Description": "dynein light chain LC8-type 2",
+            "id": "ENSG00000264364",
+            "label": "DYNLL2"
+        },
+        {
+            "Description": "formin like 2",
+            "id": "ENSG00000157827",
+            "label": "FMNL2"
+        },
+        {
+            "Description": "macrophage migration inhibitory factor",
+            "id": "ENSG00000240972",
+            "label": "MIF"
+        },
+        {
+            "Description": "TBC1 domain family member 10B",
+            "id": "ENSG00000169221",
+            "label": "TBC1D10B"
+        },
+        {
+            "Description": "SWI/SNF related, matrix associated, actin dependent regulator of chromatin subfamily c member 2",
+            "id": "ENSG00000139613",
+            "label": "SMARCC2"
+        },
+        {
+            "Description": "CACN subunit beta associated regulatory protein",
+            "id": "ENSG00000099625",
+            "label": "CBARP"
+        },
+        {
+            "Description": "complexin 2",
+            "id": "ENSG00000145920",
+            "label": "CPLX2"
+        },
+        {
+            "Description": "actin related protein 2/3 complex subunit 4",
+            "id": "ENSG00000241553",
+            "label": "ARPC4"
+        },
+        {
+            "Description": "G protein subunit beta 2",
+            "id": "ENSG00000172354",
+            "label": "GNB2"
+        },
+        {
+            "Description": "LIM and SH3 protein 1",
+            "id": "ENSG00000002834",
+            "label": "LASP1"
+        },
+        {
+            "Description": "COP9 signalosome subunit 2",
+            "id": "ENSG00000166200",
+            "label": "COPS2"
+        },
+        {
+            "Description": "NSF attachment protein gamma",
+            "id": "ENSG00000134265",
+            "label": "NAPG"
+        },
+        {
+            "Description": "purine rich element binding protein B",
+            "id": "ENSG00000146676",
+            "label": "PURB"
+        },
+        {
+            "Description": "platelet activating factor acetylhydrolase 1b regulatory subunit 1",
+            "id": "ENSG00000007168",
+            "label": "PAFAH1B1"
+        },
+        {
+            "Description": "cysteinyl-tRNA synthetase 1",
+            "id": "ENSG00000110619",
+            "label": "CARS1"
+        },
+        {
+            "Description": "HIV-1 Tat specific factor 1",
+            "id": "ENSG00000102241",
+            "label": "HTATSF1"
+        },
+        {
+            "Description": "LanC like 2",
+            "id": "ENSG00000132434",
+            "label": "LANCL2"
+        },
+        {
+            "Description": "microtubule associated protein RP/EB family member 1",
+            "id": "ENSG00000101367",
+            "label": "MAPRE1"
+        },
+        {
+            "Description": "calcium dependent secretion activator",
+            "id": "ENSG00000163618",
+            "label": "CADPS"
+        },
+        {
+            "Description": "ELKS/RAB6-interacting/CAST family member 1",
+            "id": "ENSG00000082805",
+            "label": "ERC1"
+        },
+        {
+            "Description": "dynactin subunit 2",
+            "id": "ENSG00000175203",
+            "label": "DCTN2"
+        },
+        {
+            "Description": "tropomyosin 3",
+            "id": "ENSG00000143549",
+            "label": "TPM3"
+        },
+        {
+            "Description": "adaptor related protein complex 1 subunit beta 1",
+            "id": "ENSG00000100280",
+            "label": "AP1B1"
+        },
+        {
+            "Description": "aspartyl-tRNA synthetase 1",
+            "id": "ENSG00000115866",
+            "label": "DARS1"
+        },
+        {
+            "Description": "protein phosphatase 1 catalytic subunit alpha",
+            "id": "ENSG00000172531",
+            "label": "PPP1CA"
+        },
+        {
+            "Description": "ATPase H+ transporting V0 subunit a1",
+            "id": "ENSG00000033627",
+            "label": "ATP6V0A1"
+        },
+        {
+            "Description": "phosphoribosylaminoimidazole carboxylase and phosphoribosylaminoimidazolesuccinocarboxamide synthase",
+            "id": "ENSG00000128050",
+            "label": "PAICS"
+        },
+        {
+            "Description": "SUMO1 activating enzyme subunit 1",
+            "id": "ENSG00000142230",
+            "label": "SAE1"
+        },
+        {
+            "Description": "adaptor related protein complex 2 subunit alpha 2",
+            "id": "ENSG00000183020",
+            "label": "AP2A2"
+        },
+        {
+            "Description": "DnaJ heat shock protein family (Hsp40) member C6",
+            "id": "ENSG00000116675",
+            "label": "DNAJC6"
+        },
+        {
+            "Description": "brain abundant membrane attached signal protein 1",
+            "id": "ENSG00000176788",
+            "label": "BASP1"
+        },
+        {
+            "Description": "chaperonin containing TCP1 subunit 5",
+            "id": "ENSG00000150753",
+            "label": "CCT5"
+        },
+        {
+            "Description": "protein phosphatase 1 regulatory subunit 9B",
+            "id": "ENSG00000108819",
+            "label": "PPP1R9B"
+        },
+        {
+            "Description": "adducin 2",
+            "id": "ENSG00000075340",
+            "label": "ADD2"
+        },
+        {
+            "Description": "Dmx like 2",
+            "id": "ENSG00000104093",
+            "label": "DMXL2"
+        },
+        {
+            "Description": "transportin 2",
+            "id": "ENSG00000105576",
+            "label": "TNPO2"
+        },
+        {
+            "Description": "phospholipase C gamma 1",
+            "id": "ENSG00000124181",
+            "label": "PLCG1"
+        },
+        {
+            "Description": "cortactin",
+            "id": "ENSG00000085733",
+            "label": "CTTN"
+        },
+        {
+            "Description": "annexin A7",
+            "id": "ENSG00000138279",
+            "label": "ANXA7"
+        },
+        {
+            "Description": "synaptosome associated protein 25",
+            "id": "ENSG00000132639",
+            "label": "SNAP25"
+        },
+        {
+            "Description": "abl interactor 1",
+            "id": "ENSG00000136754",
+            "label": "ABI1"
+        },
+        {
+            "Description": "KH-type splicing regulatory protein",
+            "id": "ENSG00000088247",
+            "label": "KHSRP"
+        },
+        {
+            "Description": "unc-13 homolog A",
+            "id": "ENSG00000130477",
+            "label": "UNC13A"
+        },
+        {
+            "Description": "peptidylprolyl isomerase D",
+            "id": "ENSG00000171497",
+            "label": "PPID"
+        },
+        {
+            "Description": "calcium voltage-gated channel auxiliary subunit beta 1",
+            "id": "ENSG00000067191",
+            "label": "CACNB1"
+        },
+        {
+            "Description": "protein arginine methyltransferase 5",
+            "id": "ENSG00000100462",
+            "label": "PRMT5"
+        },
+        {
+            "Description": "VPS35 retromer complex component",
+            "id": "ENSG00000069329",
+            "label": "VPS35"
+        },
+        {
+            "Description": "SMAD family member 2",
+            "id": "ENSG00000175387",
+            "label": "SMAD2"
+        },
+        {
+            "Description": "suppressor of cancer cell invasion",
+            "id": "ENSG00000173611",
+            "label": "SCAI"
+        },
+        {
+            "Description": "tripartite motif containing 3",
+            "id": "ENSG00000110171",
+            "label": "TRIM3"
+        },
+        {
+            "Description": "programmed cell death 5",
+            "id": "ENSG00000105185",
+            "label": "PDCD5"
+        },
+        {
+            "Description": "actinin alpha 4",
+            "id": "ENSG00000130402",
+            "label": "ACTN4"
+        },
+        {
+            "Description": "ARFGEF family member 3",
+            "id": "ENSG00000112379",
+            "label": "ARFGEF3"
+        },
+        {
+            "Description": "cell division cycle 5 like",
+            "id": "ENSG00000096401",
+            "label": "CDC5L"
+        },
+        {
+            "Description": "adenylosuccinate lyase",
+            "id": "ENSG00000239900",
+            "label": "ADSL"
+        },
+        {
+            "Description": "phospholipid phosphatase related 3",
+            "id": "ENSG00000129951",
+            "label": "PLPPR3"
+        },
+        {
+            "Description": "ATPase H+ transporting V1 subunit B2",
+            "id": "ENSG00000147416",
+            "label": "ATP6V1B2"
+        },
+        {
+            "Description": "oxysterol binding protein",
+            "id": "ENSG00000110048",
+            "label": "OSBP"
+        },
+        {
+            "Description": "ST13 Hsp70 interacting protein",
+            "id": "ENSG00000100380",
+            "label": "ST13"
+        },
+        {
+            "Description": "ariadne RBR E3 ubiquitin protein ligase 1",
+            "id": "ENSG00000166233",
+            "label": "ARIH1"
+        },
+        {
+            "Description": "nuclear receptor binding protein 2",
+            "id": "ENSG00000185189",
+            "label": "NRBP2"
+        },
+        {
+            "Description": "adenosine monophosphate deaminase 2",
+            "id": "ENSG00000116337",
+            "label": "AMPD2"
+        },
+        {
+            "Description": "dynactin subunit 3",
+            "id": "ENSG00000137100",
+            "label": "DCTN3"
+        },
+        {
+            "Description": "SH3 domain containing GRB2 like, endophilin B2",
+            "id": "ENSG00000148341",
+            "label": "SH3GLB2"
+        },
+        {
+            "Description": "TIA1 cytotoxic granule associated RNA binding protein",
+            "id": "ENSG00000116001",
+            "label": "TIA1"
+        },
+        {
+            "Description": "zinc finger CCCH-type containing 15",
+            "id": "ENSG00000065548",
+            "label": "ZC3H15"
+        },
+        {
+            "Description": "RNA guanine-7 methyltransferase",
+            "id": "ENSG00000101654",
+            "label": "RNMT"
+        },
+        {
+            "Description": "ATPase Na+/K+ transporting subunit beta 1",
+            "id": "ENSG00000143153",
+            "label": "ATP1B1"
+        },
+        {
+            "Description": "Rac family small GTPase 1",
+            "id": "ENSG00000136238",
+            "label": "RAC1"
+        },
+        {
+            "Description": "rabaptin, RAB GTPase binding effector protein 1",
+            "id": "ENSG00000029725",
+            "label": "RABEP1"
+        },
+        {
+            "Description": "RAB6A, member RAS oncogene family",
+            "id": "ENSG00000175582",
+            "label": "RAB6A"
+        },
+        {
+            "Description": "secretory carrier membrane protein 3",
+            "id": "ENSG00000116521",
+            "label": "SCAMP3"
+        },
+        {
+            "Description": "NDRG family member 4",
+            "id": "ENSG00000103034",
+            "label": "NDRG4"
+        },
+        {
+            "Description": "copine 6",
+            "id": "ENSG00000100884",
+            "label": "CPNE6"
+        },
+        {
+            "Description": "membrane associated guanylate kinase, WW and PDZ domain containing 1",
+            "id": "ENSG00000151276",
+            "label": "MAGI1"
+        },
+        {
+            "Description": "KIAA1217",
+            "id": "ENSG00000120549",
+            "label": "KIAA1217"
+        },
+        {
+            "Description": "DEAD-box helicase 42",
+            "id": "ENSG00000198231",
+            "label": "DDX42"
+        },
+        {
+            "Description": "hypoxanthine phosphoribosyltransferase 1",
+            "id": "ENSG00000165704",
+            "label": "HPRT1"
+        },
+        {
+            "Description": "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein beta",
+            "id": "ENSG00000166913",
+            "label": "YWHAB"
+        },
+        {
+            "Description": "synaptojanin 1",
+            "id": "ENSG00000159082",
+            "label": "SYNJ1"
+        },
+        {
+            "Description": "immunity related GTPase Q",
+            "id": "ENSG00000167378",
+            "label": "IRGQ"
+        },
+        {
+            "Description": "SEC24 homolog C, COPII coat complex component",
+            "id": "ENSG00000176986",
+            "label": "SEC24C"
+        },
+        {
+            "Description": "abl interactor 2",
+            "id": "ENSG00000138443",
+            "label": "ABI2"
+        },
+        {
+            "Description": "syntaxin 12",
+            "id": "ENSG00000117758",
+            "label": "STX12"
+        }
+    ]
+}
